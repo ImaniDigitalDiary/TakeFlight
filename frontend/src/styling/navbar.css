@@ -12,13 +12,15 @@
     height: 530px;
     /* padding: 14px 24px 24px 24px; */
 }
-ul {
+
+/* LINKS 1 */
+ul.links1 {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    background-color: darkblue;
+    background-color: #002244;
 }
-li {
+li.links1 {
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -27,3 +29,5 @@ li {
     width: 142px;
     height: 48px;  
 }
+
+/* LINKS 2 */
