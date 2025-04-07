@@ -8,5 +8,22 @@
 */
 
 .findFlights {
-    height: 40px;
+    width: 568px;
+    height: 530px;
+    /* padding: 14px 24px 24px 24px; */
+}
+ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: darkblue;
+}
+li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16px;
+    color: white;
+    width: 142px;
+    height: 48px;  
 }
