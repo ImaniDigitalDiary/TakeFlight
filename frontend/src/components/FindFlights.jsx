@@ -23,7 +23,7 @@ function FindFlights() {
 
         {/* LINKS 2 */}
         <div className='links2'>
-          <ul>
+          <ul className='links2'>
             <li className='links2 flight'>Flight</li>
             <li className='links2 packages'>Packages</li>
             <li className='links2 hotel'>Hotel</li>

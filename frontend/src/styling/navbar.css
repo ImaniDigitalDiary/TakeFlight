@@ -31,3 +31,21 @@ li.links1 {
 }
 
 /* LINKS 2 */
+ul.links2 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+li.links2 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+ 
+    width: 100px;
+
+    color: #666666;
+}
