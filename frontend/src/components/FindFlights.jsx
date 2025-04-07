@@ -28,7 +28,7 @@ function FindFlights() {
             <li className='links2 packages'>Packages</li>
             <li className='links2 hotel'>Hotel</li>
             <li className='links2 car'>Car</li>
-            <li className='links2 cruise'>Cruise</li>
+            <li className='links2 cruise'><span className='cruise'>Cruise</span></li>
           </ul>
           <hr />
         </div>

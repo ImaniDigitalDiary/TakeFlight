@@ -28,6 +28,7 @@ li.links1 {
     color: white;
     width: 142px;
     height: 48px;  
+    border-right: solid 1px #fff;
 }
 
 /* LINKS 2 */
@@ -48,6 +49,12 @@ li.links2 {
     font-weight: 600;
     width: 100px;
     color: #666666;
+}
+li.link2:hover {
+    color:#002244;
+}
+.cruise {
+    color:#0000ff;
 }
 
 hr {
