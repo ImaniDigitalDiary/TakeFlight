@@ -1,10 +1,17 @@
 import React from 'react'
 
+
+// styling
+import '../styling/navbar.css'
+// import { Heading } from '@chakra-ui/react'
+
 function Navbar() {
   return (
-    <div>
-      Navbar
-    </div>
+   <div className='navbar'>
+    {/* <Heading>Title</Heading> */}
+    Navbar
+   </div>
+    
   )
 }
 
