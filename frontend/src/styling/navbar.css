@@ -61,3 +61,17 @@ hr {
     width: 390px;
     margin-left: 20px;
 }
+
+
+/* RADIO LINKS */
+.customRadio input[type='radio'] {
+    display: none;
+}
+.squareRadio {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #000;
+    margin-right: 3px;
+    /* vertical-align: middle; */
+}

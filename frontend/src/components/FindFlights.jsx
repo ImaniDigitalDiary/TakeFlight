@@ -37,8 +37,12 @@ function FindFlights() {
         <div className='radioLinks'>
           <input type='radio' name='roundTrip' value=''/>Round Trip
           <input type='radio' name='oneWay' value=''/>One-way
-          <input type='radio' name='miles' value=''/> Book with miles
-          <input type='radio' name='flexibleDates' value=''/>Flexible dates
+          <label className='customRadio'>
+            <input type='radio' name='miles' value='' /> <span className='squareRadio'></span>Book with miles
+          </label>
+          <label className='customRadio'>
+            <input type='radio' name='flexibleDates' value=''/><span className='squareRadio'></span>Flexible dates
+          </label> 
         </div>
       </div>
     </div>
