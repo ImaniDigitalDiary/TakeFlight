@@ -35,6 +35,8 @@ ul.links2 {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    
+      
 }
 
 li.links2 {
@@ -44,8 +46,11 @@ li.links2 {
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 600;
- 
     width: 100px;
-
     color: #666666;
+}
+
+hr {
+    width: 390px;
+    margin-left: 20px;
 }

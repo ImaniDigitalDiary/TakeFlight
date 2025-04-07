@@ -30,6 +30,7 @@ function FindFlights() {
             <li className='links2 car'>Car</li>
             <li className='links2 cruise'>Cruise</li>
           </ul>
+          <hr />
         </div>
       </div>
     </div>
