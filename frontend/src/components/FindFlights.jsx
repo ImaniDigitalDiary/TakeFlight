@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 // styles
   import '../styling/navbar.css'
-  // bootstrap
-  import { Form, Container, Navbar, Nav } from 'react-bootstrap'
+
+// date input
+import 'react-date-range/dist/styles.css'
+import 'react-date-range/dist/theme/default.css'
 
 
 function FindFlights() {
+  // Book Date input - useState hook
+  const [range, setRange] = useState([
+    {
+      startDate: new Date(),
+      endDate: new Date(),
+      key: 'selection'
+    }
+  ])
+    
   return (
     <div className='findFlights'> 
       <div className='findFlightsForm'>
@@ -35,15 +46,34 @@ function FindFlights() {
 
         {/* RADIO LINKS */}
         <div className='radioLinks'>
-          <input type='radio' name='roundTrip' value=''/>Round Trip
-          <input type='radio' name='oneWay' value=''/>One-way
-          <label className='customRadio'>
+          <label className='customCircleRadio'>
+            <input type='radio' name='roundTrip' value=''/><span className='circleRadio'></span>Round Trip
+          </label>
+          <label className='customCircleRadio'>
+            <input type='radio' name='oneWay' value=''/><span className='circleRadio'></span>One-way
+          </label>
+          
+          <label className='customSquareRadio'>
             <input type='radio' name='miles' value='' /> <span className='squareRadio'></span>Book with miles
           </label>
-          <label className='customRadio'>
+          <label className='customSquareRadio'>
             <input type='radio' name='flexibleDates' value=''/><span className='squareRadio'></span>Flexible dates
           </label> 
         </div>
+
+        {/* TEXT INPUTS */}
+        <label>
+          From*
+            <input type='text' id='from' name='from' required className='from' />
+        </label>
+        <label>
+          To*
+            <input type='text' id='from' name='from' required className='from' />
+        </label>
+        <label for='start'>
+          To*
+            <input type='text' id='from' name='from' required className='from' />
+        </label>
       </div>
     </div>
   )

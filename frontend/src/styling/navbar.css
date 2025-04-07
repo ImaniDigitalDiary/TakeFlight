@@ -64,14 +64,26 @@ hr {
 
 
 /* RADIO LINKS */
-.customRadio input[type='radio'] {
+.radioLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 14px;
+}
+
+.circleRadio {
+    margin-right: 5px;
+}
+.customSquareRadio input[type='radio'] {
     display: none;
 }
+
 .squareRadio {
     display: inline-block;
     width: 10px;
     height: 10px;
     border: solid 1px #000;
-    margin-right: 3px;
-    /* vertical-align: middle; */
+    margin-right: 8px;
+    vertical-align: middle;
 }
