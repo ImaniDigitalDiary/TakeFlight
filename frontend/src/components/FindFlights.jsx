@@ -1,23 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 // styles
-  import '../styling/navbar.css'
+import '../styling/navbar.css'
 
-// date input
-import 'react-date-range/dist/styles.css'
-import 'react-date-range/dist/theme/default.css'
+// components
+import DateCalender from './DateCalender'
+
 
 
 function FindFlights() {
-  // Book Date input - useState hook
-  const [range, setRange] = useState([
-    {
-      startDate: new Date(),
-      endDate: new Date(),
-      key: 'selection'
-    }
-  ])
-    
+
+  
   return (
     <div className='findFlights'> 
       <div className='findFlightsForm'>
@@ -64,16 +57,22 @@ function FindFlights() {
         {/* TEXT INPUTS */}
         <label>
           From*
-            <input type='text' id='from' name='from' required className='from' />
         </label>
+        <input type='text' id='from' name='from' required className='from' />
         <label>
           To*
-            <input type='text' id='from' name='from' required className='from' />
         </label>
-        <label for='start'>
-          To*
-            <input type='text' id='from' name='from' required className='from' />
+        <input type='text' id='to' name='to' required className='to' />
+        <div>
+        <label>
+          Dates*  
         </label>
+        <DateCalender />
+        </div>
+        
+        
+            
+
       </div>
     </div>
   )
