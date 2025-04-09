@@ -20,19 +20,6 @@ function DateCalender() {
     ])
 
     const [showCalendar, setShowCalendar] = useState(false)
-    // const ref = useRef()
-
-    // React.useEffect(() => {
-    //     const handleClickOutside = (event) => {
-    //     if (ref.current && !ref.current.contains(event.target)) {
-    //         setShowCalendar(false)
-    //     }
-    //     }
-    //     document.addEventListener('mousedown', handleClickOutside)
-    //     return () => {
-    //     document.removeEventListener('mousedown', handleClickOutside)
-    //     }
-    // }, [])
     return (
         <div className='relative inline-block text-sm'>
             {/* DATE INPUT BOX W/ CALENDAR ICON*/}
@@ -53,7 +40,7 @@ function DateCalender() {
                     <div className='flex justify-end mb-2'>
                         <button
                             onClick={() => setShowCalendar(false)}
-                            className='text-gray-500 hover:text-red-600 text-lg'
+                            className='text-gray-500 hover:text-blue-600 text-lg'
                         >
                             <FaTimes />
                         </button>

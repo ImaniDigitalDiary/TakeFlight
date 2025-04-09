@@ -54,7 +54,7 @@ li.link2:hover {
     color:#002244;
 }
 .cruise {
-    color:#0000ff;
+    color:#1414d2;
 }
 
 hr {
@@ -91,3 +91,7 @@ hr {
 
 /*  DATE CALENDAR COMP FOR FINGFLIGHTS */
 
+.calendarIcon {
+    padding-left: 6px;
+    color: #1414d2;
+}
