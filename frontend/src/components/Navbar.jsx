@@ -2,7 +2,7 @@ import React from 'react'
 
 
 // styling
-import '../styling/navbar.css'
+// import '../styling/navbar.css'
 // import { Heading } from '@chakra-ui/react'
 
 function Navbar() {

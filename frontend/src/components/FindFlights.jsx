@@ -1,7 +1,7 @@
 import React from 'react'
 
 // styles
-import '../styling/navbar.css'
+import '../styling/find-flights.css'
 
 // components
 import DateCalender from './DateCalender'
