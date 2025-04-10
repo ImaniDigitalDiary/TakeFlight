@@ -21,7 +21,12 @@ function DateCalender() {
 
     const [showCalendar, setShowCalendar] = useState(false)
     return (
+        <div className='dateCalComp'>
+        <label htmlFor="dates" className='datesHeading'>
+            Dates*
+        </label>
         <div className='relative inline-block text-sm'>
+            
             {/* DATE INPUT BOX W/ CALENDAR ICON*/}
             <div
                 onClick={() => setShowCalendar(true)}
@@ -29,8 +34,9 @@ function DateCalender() {
             >
                 <span className='datePlaceholder'>
                     {`${format(range[0].startDate, 'MMM dd')} - ${format(range[0].endDate, 'MMM dd')}`}
+                    <FaCalendarAlt className='calendarIcon text-blue-600'  />  
                 </span>
-                <FaCalendarAlt className='calendarIcon text-blue-600'  />   
+                 
             </div>
 
             {/* CALENDAR MODAL*/}
@@ -59,6 +65,8 @@ function DateCalender() {
                 </div>
             )}
         </div>
+        </div>
+        
     )
 }
 

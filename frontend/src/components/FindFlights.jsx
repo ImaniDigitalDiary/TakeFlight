@@ -5,8 +5,7 @@ import '../styling/navbar.css'
 
 // components
 import DateCalender from './DateCalender'
-
-
+import Travelers from './Travelers'
 
 function FindFlights() {
 
@@ -63,12 +62,12 @@ function FindFlights() {
           To*
         </label>
         <input type='text' id='to' name='to' required className='to' />
-        <div>
-        <label>
-          Dates*  
-        </label>
+        <div className='datesAndTrav'>
         <DateCalender />
+        <Travelers />
         </div>
+
+        
         
         
             
