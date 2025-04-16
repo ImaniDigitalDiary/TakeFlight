@@ -10,7 +10,7 @@
 .findFlights {
     width: 568px;
     height: 530px;
-    /* padding: 14px 24px 24px 24px; */
+    /* box-shadow: 3px 3px rgba(85, 85, 85, 0.3) ; */
 }
 
 /* LINKS 1 */
@@ -78,7 +78,6 @@ hr {
 .customSquareRadio input[type='radio'] {
     display: none;
 }
-
 .squareRadio {
     display: inline-block;
     width: 10px;
@@ -89,9 +88,75 @@ hr {
 }
 
 
-.datesAndTrav {
-    display: flex;
+
+
+/* INPUTS */
+
+
+
+/* GRID LAYOUT */
+.inputCont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
+.fromAndTo {
+    grid-area: 1 / 1 / 2 / 3; 
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-evenly;
+}
+.datesAndTrav {
+    grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#to {
+    width: 150px;
+    height: 18px;
+}
+#from {
+    width: 150px;
+    height: 18px;
+}
+
+.fromDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.toDiv {
+    display: flex;
+    flex-direction: column;
+}
+.fromHeading {
+    margin: 10px 0 5px 0;
+}
+.from {
+    border: solid 1px #555;
+    border-radius: 10px;
+    padding: .5rem 14px .5rem .5rem;
+    align-items: center;
+}
+.toHeading {
+    margin: 10px 0 5px 0;
+}
+.to {
+    border: solid 1px #555;
+    border-radius: 10px;
+    padding: .5rem 14px .5rem .5rem;
+    align-items: center;
+}
+
+
+
+
+/* DATES AND TRAV SYTLES */
+
+
 /*  DATE CALENDAR COMP FOR FINDFLIGHTS */
 
 .datesHeading {
@@ -102,13 +167,17 @@ hr {
     flex-direction: column;
     
 }
+.dateInput {
+    
+}
 .datePlaceholder {
     border: solid 1px #555;
     border-radius: 10px;
     padding: .5rem 14px .5rem .5rem;
     display: flex;
     align-items: center;
-    /* flex-direction: row; */
+    width: 150px;
+    height: 18px;
 }
 
 .calendarIcon {
@@ -118,20 +187,34 @@ hr {
 
 /* TRAVELERS COMP FOR FINDFLIGHTS */
 .travComp {
-    padding: .5rem 14px .5rem .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.travsHeading {
+    margin: 10px 0px 5px 0;
+}
+#travDiv {
+    display: flex;
+    flex-direction: column;
 }
 .travInput {
-    margin-top: 10px;
+    border: solid 1px #555;
+    border-radius: 10px;
     padding: .5rem 14px .5rem .5rem;
+    align-items: center;
+
+    width: 150px;
+    height: 18px
+
 }
 .add {
-    padding: .5rem .5rem .5rem .5rem;
+    padding: 8px 8px 8px 8px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: solid 1px #555;
 }
 .subtract {
-    padding: .5rem .5rem .5rem .5rem;
+    padding: 8px 8px 8px 8px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: solid 1px #555;

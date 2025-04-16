@@ -28,7 +28,7 @@ function DateCalender() {
         <div className='relative inline-block text-sm'>
             
             {/* DATE INPUT BOX W/ CALENDAR ICON*/}
-            <div
+            <div id='dateInput'
                 onClick={() => setShowCalendar(true)}
                 className='flex items-center justify-between gap-2 cursor-pointer border border-gray-300 rounded-md px-4 py-2 shadow-sm bg-white text-gray-700 w-64'
             >

@@ -20,18 +20,21 @@ function Travelers() {
 
     
   return (
-    <div className='travComp'>
-        <label htmlFor="dates" className='travsHeading'>
-            Travelers
-        </label>
-        <div>
-            <button className='add' onClick={countAdd}>+</button>
-            <input className='travInput' type='text' value={travelerCount} />
-            <button className='subtract' onClick={countRemove}>-</button>
+    // <div className='travComp'>
+        <div className='travComp'>
+            <label htmlFor="dates" className='travsHeading'>
+                Travelers
+            </label>
+            <div className='travDiv'>
+                {/* <button className='add' onClick={countAdd}>+</button> */}
+                <input id='travInput' className='travInput' type='text' value={travelerCount} />
+                {/* <button className='subtract' onClick={countRemove}>-</button> */}
+            </div>
         </div>
         
+        
       
-    </div>
+    // </div>
   )
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 
 // styles
 import '../styling/find-flights.css'
+import { BsArrowLeftRight } from "react-icons/bs";
 
 // components
 import DateCalender from './DateCalender'
@@ -54,17 +55,28 @@ function FindFlights() {
         </div>
 
         {/* TEXT INPUTS */}
-        <label>
-          From*
-        </label>
-        <input type='text' id='from' name='from' required className='from' />
-        <label>
-          To*
-        </label>
-        <input type='text' id='to' name='to' required className='to' />
+        <div className='inputCont'>
+          <div className='fromAndTo'>
+          <div className='fromDiv'>
+            <label className='fromHeading'>
+              From*
+            </label>
+            <input  type='text' id='from' name='from' required className='from' />
+          </div>
+
+          <div className='toDiv'>
+            <label className='toHeading'>
+              To*
+            </label>
+            <input  type='text' id='to' name='to' required className='to' />
+          </div>
+        </div>
+
         <div className='datesAndTrav'>
         <DateCalender />
         <Travelers />
+        </div>
+
         </div>
 
         
