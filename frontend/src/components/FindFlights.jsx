@@ -56,28 +56,35 @@ function FindFlights() {
 
         {/* TEXT INPUTS */}
         <div className='inputCont'>
-          <div className='fromAndTo'>
-          <div className='fromDiv'>
-            <label className='fromHeading'>
-              From*
-            </label>
-            <input  type='text' id='from' name='from' required className='from' />
+            <div className='fromAndTo'>
+            <div className='fromDiv'>
+              <label className='fromHeading'>
+                From*
+              </label>
+              <input  type='text' id='from' name='from' required className='from' />
+            </div>
+
+            <div className='toDiv'>
+              <label className='toHeading'>
+                To*
+              </label>
+              <input  type='text' id='to' name='to' required className='to' />
+            </div>
           </div>
 
-          <div className='toDiv'>
-            <label className='toHeading'>
-              To*
-            </label>
-            <input  type='text' id='to' name='to' required className='to' />
+          <div className='datesAndTrav'>
+          <DateCalender />
+          <Travelers />
           </div>
         </div>
 
-        <div className='datesAndTrav'>
-        <DateCalender />
-        <Travelers />
-        </div>
+        <label htmlFor='chooseClassSelect' className='chooseClassHeading'></label>
+        <select name="chooseClass" id="chooseClass">
+          <option value="">Economy</option>
+          <option value="">Premium economy</option>
+          <option value="">Business of First</option>
+        </select>
 
-        </div>
 
         
         
