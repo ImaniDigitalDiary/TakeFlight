@@ -54,7 +54,8 @@ function FindFlights() {
           </label> 
         </div>
 
-        {/* TEXT INPUTS */}
+      {/* TEXT INPUTS */}
+        {/* FROM AND TO */}
         <div className='inputCont'>
             <div className='fromAndTo'>
             <div className='fromDiv'>
@@ -72,18 +73,34 @@ function FindFlights() {
             </div>
           </div>
 
+          {/* DATES AND TRAVELERS */}
           <div className='datesAndTrav'>
           <DateCalender />
           <Travelers />
           </div>
         </div>
 
-        <label htmlFor='chooseClassSelect' className='chooseClassHeading'></label>
-        <select name="chooseClass" id="chooseClass">
-          <option value="">Economy</option>
-          <option value="">Premium economy</option>
-          <option value="">Business of First</option>
-        </select>
+        {/* FIGHT CLASS */}
+        <div className="chooseClassDiv">
+          <label htmlFor='chooseClassSelect' className='chooseClassHeading'></label>
+          <select name="chooseClass" id="chooseClass" className='chooseClass'>
+            <option value="">Economy</option>
+            <option value="">Premium economy</option>
+            <option value="">Business of First</option>
+          </select>
+        </div>
+
+        <div>
+          <h3>Advanced search</h3>
+          <p>(Certificates, multi-city and upgrades)</p>
+          <p>Changed bag rules and fees for optional servies</p>
+        </div>
+
+        
+
+
+        
+        
 
 
         
