@@ -90,10 +90,17 @@ function FindFlights() {
           </select>
         </div>
 
-        <div>
-          <h3>Advanced search</h3>
-          <p>(Certificates, multi-city and upgrades)</p>
-          <p>Changed bag rules and fees for optional servies</p>
+        <div className='advSearchDiv'>
+          <div className='advSearchText'>
+            <h3>Advanced search</h3>
+            <p>(Certificates, multi-city and upgrades)</p>
+            <p>Changed bag rules and fees for optional servies</p>
+          </div>
+          <div className='advSearchButtons'>
+            <button className='findFlightsBtn'>Find flights</button>
+            <button className='creditsBtn'>Find your travel credits</button>
+          </div>
+          
         </div>
 
         

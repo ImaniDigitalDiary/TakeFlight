@@ -242,3 +242,30 @@ hr {
 .chooseClass:hover {
     /* color: #1414d2; */
 }
+
+
+
+/* ADVANCED SEARCH STYLES */
+.advSearchDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.advSearchButtons {
+    display: flex;
+    flex-direction: column;
+}
+.findFlightsBtn {
+    width: 240px;
+    height: 50px;
+    color: #fff;
+    background-color: #1414d2;
+    border-radius: 50px
+}
+.creditsBtn {
+    width: 240px;
+    height: 50px;
+    color: #1414d2;
+    border: solid 2px #1414d2;
+    border-radius: 50px
+}
