@@ -100,7 +100,6 @@ function FindFlights() {
             <button className='findFlightsBtn'>Find flights</button>
             <button className='creditsBtn'>Find your travel credits</button>
           </div>
-          
         </div>
 
         
