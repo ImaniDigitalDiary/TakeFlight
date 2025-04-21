@@ -6,6 +6,7 @@ import { BsArrowLeftRight } from "react-icons/bs";
   // font awesome icon
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import {faAngleRight } from '@fortawesome/free-solid-svg-icons'
+  import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 // components
 import DateCalender from './DateCalender'
@@ -43,7 +44,7 @@ function FindFlights(images) {
                 <li className='links2 packages'>Packages</li>
                 <li className='links2 hotel'>Hotel</li>
                 <li className='links2 car'>Car</li>
-                <li className='links2 cruise'><span className='cruise'>Cruise</span></li>
+                <li className='links2 cruise'><span className='cruise'>Cruise <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></span></li>
               </ul>
               <hr />
             </div>
