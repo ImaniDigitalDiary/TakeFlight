@@ -3,11 +3,16 @@ import React from 'react'
 // styles
 import '../styling/find-flights.css'
 import { BsArrowLeftRight } from "react-icons/bs";
+  // font awesome icon
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import {faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 // components
 import DateCalender from './DateCalender'
 import Travelers from './Travelers'
 import Carousel from './Carousel';
+
+
 
 function FindFlights(images) {
 
@@ -99,7 +104,7 @@ function FindFlights(images) {
 
             <div className='advSearchDiv'>
               <div className='advSearchText'>
-                <h3>Advanced search</h3>
+                <h3>Advanced search <span><FontAwesomeIcon icon={faAngleRight} /></span></h3> 
                 <p>(Certificates, multi-city and upgrades)</p>
                 <p>Changed bag rules and fees for optional servies</p>
               </div>
