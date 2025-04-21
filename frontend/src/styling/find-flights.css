@@ -14,11 +14,16 @@
 }
 
 /* LINKS 1 */
-ul.links1 {
+.links1.books {
+    
+}
+ul.links1Ul {
     display: flex;
     gap: 1rem;
     justify-content: center;
     background-color: #002244;
+    border-radius: 10px 10px 0 0;
+
 }
 li.links1 {
     display: flex;
@@ -30,6 +35,10 @@ li.links1 {
     height: 48px;  
     border-right: solid 1px #fff;
 }
+li.links1.myTrips {
+    border-top-right-radius: 10px;
+}
+
 
 /* LINKS 2 */
 ul.links2 {

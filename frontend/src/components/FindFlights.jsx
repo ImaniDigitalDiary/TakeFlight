@@ -22,8 +22,8 @@ function FindFlights(images) {
           <div className='findFlightsForm'>
 
             {/* LINKS 1 */}
-            <div className='links1'>
-              <ul className='links1'>
+            <div className='links1Div'>
+              <ul className='links1Ul'>
                 <li className='links1 book'>Book</li>
                 <li className='links1 flightStatus'>Flight Status</li>
                 <li className='links1 checkIn'>Check-in</li>
