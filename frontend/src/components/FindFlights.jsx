@@ -5,8 +5,9 @@ import '../styling/find-flights.css'
 import { BsArrowLeftRight } from "react-icons/bs";
   // font awesome icon
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import {faAngleRight } from '@fortawesome/free-solid-svg-icons'
+  import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
   import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+  import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 // components
 import DateCalender from './DateCalender'
@@ -74,14 +75,16 @@ function FindFlights(images) {
                   <label className='fromHeading'>
                     From*
                   </label>
-                  <input  type='text' id='from' name='from' required className='from' />
+                  <input  type='text' id='from' name='from' required className='from' placeholder='Cleveland CLE'/> 
                 </div>
-
+                <div className='faArrowRightArrowLeftDiv'>
+                  <FontAwesomeIcon icon={faArrowRightArrowLeft} className='faArrowRightArrowLeft' />
+                </div>
                 <div className='toDiv'>
                   <label className='toHeading'>
                     To*
                   </label>
-                  <input  type='text' id='to' name='to' required className='to' />
+                  <input  type='text' id='to' name='to' required className='to' placeholder='Destination' />
                 </div>
               </div>
 

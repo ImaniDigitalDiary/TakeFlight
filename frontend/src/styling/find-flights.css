@@ -11,6 +11,7 @@
     width: 568px;
     height: 530px;
     /* box-shadow: 3px 3px rgba(85, 85, 85, 0.3) ; */
+    height: 578px;
 }
 
 /* LINKS 1 */
@@ -115,25 +116,27 @@ hr {
     grid-area: 1 / 1 / 2 / 3; 
     display: flex;
     /* gap: 10px; */
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 50px 0 30px;
 }
 .datesAndTrav {
     grid-area: 2 / 1 / 3 / 3;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
 }
 
 
 
 
-#to {
+/* #to {
     width: 150px;
     height: 18px;
-}
-#from {
+} */
+/* #from {
     width: 150px;
     height: 18px;
-}
+} */
 
 
 .fromDiv {
@@ -153,7 +156,21 @@ hr {
     border-radius: 10px;
     padding: .5rem 14px .5rem .5rem;
     align-items: center;
+    width: 100%;
 }
+.faArrowRightArrowLeftDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.faArrowRightArrowLeft {
+    width: 24px;
+    height: 24px;
+    color: #1414d2;
+    /* align-items: center; */
+}
+
 .toHeading {
     margin: 10px 0 5px 0;
 }
@@ -162,6 +179,10 @@ hr {
     border-radius: 10px;
     padding: .5rem 14px .5rem .5rem;
     align-items: center;
+    width: 100%;
+}
+.faArrowRightArrowLeft {
+    display: flex;
 }
 
 
@@ -259,6 +280,10 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: .75rem 2.5rem .75rem 2.5rem;
+}
+.advSearchText {
+    /* padding-right: 20px; */
 }
 h3 {
     font-size: 16px;
@@ -267,18 +292,23 @@ h3 {
 }
 p {
     font-size: 12px;
+    /* margin-right: 50px; */
+    /* padding-right: 20px; */
 }
 .advSearchButtons {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: .75rem 2.5rem .75rem 2.5rem;
 }
 .findFlightsBtn {
     width: 240px;
     height: 50px;
     color: #fff;
     background-color: #1414d2;
-    border-radius: 50px
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
 }
 .creditsBtn {
     width: 240px;
