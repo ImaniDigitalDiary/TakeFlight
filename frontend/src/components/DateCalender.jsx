@@ -30,7 +30,7 @@ function DateCalender() {
             {/* DATE INPUT BOX W/ CALENDAR ICON*/}
             <div id='dateInput'
                 onClick={() => setShowCalendar(true)}
-                className='flex items-center justify-between gap-2 cursor-pointer border border-gray-300 rounded-md px-4 py-2 shadow-sm bg-white text-gray-700 w-64'
+                className='dateInput flex items-center justify-between gap-2 cursor-pointer border border-gray-300 rounded-md px-4 py-2 shadow-sm bg-white text-gray-700 w-64'
             >
                 <span className='datePlaceholder'>
                     {`${format(range[0].startDate, 'MMM dd')} - ${format(range[0].endDate, 'MMM dd')}`}
