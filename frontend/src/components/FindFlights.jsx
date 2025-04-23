@@ -70,7 +70,7 @@ function FindFlights(images) {
           {/* TEXT INPUTS */}
             {/* FROM AND TO */}
             <div className='inputCont'>
-                <div className='fromAndTo'>
+                  <div className='fromAndTo'>
                 <div className='fromDiv'>
                   <label className='fromHeading'>
                     From*
@@ -104,6 +104,7 @@ function FindFlights(images) {
                 <option value="">Business of First</option>
               </select>
             </div>
+                </div>
 
 
             <div className='advSearchDiv'>
@@ -122,11 +123,6 @@ function FindFlights(images) {
           </div>
         </div>
       </div>
-
-
-
-      
-    </div>
 
 
 
