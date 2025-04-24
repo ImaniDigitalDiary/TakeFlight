@@ -6,6 +6,7 @@ import '../styling/navbar.css'
   // font awesome icons
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+  import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
   
 
 
@@ -22,7 +23,7 @@ function Navbar() {
       <li className='navLink'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>Help</li>
+      <li className='navLink'>Help <FontAwesomeIcon icon={faChevronRight} /></li>
     </ul>
     {/* <Heading>Title</Heading> */}
   
