@@ -5,6 +5,7 @@ import React from 'react'
 import '../styling/navbar.css'
   // font awesome icons
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
   
 
 
@@ -16,11 +17,11 @@ function Navbar() {
   return (
    <div className='navbar'>
     <ul className='navLinks'>
-      <li className='navLink'>Book</li>
-      <li className='navLink'>My trips</li>
-      <li className='navLink'>Travel info</li>
-      <li className='navLink'>MileagePlus</li>
-      <li className='navLink'>Deals</li>
+      <li className='navLink'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink'>Help</li>
     </ul>
     {/* <Heading>Title</Heading> */}
