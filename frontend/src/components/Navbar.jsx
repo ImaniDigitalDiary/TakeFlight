@@ -32,10 +32,10 @@ function Navbar() {
     </ul>
     
     <ul className='navLinks2'>
-      <li className='navLink2'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
-      <li className='navLink2'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
-      <li className='navLink2'><FontAwesomeIcon icon={faUserLarge} /></li>
-      <li className='navLink2'><FontAwesomeIcon icon={faCartShopping} /></li>
+      <li className='navLink2 globe'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
+      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
+      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faUserLarge} /></li>
+      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faCartShopping} /></li>
     </ul>
   
    </div>

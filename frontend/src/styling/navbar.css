@@ -3,6 +3,7 @@
     color: aliceblue;
     display: flex;
     justify-content: space-around;
+    height: 72px;
 }
 li {
     list-style-type: none;
@@ -10,22 +11,38 @@ li {
 
 .navLinks1 {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 .navLink1 {
-    
+    font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 .navLink1:hover {
-    color: #75b5f4;
+    color: #a8d0f7;
 }
 
 .navLinks2 {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 5px;
 }
 .navLink2 {
-    
+    font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 .navLink2:hover {
-    color: #75b5f4;
+    color: #000;
+    background-color: #a8d0f7;
+}
+
+.globe:hover {
+    padding: 5px;
+    border-radius: 50px;
+}
+.link2Icon {
+    padding: 10px;
+    border-radius: 50%;
 }
