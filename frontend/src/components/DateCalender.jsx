@@ -23,7 +23,7 @@ function DateCalender() {
     return (
         <div className='dateCalComp'>
         <label htmlFor="dates" className='datesHeading'>
-            Dates*
+            Dates
         </label>
         <div className='relative inline-block text-sm'>
             

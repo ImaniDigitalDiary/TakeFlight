@@ -73,7 +73,7 @@ function FindFlights(images) {
                 <div className='fromAndTo'>
                 <div className='fromDiv'>
                   <label className='fromHeading'>
-                    From*
+                    From
                   </label>
                   <input  type='text' id='from' name='from' required className='from' placeholder='Cleveland CLE'/> 
                 </div>
@@ -82,7 +82,7 @@ function FindFlights(images) {
                 </div>
                 <div className='toDiv'>
                   <label className='toHeading'>
-                    To*
+                    To
                   </label>
                   <input  type='text' id='to' name='to' required className='to' placeholder='Destination' />
                 </div>
