@@ -3,7 +3,7 @@ import React from 'react'
 // styles
 import '../styling/find-flights.css'
 import { BsArrowLeftRight } from "react-icons/bs";
-  // font awesome icon
+  // font awesome icons
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
   import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
@@ -70,7 +70,7 @@ function FindFlights(images) {
           {/* TEXT INPUTS */}
             {/* FROM AND TO */}
             <div className='inputCont'>
-                  <div className='fromAndTo'>
+                <div className='fromAndTo'>
                 <div className='fromDiv'>
                   <label className='fromHeading'>
                     From*
@@ -93,6 +93,8 @@ function FindFlights(images) {
               <DateCalender />
               <Travelers />
               </div>
+
+              
             </div>
 
             {/* FIGHT CLASS */}
@@ -104,7 +106,6 @@ function FindFlights(images) {
                 <option value="">Business of First</option>
               </select>
             </div>
-                </div>
 
 
             <div className='advSearchDiv'>
@@ -118,11 +119,14 @@ function FindFlights(images) {
                 <button className='creditsBtn'>Find your travel credits</button>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>
+
+
+
+      
+    </div>
 
 
 

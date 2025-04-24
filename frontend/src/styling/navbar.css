@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #002244;
+    color: aliceblue;
+    display: flex;
+}
+
+.navLinks {
+    display: flex;
+}
+.navLink {
+    list-style-type: none;
+}
