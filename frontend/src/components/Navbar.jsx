@@ -7,6 +7,11 @@ import '../styling/navbar.css'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
   import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+  import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+  import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+  import { faUserLarge } from '@fortawesome/free-solid-svg-icons'
+  import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
   
 
 
@@ -17,15 +22,21 @@ import '../styling/navbar.css'
 function Navbar() {
   return (
    <div className='navbar'>
-    <ul className='navLinks'>
-      <li className='navLink'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink'>Help <FontAwesomeIcon icon={faChevronRight} /></li>
+    <ul className='navLinks1'>
+      <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink1'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
+      <li className='navLink1'>Help <FontAwesomeIcon icon={faChevronRight} /></li>
     </ul>
-    {/* <Heading>Title</Heading> */}
+    
+    <ul className='navLinks2'>
+      <li className='navLink2'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
+      <li className='navLink2'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
+      <li className='navLink2'><FontAwesomeIcon icon={faUserLarge} /></li>
+      <li className='navLink2'><FontAwesomeIcon icon={faCartShopping} /></li>
+    </ul>
   
    </div>
     

@@ -2,11 +2,30 @@
     background-color: #002244;
     color: aliceblue;
     display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none;
 }
 
-.navLinks {
+.navLinks1 {
     display: flex;
+    gap: 20px;
 }
-.navLink {
-    list-style-type: none;
+.navLink1 {
+    
+}
+.navLink1:hover {
+    color: #75b5f4;
+}
+
+.navLinks2 {
+    display: flex;
+    gap: 20px;
+}
+.navLink2 {
+    
+}
+.navLink2:hover {
+    color: #75b5f4;
 }
