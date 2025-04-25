@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 // styling
@@ -22,7 +23,9 @@ import '../styling/navbar.css'
 function Navbar() {
   return (
    <div className='navbar'>
+    
     <ul className='navLinks1'>
+      <Link className='navLink1' to={'/home'}>HomeLogo</Link>
       <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>

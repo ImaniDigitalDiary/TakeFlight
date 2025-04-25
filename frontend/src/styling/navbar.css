@@ -18,6 +18,7 @@ li {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 500;
+    color: #fff;
 }
 .navLink1:hover {
     color: #a8d0f7;
