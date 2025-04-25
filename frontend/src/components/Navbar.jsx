@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// logo
+import logo from '../images/take-flight-logo.png'
+
 
 // styling
 import '../styling/navbar.css'
@@ -25,7 +28,7 @@ function Navbar() {
    <div className='navbar'>
     
     <ul className='navLinks1'>
-      <Link className='navLink1' to={'/home'}>HomeLogo</Link>
+      <Link className='navLink1' to={'/home'}><img src={logo} className='logo'/></Link>
       <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>

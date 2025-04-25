@@ -125,20 +125,33 @@ function FindFlights(images) {
           </div>
         </div>
 
-        <Card className='card' style={{ width: '18rem' }}>
-        <Card.Body>
-          <Card.Subtitle className='cardSubtitle mb-2 text-muted'>New in 2025</Card.Subtitle>
-          <Card.Title className='cardTitle'>Enjoy the warmth of these new TakeFlight destinations.</Card.Title>
-          {/* <Card.Text>
-            text placed here for the moment. i would like for it to be a card that changed w/ arrows
-          </Card.Text> */}
-          <Card.Link href='#'>Explore routes<FontAwesomeIcon icon={faAngleRight} /> </Card.Link>
-          {/* <Card.Link href='#'>Another Link</Card.Link> */}
-        </Card.Body>
-      </Card> 
-      </div>
 
-      
+        <div className='cardAndBonus'>
+          <Card className='card' style={{ width: '18rem' }}>
+            <Card.Body>
+              <Card.Subtitle className='cardSubtitle mb-2 text-muted'>New in 2025</Card.Subtitle>
+              <Card.Title className='cardTitle'>Enjoy the warmth of these new TakeFlight destinations.</Card.Title>
+              {/* <Card.Text>
+                text placed here for the moment. i would like for it to be a card that changed w/ arrows
+              </Card.Text> */}
+              <Card.Link className='cardLink' href='#'>Explore routes<FontAwesomeIcon icon={faAngleRight} /> </Card.Link>
+              {/* <Card.Link href='#'>Another Link</Card.Link> */}
+            </Card.Body>
+          </Card> 
+
+          <div className='bonus'>
+            <h4 className='bonusH4'>80,000<span className='bonusSpan'>Bonus Miles</span></h4>
+          </div>
+
+          <div className='annFee'>
+            <p className='annFeePara'>$0 intro annual fee</p>
+            <button className='annFeeBtn'>Learn more</button>
+          </div>
+
+        </div>
+
+
+      </div>
     </div>  
   )
 }

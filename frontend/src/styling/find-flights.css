@@ -334,12 +334,23 @@ p {
 
 
 
-/* CARD STYLES */
+
+
+/* CARD BONUS STYLES */
+.cardAndBonus {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
 .card {
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 1px #000;
     width: 284px;
     height: 229px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 100px;
+    
 }
 .cardSubtitle {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
@@ -347,9 +358,53 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+    margin: 20px 0 0 10px;
 }
 .cardTitle {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 28px;
     color: #fff;
+    margin: 0 10px 10px 10px;
+}
+.cardLink {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/* BONUS DIV STYLES */
+.bonus {
+    background-color: #fff;
+    width: 432px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 30px;
+}
+h4 {
+    font-size: 70px;
+    /* align-items: center; */
+}
+.bonusSpan {
+    font-size: 30px;
+}
+.annFee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1414d2;
+    color: #fff;
+    height: 30px;;
+}
+.annFeePara {
+    font-size: 14px;
+
+}
+.annFeeBtn {
+    background-color: #fff;
+    color: #1414d2;
+    border-radius: 50px;
 }
