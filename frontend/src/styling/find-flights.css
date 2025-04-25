@@ -331,3 +331,10 @@ p {
     border: solid 2px #1414d2;
     border-radius: 50px
 }
+
+
+
+/* CARD STYLES */
+.card {
+    border: solid 1px #000;
+}

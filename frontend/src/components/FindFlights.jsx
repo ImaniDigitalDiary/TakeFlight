@@ -1,15 +1,18 @@
 import React from 'react'
 
-// styles
+// BOOTSTRAP
+import Card from 'react-bootstrap/Card'
+
+// STYLES
 import '../styling/find-flights.css'
 import { BsArrowLeftRight } from "react-icons/bs";
-  // font awesome icons
+  // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
   import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
   import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-// components
+// COMPONENTS
 import DateCalender from './DateCalender'
 import Travelers from './Travelers'
 import Carousel from './Carousel';
@@ -121,16 +124,22 @@ function FindFlights(images) {
             </div>
           </div>
         </div>
+
+        <Card className='card' style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Title</Card.Title>
+          <Card.Subtitle className='mb-2 text-muted'>subtitle</Card.Subtitle>
+          <Card.Text>
+            text placed here for the moment. i would like for it to be a card that changed w/ arrows
+          </Card.Text>
+          <Card.Link href='#'>Card Link</Card.Link>
+          <Card.Link href='#'>Another Link</Card.Link>
+        </Card.Body>
+      </Card> 
       </div>
 
-
-
       
-    </div>
-
-
-
-    
+    </div>  
   )
 }
 
