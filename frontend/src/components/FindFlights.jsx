@@ -16,6 +16,7 @@ import { BsArrowLeftRight } from "react-icons/bs";
 import DateCalender from './DateCalender'
 import Travelers from './Travelers'
 import Carousel from './Carousel';
+import SponsorTravelInspo from './SponsorTravelInspo';
 
 
 
@@ -23,6 +24,7 @@ function FindFlights(images) {
 
   
   return (
+    <>
     <div className='findFlightsWrapper'>
       <Carousel />
 
@@ -127,7 +129,8 @@ function FindFlights(images) {
 
 
         <div className='cardAndBonus'>
-          <Card className='card' style={{ width: '18rem' }}>
+          <div>
+            <Card className='card' style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Subtitle className='cardSubtitle mb-2 text-muted'>New in 2025</Card.Subtitle>
               <Card.Title className='cardTitle'>Enjoy the warmth of these new TakeFlight destinations.</Card.Title>
@@ -137,22 +140,30 @@ function FindFlights(images) {
               <Card.Link className='cardLink' href='#'>Explore routes<FontAwesomeIcon icon={faAngleRight} /> </Card.Link>
               {/* <Card.Link href='#'>Another Link</Card.Link> */}
             </Card.Body>
-          </Card> 
+          </Card>
+          </div>
 
+          <div className='bonusAndAnnFee'>
           <div className='bonus'>
-            <h4 className='bonusH4'>80,000<span className='bonusSpan'>Bonus Miles</span></h4>
+          <h4 className='bonusH4'>80,000</h4>
+          <div className='bonusSpanDiv'>
+            <span className='bonusSpan'>Bonus</span>
+            <span className='bonusSpan'>Miles</span>
           </div>
-
-          <div className='annFee'>
-            <p className='annFeePara'>$0 intro annual fee</p>
-            <button className='annFeeBtn'>Learn more</button>
-          </div>
-
+          
         </div>
 
-
+        <div className='annFee'>
+          <p className='annFeePara'>$0 intro annual fee</p>
+          <button className='annFeeBtn'>Learn more</button>
+        </div>
+        </div>
+        </div>
       </div>
-    </div>  
+    </div>
+    <SponsorTravelInspo />
+
+    </>  
   )
 }
 
