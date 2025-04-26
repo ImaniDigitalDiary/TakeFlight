@@ -1,10 +1,38 @@
+.sponTravDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 40px 0 40px 0;
+    /* height: 800; */
+}
+.sponTravImg {
+    /* opacity: 0.9; */
+    opacity: rgba(20, 20, 210, 0.4)
+
+}
+.sponTravText {
+    width: 1100px;
+    height: 380px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
 .sponTravH1 {
     font-size: 48px;
     text-transform: uppercase;
     width: 500px;
+    color: #454545;
+    text-shadow: 2px 2px 3px #fcf9f9;
 }
 .sponTravH2 {
     font-size: 26px;
     font-weight: 500;
     width: 300px;
+    color: #fcf9f9;
+    text-shadow: 1px 1px 2px #454545;
+}
+.sponTravBtn {
+    padding: 20px;
+    width: 150px;
+    border-radius: 50px;
 }

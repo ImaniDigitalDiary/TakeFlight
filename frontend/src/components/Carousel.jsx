@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+
+// IMAGES
 import image1 from '../carousel-images/image1.jpg'
 import image2 from '../carousel-images/image2.jpg'
 import image3 from '../carousel-images/image3.jpg'
