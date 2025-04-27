@@ -25,7 +25,7 @@ function SponsorTravelInspo() {
             </div>
     </div>
     <div className='sponTavLogoDiv'>
-        <img src={sponTravLogo} alt="" />
+        <img src={sponTravLogo} alt="" className='sponTravLogo'/>
     </div>
     </div>
   )
