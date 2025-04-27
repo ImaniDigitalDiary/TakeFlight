@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import FindFlights from '../components/FindFlights'
 import SponsorTravelInspo from '../components/SponsorTravelInspo'
+import Map from '../components/Map'
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
         <Navbar />
         <FindFlights />
         <SponsorTravelInspo />
+        <Map />
     </div>
   )
 }
