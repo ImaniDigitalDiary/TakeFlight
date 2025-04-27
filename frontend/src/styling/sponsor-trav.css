@@ -30,12 +30,19 @@
     font-weight: 500;
     width: 300px;
     color: #fcf9f9;
-    text-shadow: 1px 1px 2px #454545;
+    text-shadow: 4px 2px 5px #454545;
+    letter-spacing: 2px;
 }
 .sponTravBtn {
     padding: 20px;
-    width: 150px;
+    width: 180px;
+    box-shadow: 0 2px 0 1px #454545;
     border-radius: 50px;
+    background-color: #1414d2ad;
+    color: #d0cece;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .sponTravLogo {
