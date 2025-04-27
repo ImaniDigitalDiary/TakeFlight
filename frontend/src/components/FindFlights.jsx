@@ -16,7 +16,7 @@ import { BsArrowLeftRight } from "react-icons/bs";
 import DateCalender from './DateCalender'
 import Travelers from './Travelers'
 import Carousel from './Carousel';
-import SponsorTravelInspo from './SponsorTravelInspo';
+
 
 
 
@@ -161,7 +161,6 @@ function FindFlights(images) {
         </div>
       </div>
     </div>
-    <SponsorTravelInspo />
 
     </>  
   )
