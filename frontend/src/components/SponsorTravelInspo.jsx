@@ -2,6 +2,7 @@ import React from 'react'
 
 // IMAGES
 import sponsorImage from '../images/spon-trav-inspo.jpg'
+import sponTravLogo from '../images/take-flight-logo.png'
 
 // STYLING
 import '../styling/sponsor-trav.css'
@@ -22,7 +23,9 @@ function SponsorTravelInspo() {
                 <h3 className='sponTravH2'>Get curated travel guides for everywhere United flies.</h3>
                 <button className='sponTravBtn'>Get Inspired</button>
             </div>
-      
+    </div>
+    <div className='sponTavLogoDiv'>
+        <img src={sponTravLogo} alt="" />
     </div>
     </div>
   )
