@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
+import L from 'leaflet'
+import 'leaflet-defaulticon-compatibility'
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css'
 
 // STYLING
 import '../styling/map.css'
+
 
 function Map() {
     const [flights, setFlights] = useState([])
@@ -34,16 +40,23 @@ function Map() {
         <p>Loading flights...</p>
       ) : (
         <>
-        {flights.map((flight, index) => (
-            <div key={index} style={{ marginBottom: '1rem'}}>
-                Flights from <strong>{flight.departure?.airport}</strong>
-                to <strong>{flight.arrival?.airport}</strong>
-                <br />
-                Status: {flight.flight_status}
-            </div>
-        ))}
+        <div className="mapContainer" style={{ height: "400px", width: "100%", marginTop: "2rem" }}>
+          <MapContainer center={[39.5, -98.35]} zoom={4} style={{ height: "100%", width: "100%" }}>
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution="© OpenStreetMap contributors"
+            />
+            <Marker position={[40.7128, -74.0060]}>
+              <Popup>New York City</Popup>
+            </Marker>
+            <Marker position={[34.0522, -118.2437]}>
+              <Popup>Los Angeles</Popup>
+            </Marker>
+          </MapContainer>
+        </div>
         </>
       )}
+      
     </div>
   )
 }

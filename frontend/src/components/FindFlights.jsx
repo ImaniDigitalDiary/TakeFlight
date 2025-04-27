@@ -20,7 +20,7 @@ import Carousel from './Carousel';
 
 
 
-function FindFlights(images) {
+function FindFlights() {
 
   
   return (
