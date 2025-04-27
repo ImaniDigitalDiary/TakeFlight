@@ -40,8 +40,21 @@ function Map() {
         <p>Loading flights...</p>
       ) : (
         <>
-        <div className="mapContainer" style={{ height: "400px", width: "100%", marginTop: "2rem" }}>
-          <MapContainer center={[39.5, -98.35]} zoom={4} style={{ height: "100%", width: "100%" }}>
+        <div 
+            className="mapContainer" 
+            style={{ 
+                height: "400px", 
+                width: "100%", 
+                marginTop: "2rem" 
+            }}>
+          <MapContainer 
+            center={[39.5, -98.35]} 
+            zoom={4} 
+            scrollWheelZoom={false} // Disable scroll zoom to continue down Homepage
+            style={{ 
+                height: "100%", 
+                width: "100%" 
+            }}>
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution="© OpenStreetMap contributors"

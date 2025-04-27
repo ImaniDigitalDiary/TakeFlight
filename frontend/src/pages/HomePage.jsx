@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import FindFlights from '../components/FindFlights'
 import SponsorTravelInspo from '../components/SponsorTravelInspo'
 import Map from '../components/Map'
+import ExploreDest from '../components/ExploreDest'
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
         <FindFlights />
         <SponsorTravelInspo />
         <Map />
+        <ExploreDest />
     </div>
   )
 }
