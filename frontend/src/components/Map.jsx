@@ -34,8 +34,6 @@ function Map() {
 
     return (
     <div className='mapCont'>
-      <h3>Live Flights and Destinations</h3>
-
       {loading ? (
         <p>Loading flights...</p>
       ) : (

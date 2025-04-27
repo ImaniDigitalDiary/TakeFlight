@@ -1,4 +1,21 @@
+.exploreH1 {
+    font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.exploreH2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "NeuePlakforUnited-Rg", "Noto Sans", "Arial", sans-serif;
+    line-height: 1.33;
+}
 .mapCont {
     margin-top: 2rem;
     text-align: center;
+}
+.exploreNote {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 15px;
 }
