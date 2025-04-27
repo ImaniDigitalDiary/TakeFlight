@@ -4,7 +4,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import FindFlights from '../components/FindFlights'
 import SponsorTravelInspo from '../components/SponsorTravelInspo'
-import Map from '../components/Map'
+// import Map from '../components/Map'
 import ExploreDest from '../components/ExploreDest'
 
 function HomePage() {
@@ -13,7 +13,7 @@ function HomePage() {
         <Navbar />
         <FindFlights />
         <SponsorTravelInspo />
-        <Map />
+        {/* <Map /> */}
         <ExploreDest />
     </div>
   )
