@@ -17,13 +17,14 @@
     font-weight: 400;
     font-family: "NeuePlakforUnited-Rg", "Noto Sans", "Arial", sans-serif;
     line-height: 1.33;
+    margin-bottom: 50px;
 }
 
 .exploreInputs {
-    display: flex;
+    display: flex; 
     flex-direction: row;
-    justify-content: center;
     gap: 20px;
+    margin-left: 100px;
 }
 
 .flyingFromDiv {
@@ -68,6 +69,16 @@
     background-color: #1414d2;
     color: #fff;
     font-size: 16px;
+}
+.refineDiv {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.faAngleRight {
+    margin-right: 20px;
 }
 
 

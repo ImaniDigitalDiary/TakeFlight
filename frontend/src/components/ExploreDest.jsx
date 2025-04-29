@@ -2,10 +2,13 @@ import React from 'react'
 
 // STYLES 
 import '../styling/map.css'
-// import '../styling/explore-dest.css'
+  // FONT AWESOME ICONS
+  import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+
 
 // COMONENTS
 import Map from './Map'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function ExploreDest() {
   return (
@@ -32,6 +35,9 @@ function ExploreDest() {
       </div>
       <div className='explorBtnDiv'>
         <button className='exploreBtn'>Search</button>
+      </div>
+      <div className='refineDiv'>
+        <FontAwesomeIcon className='faAngleRight fa-lg' icon={faAngleRight} /> Refine search
       </div>
       
     </div>
