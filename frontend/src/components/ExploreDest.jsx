@@ -30,7 +30,10 @@ function ExploreDest() {
         <label>Max price</label>
         <input className='maxPrice' type="text" placeholder='$1000' />
       </div>
-      <button className='exploreBtn'>Search</button>
+      <div className='explorBtnDiv'>
+        <button className='exploreBtn'>Search</button>
+      </div>
+      
     </div>
     <Map />
     <div className='exploreNote'>
