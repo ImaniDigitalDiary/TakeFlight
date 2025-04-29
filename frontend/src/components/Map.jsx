@@ -43,7 +43,7 @@ function Map() {
             style={{ 
                 height: "400px", 
                 width: "100%", 
-                marginTop: "2rem" 
+                // marginTop: "2rem" 
             }}>
           <MapContainer 
             center={[39.5, -98.35]} 

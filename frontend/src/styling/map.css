@@ -1,3 +1,11 @@
+.exploreDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+.exploreHeadingDiv {
+    margin-left: 100px;
+}
 .exploreH1 {
     font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 32px;
@@ -10,6 +18,59 @@
     font-family: "NeuePlakforUnited-Rg", "Noto Sans", "Arial", sans-serif;
     line-height: 1.33;
 }
+
+.exploreInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flyingFromDiv {
+    display: flex;
+    flex-direction: column;
+}
+.flyingFrom{
+    width: 243px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.chooseExploreTypeDiv {
+    display: flex;
+    flex-direction: column;
+}
+.chooseExploreType {
+    width: 147px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+}
+.maxPriceDiv {
+    display: flex;
+    flex-direction: column;
+}
+.maxPrice {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.exploreBtn{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+
+
+
+
+
+.exploreInputs {
+    display: flex;
+}
+
 .mapCont {
     margin-top: 2rem;
     text-align: center;
