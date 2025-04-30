@@ -17,6 +17,9 @@ import DateCalender from './DateCalender'
 import Travelers from './Travelers'
 import Carousel from './Carousel';
 
+// IMAGES
+import memberCard from '../images/member-card.png'
+
 
 
 
@@ -150,8 +153,9 @@ function FindFlights() {
           <div className='bonusSpanDiv'>
             <span className='bonusSpan'>Bonus</span>
             <span className='bonusSpan'>Miles</span>
+            {/* <img className='memberCard' src={memberCard} alt="" /> */}
           </div>
-          
+          <img className='memberCard' src={memberCard} alt="" />
         </div>
 
         <div className='annFee'>

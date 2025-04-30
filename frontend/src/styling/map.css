@@ -9,8 +9,9 @@
 .exploreH1 {
     font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.25;
+    letter-spacing: .5px;
 }
 .exploreH2 {
     font-size: 20px;
@@ -76,9 +77,13 @@
     align-items: center;
     font-size: 18px;
     margin-top: 20px;
+    color: #1414d2;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 .faAngleRight {
     margin-right: 20px;
+    color: #1414d2;
 }
 
 
