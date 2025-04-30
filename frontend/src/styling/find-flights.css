@@ -348,6 +348,21 @@ p {
 .bonusAndAnnFee {
     display: flex;
     flex-direction: column;
+    border-radius: 2px;
+}
+.newCardBenefitsDiv {
+    background-color: #1414d2;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 30px;
+    display: flex;
+    align-items: center;
 }
 .bonus {
     background-color: #fff;
@@ -357,7 +372,6 @@ p {
     flex-direction: row;
     align-items: center;
     padding-top: 5px;
-    border-radius: 2px;
 }
 .bonusH4 {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
@@ -383,15 +397,22 @@ p {
     background-color: #1414d2;
     color: #fff;
     height: 30px;;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .annFeePara {
-    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
 
 }
 .annFeeBtn {
     background-color: #fff;
     color: #1414d2;
+    width: 100px;
     border-radius: 50px;
+    margin-right: 10px;
 }
 .memberCard {
     width: 150px;
