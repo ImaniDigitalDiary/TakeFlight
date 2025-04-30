@@ -11,6 +11,7 @@ import { BsArrowLeftRight } from "react-icons/bs";
   import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
   import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
   import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
+  import { faBookAtlas } from '@fortawesome/free-solid-svg-icons';
 
 // COMPONENTS
 import DateCalender from './DateCalender'
@@ -125,7 +126,7 @@ function FindFlights() {
               </div>
               <div className='advSearchButtons'>
                 <button className='findFlightsBtn'>Find flights</button>
-                <button className='creditsBtn'>Find your travel credits</button>
+                <button className='creditsBtn'><FontAwesomeIcon icon={faBookAtlas} /> Find your travel credits</button>
               </div>
             </div>
           </div>
