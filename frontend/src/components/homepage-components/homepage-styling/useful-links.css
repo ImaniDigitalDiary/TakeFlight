@@ -1,14 +1,15 @@
+.usefulLinksDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    margin-top: 20px;
+}
 .usefulLinkHeading {
     display: flex;
     /* justify-content: center; */
     font-weight: 500;
     letter-spacing: .25px;
     font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
-}
-.usefulLinksDiv {
-    display: flex;
-    flex-direction: column;
-    padding-left: 150px;
 }
 
 .usefulLinkDiv {
@@ -37,11 +38,11 @@ p {
     gap: 20px;
 }
 .usefulLinkText {
-    margin-right: 200px;
+    margin-right: 150px;
     padding-left: 15px;
 }
 .usefulLinkText p {
-    width: 300px;
+    width: 350px;
 }
 .faArrowRightDiv {
     display: flex;
