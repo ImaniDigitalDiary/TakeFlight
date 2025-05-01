@@ -6,7 +6,8 @@ import 'leaflet-defaulticon-compatibility'
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css'
 
 // STYLING
-import '../styling/map.css'
+import './homepage-styling/map.css'
+
 
 
 function Map() {

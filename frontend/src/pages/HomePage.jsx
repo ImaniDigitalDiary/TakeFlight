@@ -2,10 +2,11 @@ import React from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
-import FindFlights from '../components/FindFlights'
-import SponsorTravelInspo from '../components/SponsorTravelInspo'
-// import Map from '../components/Map'
-import ExploreDest from '../components/ExploreDest'
+import FindFlights from '../components/homepage-components/FindFlights'
+import SponsorTravelInspo from '../components/homepage-components/SponsorTravelInspo'
+import ExploreDest from '../components/homepage-components/ExploreDest'
+import UsefulLinks from '../components/homepage-components/UsefulLinks'
+
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
         <SponsorTravelInspo />
         {/* <Map /> */}
         <ExploreDest />
+        <UsefulLinks />
     </div>
   )
 }

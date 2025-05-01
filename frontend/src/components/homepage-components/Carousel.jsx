@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react'
 
 // IMAGES
-import image1 from '../carousel-images/image1.jpg'
-import image2 from '../carousel-images/image2.jpg'
-import image3 from '../carousel-images/image3.jpg'
-import image4 from '../carousel-images/image4.jpg'
-import image5 from '../carousel-images/image5.jpg'
+import image1 from './carousel-images/image1.jpg'
+import image2 from './carousel-images/image2.jpg'
+import image3 from './carousel-images/image3.jpg'
+import image4 from './carousel-images/image4.jpg'
+import image5 from './carousel-images/image5.jpg'
+
 
 // STYLING
-import '../styling/carousel.css'
+import './homepage-styling/carousel.css'
+
 function Carousel() {
     const images = [image1, image2, image3, image4, image5]
     const [currentIndex, setCurrentIndex] = useState(0)

@@ -1,11 +1,11 @@
 import React from 'react'
 
 // IMAGES
-import sponsorImage from '../images/spon-trav-inspo.jpg'
-import sponTravLogo from '../images/take-flight-logo.png'
+import sponsorImage from './homepage-images/spon-trav-inspo.jpg'
+import sponTravLogo from './homepage-images/take-flight-logo.png'
 
 // STYLING
-import '../styling/sponsor-trav.css'
+import './homepage-styling/sponsor-trav.css'
 
 function SponsorTravelInspo() {
   return (

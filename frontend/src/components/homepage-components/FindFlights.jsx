@@ -4,7 +4,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 
 // STYLES
-import '../styling/find-flights.css'
+import './homepage-styling/find-flights.css'
 import { BsArrowLeftRight } from "react-icons/bs";
   // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,12 +14,12 @@ import { BsArrowLeftRight } from "react-icons/bs";
   import { faBookAtlas } from '@fortawesome/free-solid-svg-icons';
 
 // COMPONENTS
-import DateCalender from './DateCalender'
-import Travelers from './Travelers'
-import Carousel from './Carousel';
+import DateCalender from '../homepage-components/DateCalender'
+import Travelers from '../homepage-components/Travelers'
+import Carousel from '../homepage-components/Carousel';
 
 // IMAGES
-import memberCard from '../images/member-card.png'
+import memberCard from './homepage-images/member-card.png'
 
 
 
