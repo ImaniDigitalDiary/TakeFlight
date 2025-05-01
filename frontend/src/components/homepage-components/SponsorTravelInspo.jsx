@@ -15,7 +15,6 @@ function SponsorTravelInspo() {
         style={{
             backgroundImage: `url(${sponsorImage})`,
             backgroundSize: 'cover',
-            // opacity: '0.9'
         }}
     >
             <div className='sponTravText'>

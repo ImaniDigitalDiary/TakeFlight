@@ -1,0 +1,51 @@
+.usefulLinkHeading {
+    display: flex;
+    /* justify-content: center; */
+    font-weight: 500;
+    letter-spacing: .25px;
+    font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
+}
+.usefulLinksDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.usefulLinkDiv {
+    display: flex;
+    width: 560px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h2 {
+    letter-spacing: .5px;
+}
+p {
+    font-size: 16px;
+}
+.row1 {
+    display: flex;
+    gap: 20px;
+}
+.row2 {
+    display: flex;
+    gap: 20px;
+}
+.row3 {
+    display: flex;
+    gap: 20px;
+}
+.usefulLinkText {
+    margin-right: 200px;
+    padding-left: 15px;
+}
+.usefulLinkText p {
+    width: 300px;
+}
+.faArrowRightDiv {
+    display: flex;
+    align-items: center;
+    color: #1414d2;
+    /* font-weight: 400; */
+}
