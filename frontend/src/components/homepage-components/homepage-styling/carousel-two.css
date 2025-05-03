@@ -1,0 +1,43 @@
+.image6Div {
+    display: flex;
+    flex-direction: column;
+}
+.image6 {
+    width: 500px;
+}
+
+.image6Btn {
+    width: 170px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.image7Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.image7 {
+    width: 500px;
+}
+
+.image7Btn {
+    width: 170px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.image8Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.image8 {
+    width: 500px;
+}
+
+.image8Btn {
+    width: 170px;
+    border-radius: 50px;
+    padding: 10px;
+}

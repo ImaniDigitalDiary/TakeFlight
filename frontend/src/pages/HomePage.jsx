@@ -6,7 +6,7 @@ import FindFlights from '../components/homepage-components/FindFlights'
 import SponsorTravelInspo from '../components/homepage-components/SponsorTravelInspo'
 import ExploreDest from '../components/homepage-components/ExploreDest'
 import UsefulLinks from '../components/homepage-components/UsefulLinks'
-
+import CarouselTwo from '../components/homepage-components/CarouselTwo'
 
 function HomePage() {
   return (
@@ -17,6 +17,7 @@ function HomePage() {
         {/* <Map /> */}
         <ExploreDest />
         <UsefulLinks />
+        <CarouselTwo />
     </div>
   )
 }

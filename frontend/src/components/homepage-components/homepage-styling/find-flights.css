@@ -141,12 +141,12 @@ hr {
 
 
 #to {
-    width: 150px;
-    height: 18px;
+    width: 230px;
+    height: 40px;
 } 
 #from {
-    width: 150px;
-    height: 18px;
+    width: 230px;
+    height: 40px;
 }
 
 
@@ -155,9 +155,10 @@ hr {
     margin: 10px 0 5px 0;
 }
 .from {
+    /* width: 232px; */
     border: solid 1px #555;
     border-radius: 10px;
-    padding: .5rem 14px .5rem .5rem;
+    padding: 22px 14px 22px 22px;
 }
 
 .faArrowRightArrowLeft {
