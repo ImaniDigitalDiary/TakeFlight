@@ -1,14 +1,18 @@
-.findFlightsWrapper {
+
+.findFlightsContent {
 
 }
-.findFlightsContent {
-    /* width: 568px; */
-    height: 700px;
-}
 .findFlights {
-    width: 568px;
-    height: 570px;
+    width: 568px;  
+    height: auto; 
+}  
+
+
+.findFlightsForm {
+
 }
+
+
 
 /* LINKS 1 */
 .links1.books {
@@ -199,7 +203,6 @@ hr {
     
 }
 #dateInput {
-    /* width: 100%; */
     width: 230px;
     height: 46px;
     border: solid 1px #555;
@@ -257,10 +260,12 @@ hr {
 
 
 .chooseClass {
-    height: 38px;
-    padding: 8px 32px 8px 8px;
+    width: 230px;
+    height: 46px;
+    padding-left: 8px;
     border-radius: 10px;
-    margin: 20px 0 0 55px;
+    margin: 20px 0 0 25px;
+    
 }
 .chooseClass:hover {
 }
@@ -269,20 +274,23 @@ hr {
 
 /* ADVANCED SEARCH STYLES */
 .advSearchDiv {
+    width: 568px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* padding: .75rem 2.5rem .75rem 2.5rem; */
+    margin-left: 20px;
+    /* margin-bottom: 30px; */
 }
 .advSearchText {
 }
-h3 {
+.advSearchHeading {
     font-size: 16px;
     color: #1414d2;
     font-weight: 400;
+    margin-top: 5px;
 }
-p {
-    font-size: 12px;
+.para1, .para2 {
+    font-size: 14px;
 }
 .advSearchButtons {
     display: flex;
@@ -305,7 +313,7 @@ p {
     color: #1414d2;
     background-color: #fff;
     border: solid 2px #1414d2;
-    border-radius: 50px
+    border-radius: 50px;
 }
 
 
