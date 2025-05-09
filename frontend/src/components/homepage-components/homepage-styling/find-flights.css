@@ -149,10 +149,12 @@ hr {
 #to {
     width: 230px;
     height: 46px;
+    padding-left: 5px;
 } 
 #from {
     width: 230px;
     height: 46px;
+    padding-left: 5px;
 }
 
 
@@ -211,12 +213,14 @@ hr {
 .datePlaceholder {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    /* justify-content: center;   */
+
 }
 
 .calendarIcon {
     padding-left: 6px;
     color: #1414d2;
+    width: 50px;
 }
 
 /* TRAVELERS COMP FOR FINDFLIGHTS */
@@ -295,7 +299,8 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: .75rem 2.5rem .75rem 2.5rem;
+    padding-right: 50px;
+    /* padding: .75rem 2.5rem .75rem 2.5rem; */
 }
 .findFlightsBtn {
     width: 240px;
