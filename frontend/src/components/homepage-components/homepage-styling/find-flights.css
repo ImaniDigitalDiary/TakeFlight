@@ -450,9 +450,10 @@ hr {
 .annFeeBtn {
     background-color: #fff;
     color: #1414d2;
-    width: 100px;
+    width: 140px;
     border-radius: 50px;
     margin-right: 10px;
+    font-weight: bold;
 }
 .memberCard {
     width: 150px;
