@@ -393,11 +393,16 @@ hr {
     align-items: center;
     padding-top: 5px;
 }
-.bonusH4 {
+.bonusH4Wrapper {
+    padding: 30px;
+    overflow: hidden;
     display: inline-block;
+}
+.bonusH4 {
+    /* display: inline-block; */
     animation: scaleText 3s infinite cubic-bezier(0.65, 0, 0.15, 1);
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
-    font-size: 70px;
+    font-size: 55px;
     margin-left: 20px;
     letter-spacing: -3px;
     font-weight: 800;

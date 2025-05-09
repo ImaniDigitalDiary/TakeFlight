@@ -151,7 +151,9 @@ function FindFlights() {
           <div className='bonusAndAnnFee'>
             <div className='newCardBenefitsDiv'>New Card Benefits</div>
           <div className='bonus'>
-          <h4 className='bonusH4'>80,000</h4>
+            <div className='bonusH4Wrapper'>
+                <h4 className='bonusH4'>80,000</h4>
+            </div>
           <div className='bonusSpanDiv'>
             <span className='bonusSpan'>Bonus</span>
             <span className='bonusSpan'>Miles</span>
