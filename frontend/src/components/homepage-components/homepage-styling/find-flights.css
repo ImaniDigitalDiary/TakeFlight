@@ -293,7 +293,10 @@ hr {
     font-weight: 400;
     margin-top: 5px;
 }
-.para1, .para2 {
+.para1 {
+    font-size: 12px;
+}
+.para2 {
     font-size: 14px;
 }
 .advSearchButtons {
