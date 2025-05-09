@@ -149,12 +149,12 @@ hr {
 #to {
     width: 230px;
     height: 46px;
-    padding-left: 5px;
+    padding-left: 10px;
 } 
 #from {
     width: 230px;
     height: 46px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 
@@ -241,7 +241,7 @@ hr {
     border: solid 1px #555;
     border-radius: 10px;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 10px;
 
     
 
