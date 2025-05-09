@@ -122,7 +122,7 @@ function FindFlights() {
               <div className='advSearchText'>
                 <p className='advSearchHeading'>Advanced search <span><FontAwesomeIcon icon={faAngleRight} /></span></p> 
                 <p className='para1'>(Certificates, multi-city and upgrades)</p>
-                <p className='para2'>Changed bag rules and fees for optional servies</p>
+                <p className='para2'>Changed bag rules and fees <br/>for optional servies</p>
               </div>
               <div className='advSearchButtons'>
                 <button className='findFlightsBtn'>Find flights</button>
