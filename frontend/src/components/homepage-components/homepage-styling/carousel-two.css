@@ -1,3 +1,29 @@
+/* .carouselWrapper {
+  position: relative;
+}
+
+.customControls {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 20px;
+}
+
+.customControls button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.customControls button:hover {
+  color: #007bff;
+}
+
+
+
 .image6TextDiv,
 .image7TextDiv,
 .image8TextDiv {
@@ -27,4 +53,64 @@
     max-width: 500px;
     height: auto;
     border-radius: 12px;
+}
+
+.faCircleLeft, 
+.faCircleRight {
+    color: #1414d2;
+    font-size: 2rem;
+    display: flex;
+}
+ */
+
+
+.carouselWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.image6TextDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.carouselText {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.carouselImage {
+    flex: 1;
+    max-width: 50%;
+}
+
+.carouselImage img {
+    width: 100%;
+    height: auto;
+}
+
+.customControls {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.customControls button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.customControls button:hover {
+    color: #007bff;
 }
