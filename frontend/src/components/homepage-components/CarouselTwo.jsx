@@ -47,7 +47,7 @@ function CarouselTwo() {
             image: image7,
             title: 'Travel assistance that fits in your hand',
             text: 'Do the smart thing with your smart phone, Use our app to check-in for your flight, view yourboarding pass, track bags, check your flight status and binge TV shows and movies onboard.',
-            button: 'Download the app',
+            button: 'Download the app', 
             btnClass: 'image7Btn',
         },
         {
@@ -75,7 +75,7 @@ function CarouselTwo() {
                     <div className='carouselText'>
                             <h1>{slide.title}</h1> 
                             <p>{slide.text}</p> 
-                            <button className={slide.btnClass}>{slide.button}</button>
+                            <button className='btnClass'>{slide.button}</button>
                         </div>
                         <div className='carouselImage'>
                             <img src={slide.image} alt={`Slide ${i + 1}`} />

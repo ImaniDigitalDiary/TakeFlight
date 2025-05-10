@@ -97,13 +97,13 @@
     height: auto;
 }
 
-button {
+.carouselWrapper button.btnClass {
     background-color: #fff;
     color: #1414d2;
     border: solid 1px #1414d2;
-    padding: 15px 25px 15px 25px;
+    padding: 12px 40px 12px 40px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .customControls {
