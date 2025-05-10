@@ -71,7 +71,7 @@ function CarouselTwo() {
             {slides.map((slide, i) => (
                 
             <Carousel.Item key={i} className='caroItem'>
-                <div className='image6TextDiv'>
+                <div className='imageTextDiv'>
                     <div className='carouselText'>
                             <h1>{slide.title}</h1> 
                             <p>{slide.text}</p> 
