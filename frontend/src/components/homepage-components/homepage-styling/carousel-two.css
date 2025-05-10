@@ -1,43 +1,30 @@
-.image6Div {
+.image6TextDiv,
+.image7TextDiv,
+.image8TextDiv {
     display: flex;
-    flex-direction: column;
-}
-.image6 {
-    width: 500px;
-}
-
-.image6Btn {
-    width: 170px;
-    border-radius: 50px;
-    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
 }
 
-.image7Div {
-    display: flex;
-    flex-direction: column;
+.carouselText {
+    flex: 1;
+    padding-right: 40px;
 }
 
-.image7 {
-    width: 500px;
-}
-
-.image7Btn {
-    width: 170px;
-    border-radius: 50px;
-    padding: 10px;
-}
-
+.image6Div,
+.image7Div,
 .image8Div {
+    flex: 1;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
+.image6,
+.image7,
 .image8 {
-    width: 500px;
-}
-
-.image8Btn {
-    width: 170px;
-    border-radius: 50px;
-    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
 }

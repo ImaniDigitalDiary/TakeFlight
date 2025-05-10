@@ -135,14 +135,19 @@ function FindFlights() {
 
         <div className='cardAndBonus'>
           <div>
-            <Card className='card' style={{ width: '18rem' }}>
+            <Card className='customCard' 
+              style={{ 
+                width: '18rem',
+                backgroundColor: 'rgba(0,0,0,0.5)',
+                color: '#fff'
+              }}>
             <Card.Body>
-              <Card.Subtitle className='cardSubtitle mb-2 text-muted'>New in 2025</Card.Subtitle>
-              <Card.Title className='cardTitle'>Enjoy the warmth of these new TakeFlight destinations.</Card.Title>
+              <Card.Subtitle className='customCardSubtitle mb-2'>New in 2025</Card.Subtitle>
+              <Card.Title className='customCardTitle'>Enjoy the warmth of these new TakeFlight destinations.</Card.Title>
               {/* <Card.Text>
                 text placed here for the moment. i would like for it to be a card that changed w/ arrows
               </Card.Text> */}
-              <Card.Link className='cardLink' href='#'>Explore routes<FontAwesomeIcon icon={faAngleRight} /> </Card.Link>
+              <Card.Link className='customCardLink' href='#'>Explore routes<FontAwesomeIcon icon={faAngleRight} /> </Card.Link>
               {/* <Card.Link href='#'>Another Link</Card.Link> */}
             </Card.Body>
           </Card>

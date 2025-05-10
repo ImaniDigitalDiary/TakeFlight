@@ -335,29 +335,29 @@ hr {
     flex-direction: column;
     margin-right: 150px;
 }
-.card {
+.customCard {
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 1px #000;
     width: 284px;
     height: 229px;
     margin-bottom: 50px;
-    /* margin-right: 450px; */
+    color: #fff;
 }
-.cardSubtitle {
+.customCardSubtitle {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     margin: 20px 0 0 10px;
 }
-.cardTitle {
+.customCardTitle {
     font-family: "NeuePlakTextforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
     font-size: 28px;
     color: #fff;
     margin: 0 10px 10px 10px;
 }
-.cardLink {
+.customCardLink {
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
