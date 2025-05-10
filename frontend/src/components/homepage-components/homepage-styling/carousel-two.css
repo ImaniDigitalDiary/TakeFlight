@@ -103,13 +103,13 @@ button {
     border: solid 1px #1414d2;
     padding: 15px 25px 15px 25px;
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 .customControls {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: 20px;
 }
 
 .customControls button {
