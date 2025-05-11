@@ -1,7 +1,6 @@
 .usefulLinksDiv {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
     margin-top: 20px;
 }
 .usefulLinkHeading {
@@ -15,13 +14,16 @@
 
 .usefulLinkDiv {
     display: flex;
-    width: 560px;
+    width: 600px;
     border: solid 1px #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-h2 {
+.usefulLinkDiv h2 {
     letter-spacing: .5px;
+    font-size: 30px;
+    width: 400px;
+    margin-top: 15px;
 }
 p {
     font-size: 16px;
@@ -29,21 +31,25 @@ p {
 .row1 {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .row2 {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .row3 {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .usefulLinkText {
     margin-right: 150px;
     padding-left: 15px;
+    width: 380px;
 }
 .usefulLinkText p {
-    width: 350px;
+    /* width: 400px; */
 }
 .faArrowRightDiv {
     display: flex;
