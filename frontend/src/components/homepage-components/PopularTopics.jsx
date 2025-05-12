@@ -9,7 +9,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 function PopularTopics() {
   return (
-    <>
+    <div className='searchTopicsMainDiv'>
     <div className='searchTopicsWrapper'>
       <h1>Popular topics</h1>
       <div className='searchTopicsInputDiv'>
@@ -18,17 +18,22 @@ function PopularTopics() {
       </div>
       
     </div>
-    <ul>
-        <li>Wi-Fi</li>
-        <li>Change flight</li>
-        <li>United Club</li>
-        <li>Traveling with pets</li>
-        <li>MileagePlus</li>
-        <li>Baggage</li>
-        <li>Refund</li>
-        <li>Help Center</li>
-    </ul>
-    </>
+    <div className='searchTopicsLinks'>
+        <ul>
+            <li>Wi-Fi</li>
+            <li>Change flight</li>
+            <li>United Club</li>
+            <li>Traveling with pets</li>
+        </ul>
+        <ul>
+            <li>MileagePlus</li>
+            <li>Baggage</li>
+            <li>Refund</li>
+            <li>Help Center</li>
+        </ul>
+    </div>
+    
+    </div>
   )
 }
 
