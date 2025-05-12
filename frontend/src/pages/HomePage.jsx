@@ -7,6 +7,7 @@ import SponsorTravelInspo from '../components/homepage-components/SponsorTravelI
 import ExploreDest from '../components/homepage-components/ExploreDest'
 import UsefulLinks from '../components/homepage-components/UsefulLinks'
 import CarouselTwo from '../components/homepage-components/CarouselTwo'
+import PopularTopics from '../components/homepage-components/PopularTopics'
 
 function HomePage() {
   return (
@@ -18,6 +19,7 @@ function HomePage() {
         <ExploreDest />
         <UsefulLinks />
         <CarouselTwo />
+        <PopularTopics />
     </div>
   )
 }
