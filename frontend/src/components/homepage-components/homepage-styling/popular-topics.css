@@ -35,6 +35,7 @@
    display: flex;
    flex-direction: column;
    padding: 10px 0;
+   gap: 30px;
 }
 
 .searchTopicsLinks ul {
