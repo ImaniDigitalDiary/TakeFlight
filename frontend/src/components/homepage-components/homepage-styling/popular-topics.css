@@ -9,6 +9,7 @@
 }
 .searchTopicsInputDiv {
     border: solid 1px #1414d2;
+    background-color: #fff;
 }
 .searchTopicsInputDiv input {
     border: none;
