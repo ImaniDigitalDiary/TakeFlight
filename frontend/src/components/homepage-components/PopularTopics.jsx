@@ -14,7 +14,8 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { faSackDollar } from '@fortawesome/free-solid-svg-icons'
 import { faHeadset } from '@fortawesome/free-solid-svg-icons'
-
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 
 function PopularTopics() {
   return (
@@ -39,17 +40,17 @@ function PopularTopics() {
             <li><FontAwesomeIcon icon={faHeadset} className='faHeadset'/>Help Center</li>
         </ul>
     </div>
-    <div className='searchTopicsLinksFooter'>
+    <div className='searchTopicsLinksMainFooter'>
         <div>
-            <ul>
-                <li>About Take Flight</li>
-                <li>Products and services</li>
-                <li>Popular destinations</li>
-                <li>Careers</li>
+            <ul className='searchlinksFooter'>
+                <li><FontAwesomeIcon icon={faChevronDown} /> About Take Flight</li>
+                <li><FontAwesomeIcon icon={faChevronDown} /> Products and services</li>
+                <li><FontAwesomeIcon icon={faChevronDown} /> Popular destinations</li>
+                <li><FontAwesomeIcon icon={faChevronDown} /> Careers</li>
             </ul>
         </div>
-        <div>
-            Important notices
+        <div className='impNoticeDiv'>
+            <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> Important notices
         </div>
     </div>
     
