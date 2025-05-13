@@ -24,8 +24,6 @@ function PopularTopics() {
             <li>Change flight</li>
             <li>United Club</li>
             <li>Traveling with pets</li>
-        </ul>
-        <ul>
             <li>MileagePlus</li>
             <li>Baggage</li>
             <li>Refund</li>
