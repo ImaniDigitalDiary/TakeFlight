@@ -2,6 +2,7 @@ import React from 'react'
 
 
 // STYLING
+import './homepage-styling/homepage-footer.css'
     // FONT AWESOME ICONS
    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
    import { faTiktok } from '@fortawesome/free-brands-svg-icons'
@@ -17,7 +18,7 @@ function HomepageFooter() {
   return (
     <div className='homeFooterMain'>
         <div className='homeFooterDivs'>
-            <div className=''>
+            
                 <button>Search</button>
                 <p>English - United States $ | Espaol</p>
 
@@ -29,7 +30,7 @@ function HomepageFooter() {
                     <button><FontAwesomeIcon icon={faInstagram} /></button>
                     <button><FontAwesomeIcon icon={faLinkedinIn} /></button>
                 </div>
-            </div>
+       
             
         </div>
       
