@@ -8,6 +8,7 @@ import ExploreDest from '../components/homepage-components/ExploreDest'
 import UsefulLinks from '../components/homepage-components/UsefulLinks'
 import CarouselTwo from '../components/homepage-components/CarouselTwo'
 import PopularTopics from '../components/homepage-components/PopularTopics'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
         <UsefulLinks />
         <CarouselTwo />
         <PopularTopics />
+        <HomepageFooter />
     </div>
   )
 }

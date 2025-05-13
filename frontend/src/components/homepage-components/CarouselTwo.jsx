@@ -38,15 +38,15 @@ function CarouselTwo() {
     const slides = [
         {
             image: image6,
-            title: 'Tavel inspiration with you in mind',
-            text: 'Enjoy curated itineraries and hdiden gems from Hemispheres.',
+            title: 'Travel inspiration with you in mind',
+            text: 'Enjoy curated itineraries and hidden gems from Hemispheres.',
             button: 'Get inspired',
             btnClass: 'image6Btn',
         },
         {
             image: image7,
             title: 'Travel assistance that fits in your hand',
-            text: 'Do the smart thing with your smart phone, Use our app to check-in for your flight, view yourboarding pass, track bags, check your flight status and binge TV shows and movies onboard.',
+            text: 'Do the smart thing with your smart phone, Use our app to check-in for your flight, view your boarding pass, track bags, check your flight status and binge TV shows and movies onboard.',
             button: 'Download the app', 
             btnClass: 'image7Btn',
         },
