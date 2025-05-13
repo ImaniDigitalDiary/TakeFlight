@@ -30,3 +30,9 @@
     width: 200px; 
     color: #fff;
 }
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}

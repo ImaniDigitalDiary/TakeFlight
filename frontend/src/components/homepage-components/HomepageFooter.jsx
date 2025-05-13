@@ -30,9 +30,24 @@ function HomepageFooter() {
                     <FontAwesomeIcon icon={faYoutube} />
                     <FontAwesomeIcon icon={faInstagram} />
                     <FontAwesomeIcon icon={faLinkedinIn} />
-                </div>
-       
-            
+                </div>   
+        </div>
+        <div className='mainFooterLinks'>
+            <ul className='footerLinks'>
+                <li>Contract of carriage</li>
+                <li>Lengthy tarmac delay plan</li>
+                <li>Legal information</li>
+                <li>Our United Customer Commitment</li>
+                <li>Help Center</li>
+                <li>Accessible travel</li>
+                <li>Privacy Policy</li>
+
+                <li>Do Not Sell of Share My Personal Information</li>
+                <li>Interest Based Ads</li>
+                <li>Take Flight Jetstream</li>
+                <li>Cargo</li>
+            </ul>
+
         </div>
       
     </div>
