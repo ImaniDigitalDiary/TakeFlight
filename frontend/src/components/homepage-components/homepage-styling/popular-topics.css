@@ -36,7 +36,7 @@
    grid-template-columns: repeat(4, auto);
    row-gap: 15px;
    column-gap: 40px;
-   padding-left: 40px;
+   padding: 0 0 70px 40px;
 }
 
 .searchTopicsLinks ul {
@@ -49,4 +49,15 @@
 .searchTopicsLinks li {
     font-size: 16px;
     cursor: pointer;
+}
+
+.faWifi,
+.faPlane,
+.faUsers,
+.faPaw,
+.faBookmark,
+.faSuitcase,
+.faSackDollar,
+.faHeadset  {
+    
 }

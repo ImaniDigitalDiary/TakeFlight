@@ -6,6 +6,15 @@ import './homepage-styling/popular-topics.css'
 // FONT AWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faWifi } from '@fortawesome/free-solid-svg-icons'
+import { faPlane } from '@fortawesome/free-solid-svg-icons'
+import { faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faPaw } from '@fortawesome/free-solid-svg-icons'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faSackDollar } from '@fortawesome/free-solid-svg-icons'
+import { faHeadset } from '@fortawesome/free-solid-svg-icons'
+
 
 function PopularTopics() {
   return (
@@ -20,14 +29,14 @@ function PopularTopics() {
     </div>
     <div className='searchTopicsLinks'>
         <ul>
-            <li>Wi-Fi</li>
-            <li>Change flight</li>
-            <li>United Club</li>
-            <li>Traveling with pets</li>
-            <li>MileagePlus</li>
-            <li>Baggage</li>
-            <li>Refund</li>
-            <li>Help Center</li>
+            <li><FontAwesomeIcon icon={faWifi} className='faWifi'/>Wi-Fi</li>
+            <li><FontAwesomeIcon icon={faPlane} className='faPlane'/>Change flight</li>
+            <li><FontAwesomeIcon icon={faUsers} className='faUsers'/>United Club</li>
+            <li><FontAwesomeIcon icon={faPaw} className='faPaw'/>Traveling with pets</li>
+            <li><FontAwesomeIcon icon={faBookmark} className='faBookmark'/>MileagePlus</li>
+            <li><FontAwesomeIcon icon={faSuitcase} className='faSuitcase'/>Baggage</li>
+            <li><FontAwesomeIcon icon={faSackDollar} className='faSackDollar'/>Refund</li>
+            <li><FontAwesomeIcon icon={faHeadset} className='faHeadset'/>Help Center</li>
         </ul>
     </div>
     
