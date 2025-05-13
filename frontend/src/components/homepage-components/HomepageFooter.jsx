@@ -11,6 +11,7 @@ import './homepage-styling/homepage-footer.css'
    import { faYoutube } from '@fortawesome/free-brands-svg-icons'
    import { faInstagram } from '@fortawesome/free-brands-svg-icons'
    import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+   import { faGlobe } from '@fortawesome/free-solid-svg-icons'
    
 
 
@@ -20,15 +21,15 @@ function HomepageFooter() {
         <div className='homeFooterDivs'>
             
                 <button>Search</button>
-                <p>English - United States $ | Espaol</p>
+                <h6><FontAwesomeIcon icon={faGlobe} className='faGlobe fa-lg' />English - United States $ | Espaol</h6>
 
                 <div className='socialIcons'>
-                    <button><FontAwesomeIcon icon={faTiktok} /></button>
-                    <button><FontAwesomeIcon icon={faFacebook} /></button>
-                    <button><FontAwesomeIcon icon={faXTwitter} /></button>
-                    <button><FontAwesomeIcon icon={faYoutube} /></button>
-                    <button><FontAwesomeIcon icon={faInstagram} /></button>
-                    <button><FontAwesomeIcon icon={faLinkedinIn} /></button>
+                    <FontAwesomeIcon icon={faTiktok} />
+                    <FontAwesomeIcon icon={faFacebook} />
+                    <FontAwesomeIcon icon={faXTwitter} />
+                    <FontAwesomeIcon icon={faYoutube} />
+                    <FontAwesomeIcon icon={faInstagram} />
+                    <FontAwesomeIcon icon={faLinkedinIn} />
                 </div>
        
             

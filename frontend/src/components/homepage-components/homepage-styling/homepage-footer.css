@@ -1,5 +1,32 @@
+.homeFooterMain {
+    background-color: #000;
+}
 .homeFooterDivs {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.homeFooterDivs button {
+    width: 170px;
+    height: 55px;
+    background-color: #fff;
+    border: solid 2px #1414d2;
+    border-radius: 50px;
+}
+.homeFooterDivs h6 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.faGlobe {
+    padding-right: 10px;
+}
+.socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px; 
+    color: #fff;
 }
