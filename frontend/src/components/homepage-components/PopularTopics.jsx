@@ -39,6 +39,19 @@ function PopularTopics() {
             <li><FontAwesomeIcon icon={faHeadset} className='faHeadset'/>Help Center</li>
         </ul>
     </div>
+    <div className='searchTopicsLinksFooter'>
+        <div>
+            <ul>
+                <li>About Take Flight</li>
+                <li>Products and services</li>
+                <li>Popular destinations</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div>
+            Important notices
+        </div>
+    </div>
     
     </div>
   )
