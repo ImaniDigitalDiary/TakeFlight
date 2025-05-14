@@ -33,22 +33,26 @@ function HomepageFooter() {
                 </div>   
         </div>
         <div className='mainFooterLinks'>
-            <ul className='footerLinks'>
-                <li>Contract of carriage</li>
+            <ul className='footerLinks1'>
+                <li className='list1'>Contract of carriage</li>
                 <li>Lengthy tarmac delay plan</li>
                 <li>Legal information</li>
                 <li>Our United Customer Commitment</li>
                 <li>Help Center</li>
                 <li>Accessible travel</li>
-                <li>Privacy Policy</li>
-
-                <li>Do Not Sell of Share My Personal Information</li>
+                <li className='list7'>Privacy Policy</li>
+            </ul>
+            <ul className='footerLinks2'>
+                <li className='list8'>Do Not Sell of Share My Personal Information</li>
                 <li>Interest Based Ads</li>
                 <li>Take Flight Jetstream</li>
-                <li>Cargo</li>
+                <li className='list11'>Cargo</li>
             </ul>
-
+                
+            
         </div>
+        <p>Indicates an external site that may or may not meet accessibility guidelines. 
+            Copyright © 2025 United Airlines, Inc. All rights reserved.</p>
       
     </div>
   )
