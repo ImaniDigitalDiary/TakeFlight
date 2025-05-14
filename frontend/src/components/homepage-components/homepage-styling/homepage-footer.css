@@ -31,8 +31,17 @@
     color: #fff;
 }
 
+.mainFooterLinks {
+   display: grid;
+   grid-template-columns: repeat(7, auto);
+
+}
+
 .footerLinks {
-    display: flex;
-    flex-direction: row;
+    display: contents;
+    list-style: none;
     color: #fff;
+}
+.footerLinks li {
+    /* display: flex; */
 }
