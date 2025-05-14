@@ -40,8 +40,6 @@
 .footerLinks {
     display: contents;
     list-style: none;
-    color: #fff;
+    color: #7baefb;
 }
-.footerLinks li {
-    /* display: flex; */
-}
+
