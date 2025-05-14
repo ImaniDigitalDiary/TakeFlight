@@ -32,9 +32,6 @@
 }
 
 .mainFooterLinks {
-   display: grid;
-   /* align-items: center; */
-   /* grid-template-columns: repeat(7, auto); */
    padding: 30px 0 30px 0px; 
    row-gap: 10px;
 }
@@ -42,6 +39,11 @@
 .footerLinks1 {
     display: flex;
     justify-content:space-around;
+    color: #7baefb;
+}
+.footerLinks2 {
+    display: flex;
+    justify-content: space-around;
     color: #7baefb;
 }
 

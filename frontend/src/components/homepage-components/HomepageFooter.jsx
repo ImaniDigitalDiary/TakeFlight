@@ -21,7 +21,7 @@ function HomepageFooter() {
         <div className='homeFooterDivs'>
             
                 <button>Search</button>
-                <h6><FontAwesomeIcon icon={faGlobe} className='faGlobe fa-lg' />English - United States $ | Espaol</h6>
+                <h6><FontAwesomeIcon icon={faGlobe} className='faGlobe fa-lg' />English - United States $ | Esp<span>&#241;</span>aol</h6>
 
                 <div className='socialIcons'>
                     <FontAwesomeIcon icon={faTiktok} />
