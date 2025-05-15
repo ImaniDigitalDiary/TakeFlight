@@ -14,7 +14,12 @@
     background-color: #fff;
     border: solid 2px #1414d2;
     border-radius: 50px;
+    color: #1414d2;
 }
+.faMagnifyingGlass {
+    padding-right: 10px;
+}
+
 .homeFooterDivs h6 {
     font-size: 12px;
     display: flex;
@@ -36,11 +41,12 @@
    row-gap: 10px;
    display: grid;
    grid-template-columns: repeat(7, auto);
+   justify-content: space-between;
 }
 
 .footerLinks1 {
-    display: flex;
-    justify-content:space-around;
+    /* display: flex; */
+    /* justify-content:space-around; */
     color: #7baefb;
 
     display: contents;
@@ -48,8 +54,8 @@
     margin: 0;
 }
 .footerLinks2 {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
     color: #7baefb;
 
     display: contents;
@@ -61,6 +67,7 @@
 .homeFooterMain p {
     color: #fff;
     margin: auto;
+    text-align: center;
 }
 .faArrowUpRightFromSquare {
     padding-right: 10px;

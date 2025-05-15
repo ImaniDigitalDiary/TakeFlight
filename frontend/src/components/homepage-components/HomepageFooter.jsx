@@ -5,6 +5,7 @@ import React from 'react'
 import './homepage-styling/homepage-footer.css'
     // FONT AWESOME ICONS
    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+   import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
    import { faTiktok } from '@fortawesome/free-brands-svg-icons'
    import {faFacebook} from '@fortawesome/free-brands-svg-icons'
    import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -21,7 +22,7 @@ function HomepageFooter() {
     <div className='homeFooterMain'>
         <div className='homeFooterDivs'>
             
-                <button>Search</button>
+                <button><FontAwesomeIcon icon={faMagnifyingGlass} className='faMagnifyingGlass'/>Search</button>
                 <h6><FontAwesomeIcon icon={faGlobe} className='faGlobe fa-lg' />English - United States $ | Espa<span>&#241;</span>ol</h6>
 
                 <div className='socialIcons'>
@@ -35,19 +36,19 @@ function HomepageFooter() {
         </div>
         <div className='mainFooterLinks'>
             <ul className='footerLinks1'>
-                <li className='list1'>Contract of carriage</li>
+                <li>Contract of carriage</li>
                 <li>Lengthy tarmac delay plan</li>
                 <li>Legal information</li>
                 <li>Our United Customer Commitment</li>
                 <li>Help Center</li>
                 <li>Accessible travel</li>
-                <li className='list7'>Privacy Policy</li>
+                <li>Privacy Policy</li>
             </ul>
             <ul className='footerLinks2'>
-                <li className='list8'>Do Not Sell of Share My Personal Information</li>
+                <li>Do Not Sell of Share My Personal Information</li>
                 <li>Interest Based Ads</li>
                 <li>Take Flight Jetstream</li>
-                <li className='list11'>Cargo</li>
+                <li>Cargo</li>
             </ul>
                 
             
