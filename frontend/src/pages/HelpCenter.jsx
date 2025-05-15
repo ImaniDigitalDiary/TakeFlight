@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
+// STYLING
+import '../styling/help-center.css'
+
 function HelpCenter() {
   return (
     <>
@@ -8,10 +11,12 @@ function HelpCenter() {
     <div className='helpCenterPageMainDiv'>
       <div className='helpCenterDiv1'>
         <h1>Help Center</h1>
-        <p>Find or select a flight for help with with a trip.</p>
-        <ul>
-          <li>Looking for something else?</li>
-        </ul>
+          <p className='helpCenterDiv1Li1'>
+            Find or select a flight for help with with a trip.
+            <br />
+            <span>Looking for something else?</span>
+          </p>
+          
       </div>
       <div className='helpCenterDiv2'>
         <h2>Which trip do you need help with?</h2>
