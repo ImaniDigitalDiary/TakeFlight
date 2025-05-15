@@ -12,6 +12,7 @@ import './homepage-styling/homepage-footer.css'
    import { faInstagram } from '@fortawesome/free-brands-svg-icons'
    import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
    import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+   import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
    
 
 
@@ -51,7 +52,8 @@ function HomepageFooter() {
                 
             
         </div>
-        <p>Indicates an external site that may or may not meet accessibility guidelines. 
+        <p><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='faArrowUpRightFromSquare'/>
+            Indicates an external site that may or may not meet accessibility guidelines. 
             Copyright © 2025 United Airlines, Inc. All rights reserved.</p>
       
     </div>
