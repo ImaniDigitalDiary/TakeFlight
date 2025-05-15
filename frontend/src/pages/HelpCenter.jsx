@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function HelpCenter() {
   return (
+    <>
+    <Navbar />
     <div className='helpCenterPageMainDiv'>
-      
       <div className='helpCenterDiv1'>
         <h1>Help Center</h1>
         <p>Find or select a flight for help with with a trip.</p>
@@ -21,6 +23,7 @@ function HelpCenter() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
