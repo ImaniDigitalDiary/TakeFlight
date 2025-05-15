@@ -34,9 +34,9 @@ function Navbar() {
       <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
       <li className='navLink1'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink1'>Help <FontAwesomeIcon icon={faChevronRight} /></li>
+      <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon icon={faChevronRight} /></Link>
     </ul>
-    
+   
     <ul className='navLinks2'>
       <li className='navLink2 globe'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
       <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>

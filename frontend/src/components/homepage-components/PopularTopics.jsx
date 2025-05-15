@@ -32,7 +32,7 @@ function PopularTopics() {
         <ul>
             <li><FontAwesomeIcon icon={faWifi} className='faWifi'/>Wi-Fi</li>
             <li><FontAwesomeIcon icon={faPlane} className='faPlane'/>Change flight</li>
-            <li><FontAwesomeIcon icon={faUsers} className='faUsers'/>United Club</li>
+            <li><FontAwesomeIcon icon={faUsers} className='faUsers'/>Take Flight Club</li>
             <li><FontAwesomeIcon icon={faPaw} className='faPaw'/>Traveling with pets</li>
             <li><FontAwesomeIcon icon={faBookmark} className='faBookmark'/>MileagePlus</li>
             <li><FontAwesomeIcon icon={faSuitcase} className='faSuitcase'/>Baggage</li>
