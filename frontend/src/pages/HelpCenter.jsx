@@ -11,10 +11,10 @@ function HelpCenter() {
     <div className='helpCenterPageMainDiv'>
       <div className='helpCenterDiv1'>
         <h1>Help Center</h1>
-          <p className='helpCenterDiv1Li1'>
+          <p className='helpCenterDiv1Para'>
             Find or select a flight for help with with a trip.
             <br />
-            <span>Looking for something else?</span>
+            <a className='helpCenterDiv1Link'>Looking for something else?</a>
           </p>
           
       </div>

@@ -1,0 +1,15 @@
+.helpCenterPageMainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.helpCenterDiv1 h1 {
+    font-weight: bold;
+}
+.helpCenterDiv1Para {
+    font-size: 16px;
+}
+.helpCenterDiv1Link {
+    font-size: 16px;
+    color:blue;
+}
