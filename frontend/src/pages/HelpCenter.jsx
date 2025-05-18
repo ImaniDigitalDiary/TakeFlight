@@ -1,12 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
+
+
 // STYLING
 import '../styling/help-center.css'
+  // FONT AWESOME ICONS
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 function HelpCenter() {
   return (
-    <>
+    <div className='helpCenterPage'>
     <Navbar />
     <div className='helpCenterPageMainDiv'>
       <div className='helpCenterDiv1'>
@@ -19,16 +24,23 @@ function HelpCenter() {
           
       </div>
       <div className='helpCenterDiv2'>
-        <h2>Which trip do you need help with?</h2>
-        <div>
-          <h4>Sign in to MileagePlus</h4>
-          <p>We can use your account information to find your trips.</p>
-          <button className='signInBtn'>Sign in</button>
-          <button className='joinNowBtn'>Join now</button>
-        </div>
+        <h3>Which trip do you need help with?</h3>
+        <div className="mileagePlusMainDiv">
+          <div className='mileagePlusTextAndIcon'> 
+            <FontAwesomeIcon icon={faBookmark} className='fa-xl' /> 
+            <div className='mileagePlusText'>
+              <h4>Sign in to MileagePlus</h4>
+              <p>We can use your account information to find your trips.</p> 
+            </div>              
+          </div>
+          <div className='mileagePlusBtns'>
+              <button className='signInBtn'>Sign in</button>
+              <button className='joinNowBtn'>Join now</button>
+          </div>
+        </div>     
       </div>
     </div>
-    </>
+    </div>
   )
 }
 
