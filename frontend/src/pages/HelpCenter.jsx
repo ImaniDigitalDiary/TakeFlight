@@ -39,6 +39,21 @@ function HelpCenter() {
           </div>
         </div>     
       </div>
+
+      {/* HELP CENTER DIV3 */}
+      <div className='helpCenterDiv3'>
+        <button>Find a trip</button>
+        <h3>Let's start by finding your trip:</h3>
+        <label htmlFor="confirmationNumber">
+          Confirmation Number
+        </label>
+        <input type="text" />
+        <label htmlFor="lastName">
+          Last Name
+        </label>
+        <input type="text" />
+        <button>Search</button>
+      </div>
     </div>
     </div>
   )
