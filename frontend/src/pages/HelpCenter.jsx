@@ -43,7 +43,7 @@ function HelpCenter() {
       {/* HELP CENTER DIV3 */}
       <div className='helpCenterDiv3'>
         <button className='findTripBtn'>Find a trip</button>
-        <div className='findTripMainDiv'>
+        <div className='findTripDiv'>
           <h3>Let's start by finding your trip:</h3>
           <div className='findTripInputsAndBtn'>
             <div className='confirmNum'>
