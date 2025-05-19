@@ -53,8 +53,7 @@ function HelpCenter() {
             <div className='lastName'>
               <label htmlFor="lastName">Last name*</label>
               <input type="text" />
-            </div>
-               
+            </div>         
             <button>Search</button>
           </div>     
         </div>     

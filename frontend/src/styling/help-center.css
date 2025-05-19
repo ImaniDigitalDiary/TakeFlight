@@ -127,11 +127,23 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
+}
+.findTripInputsAndBtn button {
+    width: 135px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 
+
 .confirmNum, 
-.lastName {
+.lastName{
     display: flex;
     flex-direction: column;
+}
+.confirmNum input,
+.lastName  input {
+    width: 304px;
+    height: 42px;
 }
