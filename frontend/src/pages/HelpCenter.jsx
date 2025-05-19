@@ -42,17 +42,22 @@ function HelpCenter() {
 
       {/* HELP CENTER DIV3 */}
       <div className='helpCenterDiv3'>
-        <button>Find a trip</button>
-        <h3>Let's start by finding your trip:</h3>
-        <label htmlFor="confirmationNumber">
-          Confirmation Number
-        </label>
-        <input type="text" />
-        <label htmlFor="lastName">
-          Last Name
-        </label>
-        <input type="text" />
-        <button>Search</button>
+        <button className='findTripBtn'>Find a trip</button>
+        <div className='findTripMainDiv'>
+          <h3>Let's start by finding your trip:</h3>
+          <div className='findTripInputsAndBtn'>
+            <div className='confirmNum'>
+              <label htmlFor="confirmNum">Confirmation number*</label>
+              <input type="text" />
+            </div>
+            <div className='lastName'>
+              <label htmlFor="lastName">Last name*</label>
+              <input type="text" />
+            </div>
+               
+            <button>Search</button>
+          </div>     
+        </div>     
       </div>
     </div>
     </div>

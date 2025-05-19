@@ -1,3 +1,4 @@
+/* HELP CENTER DIV 1 */
 .helpCenterPage {
     font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
 }
@@ -22,7 +23,7 @@
 }
 
 
-
+/* HELP CENTER DIV 2 */
 .helpCenterDiv2 {
     display: flex;
     flex-direction: column;
@@ -84,4 +85,46 @@
     border: solid 2px #1414d2;
     color: #1414d2;
     font-weight: 600;
+}
+
+
+/* HELP CENTER DIV 3 */
+.helpCenterDiv3 {
+    display: flex;
+    flex-direction: column;
+    width: 1135px;
+    height: 295px;
+    border: solid 1px #000;
+}
+
+.findTripBtn {
+    border: none;
+    background-color: #fff;
+    color: #1414d2;
+    font-weight: bold;
+    letter-spacing: .3px;
+    border-top: solid 3px #1414d2;
+}
+
+.findTripMainDiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.findTripMainDiv h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.findTripInputsAndBtn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.confirmNum, 
+.lastName {
+    display: flex;
+    flex-direction: column;
 }
