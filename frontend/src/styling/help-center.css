@@ -41,7 +41,7 @@
    align-self: center;
    width: 1135px;
    height: 114px;
-   box-shadow: 2px 2px 6px 3px rgba(163, 162, 162, 0.4);
+   box-shadow: 2px 2px 6px 3px rgba(202, 202, 202, 0.4);
 }
 
 .mileagePlusTextAndIcon {
@@ -93,24 +93,20 @@
     display: flex;
     flex-direction: column;
     width: 1135px;
-    height: 240px;
-    border: solid 1px #000;
+    height: 280px;
+    box-shadow: 2px 2px 6px 3px rgba(202, 202, 202, 0.4);
     margin: 20px 0 0 150px;
+    border-radius: 5px;
 }
-
-
-/* .findTripMainDiv {
-    display: flex;
-    flex-direction: column;
-} */
 .findTripBtn {
     border: none;
     background-color: #fff;
     color: #1414d2;
     font-weight: bold;
     letter-spacing: .3px;
-    border-top: solid 3px #1414d2;
+    border-top: solid 5px #1414d2;
     padding-top: 15px;
+    border-radius: 5px;
 }
 
 .findTripDiv {
@@ -132,8 +128,11 @@
 .findTripInputsAndBtn button {
     width: 135px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 50px;
+    background-color: #1414d2;
+    color: #fff;
+    border: none;
 }
 
 
@@ -142,6 +141,12 @@
 .lastName{
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+}
+.confirmNum label,
+.lastName label {
+    font-size: 16px;
+    letter-spacing: .8px;
 }
 .confirmNum input,
 .lastName  input {
