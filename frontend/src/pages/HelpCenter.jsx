@@ -1,5 +1,8 @@
 import React from 'react'
+
+// COMPONENTS
 import Navbar from '../components/Navbar'
+import HelpWithToday from '../components/help-page-components/HelpWithToday'
 
 
 
@@ -58,6 +61,10 @@ function HelpCenter() {
           </div>     
         </div>     
       </div>
+
+      <HelpWithToday />
+
+      
     </div>
     </div>
   )
