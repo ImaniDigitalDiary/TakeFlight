@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 
 // STYLING
-import '../styling/help-center.css'
+import '../components/help-page-components/help-page-styling/help-center.css'
   // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
