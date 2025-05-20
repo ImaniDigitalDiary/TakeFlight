@@ -300,6 +300,24 @@ const SeatsAndUpgrades = () => (
     </>
 )
 
+const SpecialtyDesks = () => (
+    <>
+    <h3>Specialty desks</h3>
+    <p>Information for traveling with groups, for business meetings or using Take Flight PerksPlus.</p>
+
+    <ul>
+        <li>Traveling with groups</li>
+        <p>Servies, pricing and other informaiton on Take Flight Groups</p>
+
+        <li>Traveling for meetings</li>
+        <p>Services, pricing and other informaiton on Take Flight Meetings</p>
+
+        <li>Take Flight PerksPlus</li>
+        <p>See how your company can earn points and rewards with us</p>
+    </ul>
+    </>
+)
+
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and assistance': <AccessibilityAndAssistance />,
@@ -314,6 +332,7 @@ const SeatsAndUpgrades = () => (
         'MyMileagePlus account': <MyMileagePlus />,
         'Refunds and receipts': <RefundsAndReceipts />,
         'Seats and upgrades': <SeatsAndUpgrades />,
+        'Specialty desks': <SpecialtyDesks />,
     }
 
 const HelpWithToday = () => {
