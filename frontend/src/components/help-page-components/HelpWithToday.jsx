@@ -1,12 +1,16 @@
 import React, {useState} from 'react'
 
-// individual components for each button
+// STYLING\
+import './help-page-styling/help-with-today.css'
 
-// ACCESSIBILITY AND ASSISTANCE //
+// individual components for each button
 const AccessibilityAndAssistance = () => (
     <>
-    <h3>Accessibility and assistance</h3>
-    <p>What to know when you're traveling with a wheelchair, a service dog or need extra assisstance with your trip.</p>
+    <div className='divMain'>
+        <div className='headingDiv'>
+            <h3>Accessibility and assistance</h3>
+            <p>What to know when you're traveling with a wheelchair, a service dog or need extra assisstance with your trip.</p>
+        </div>
     <ul>
         <li>Wheelchair Assistance</li>
         <p>How to request and info on checking yours</p>
@@ -29,13 +33,18 @@ const AccessibilityAndAssistance = () => (
         <li>Oxygen</li>
         <p>What to do if you need to bring oxygen on board</p>
     </ul>
+    </div>
     </>
+    
 )
 
 const Baggage = () => (
     <>
-    <h3>Baggage</h3>
-    <p>Answers to your questions about checking, carrying on, paying for and tracking your bags.</p>
+    <div className='headingDiv'>
+        <h3>Baggage</h3>
+        <p>Answers to your questions about checking, carrying on, paying for and tracking your bags.</p>
+    </div>
+    
     <ul>
         <li>Baggage fee calculator</li>
         <p>See what it will cost to check your bags</p>
@@ -63,9 +72,11 @@ const Baggage = () => (
 
 const Booking = () => (
     <>
-    <h3>Booking a trip</h3>
-    <p>Find out everything you need to know, from booking a flight to using travel credits.</p>
-
+    <div className='headingDiv'>
+        <h3>Booking a trip</h3>
+        <p>Find out everything you need to know, from booking a flight to using travel credits.</p>
+    </div>
+    
     <ul>
         <li>Book a flight</li>
         <p>Let's get started with a new trip</p>
@@ -90,8 +101,10 @@ const Booking = () => (
 
 const ChildrenAndInfants = () => (
     <>
-    <h3>Children and infants</h3>
-    <p>Tips and information if you'll be traveling with little ones.</p>
+    <div className='headingDiv'>
+        <h3>Children and infants</h3>
+        <p>Tips and information if you'll be traveling with little ones.</p>
+    </div>
 
     <ul>
         <li>Traveling with children</li>
@@ -111,8 +124,10 @@ const ChildrenAndInfants = () => (
 
 const CustomerCare = () => (
     <>
-    <h3>Customer care</h3>
-    <p>Share your feedback or get in touch.</p>
+    <div className="headingDiv">
+        <h3>Customer care</h3>
+        <p>Share your feedback or get in touch.</p>
+    </div>
 
     <ul>
         <li>Customer care</li>
@@ -125,8 +140,10 @@ const CustomerCare = () => (
 
 const DigitalTrustCenter = () => (
     <>
-    <h3>Digital Trust Center</h3>
-    <p>Learn about Take Flight's commitment to the transparent use of your data and your data privacy rights.</p>
+    <div className="headingDiv">
+        <h3>Digital Trust Center</h3>
+        <p>Learn about Take Flight's commitment to the transparent use of your data and your data privacy rights.</p>
+    </div>
 
     <ul>
         <li>How does Take Flight use and protect my personal data?</li>
@@ -140,8 +157,10 @@ const DigitalTrustCenter = () => (
 
 const HelpWithTrips = () => (
     <>
-    <h3>Help with trips</h3>
-    <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
+    <div className="headingDiv">
+        <h3>Help with trips</h3>
+        <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
+    </div>
     
     <ul>
         <li>TSA PreCheck</li>
@@ -176,8 +195,10 @@ const HelpWithTrips = () => (
 
 const HotelCarPackages = () => (
     <>
-    <h3>Hotels, Cars, Cruises and Vacation packages</h3>
-    <p>Support with everything you'll need and want to do once you're off the plane.</p>
+    <div className="headingDiv">
+        <h3>Hotels, Cars, Cruises and Vacation packages</h3>
+        <p>Support with everything you'll need and want to do once you're off the plane.</p>
+    </div>
     
     <ul>
         <li>Take Flight Packages</li>
@@ -197,8 +218,10 @@ const HotelCarPackages = () => (
 
 const InternationalTravel = () => (
     <>
-    <h3>International travel</h3>
-    <p>What you need to bring if you're traveling abroad.</p>
+    <div className="headingDiv">
+        <h3>International travel</h3>
+        <p>What you need to bring if you're traveling abroad.</p>
+    </div>
 
     <ul>
         <li>International travel documents</li>
@@ -212,9 +235,11 @@ const InternationalTravel = () => (
 
 const MyMileagePlus = () => (
     <>
-    <h3>My MileagePlus account</h3>
-    <p>Update your account info, check on your award miles balance, help accessing your account and more.</p>
-
+    <div className="headingDiv">
+        <h3>My MileagePlus account</h3>
+        <p>Update your account info, check on your award miles balance, help accessing your account and more.</p>
+    </div>
+    
     <ul>
         <li>TravelBank</li>
         <p>What you need to know and how to use it</p>
@@ -251,8 +276,10 @@ const MyMileagePlus = () => (
 
 const RefundsAndReceipts = () => (
     <>
-    <h3>Refunds and receipts</h3>
-    <p>Request a refund, check the status of one or search for a receipt.</p>
+    <div className="headingDiv">
+        <h3>Refunds and receipts</h3>
+        <p>Request a refund, check the status of one or search for a receipt.</p>
+    </div> 
 
     <ul>
         <li>Refund policy</li>
@@ -275,9 +302,11 @@ const RefundsAndReceipts = () => (
 
 const SeatsAndUpgrades = () => (
     <>
-    <h3>Seats and upgrades</h3>
-    <p>We're here to help you find your favorite seat and fly in comfort.</p>
-
+    <div className="headingDiv">
+        <h3>Seats and upgrades</h3>
+        <p>We're here to help you find your favorite seat and fly in comfort.</p>
+    </div>
+    
     <ul>
         <li>Seat options</li>
         <p>See all our seat types and cabin options</p>
@@ -302,9 +331,11 @@ const SeatsAndUpgrades = () => (
 
 const SpecialtyDesks = () => (
     <>
-    <h3>Specialty desks</h3>
-    <p>Information for traveling with groups, for business meetings or using Take Flight PerksPlus.</p>
-
+    <div className="headingDiv">
+        <h3>Specialty desks</h3>
+        <p>Information for traveling with groups, for business meetings or using Take Flight PerksPlus.</p>
+    </div>
+    
     <ul>
         <li>Traveling with groups</li>
         <p>Servies, pricing and other informaiton on Take Flight Groups</p>
@@ -320,8 +351,10 @@ const SpecialtyDesks = () => (
 
 const TravelingWithPets = () => (
     <>
-    <h3>Traveling with pets</h3>
-    <p>Everything you need to know before you bring your four-legged friend on board.</p>
+    <div className="headingDiv">
+        <h3>Traveling with pets</h3>
+        <p>Everything you need to know before you bring your four-legged friend on board.</p>
+    </div>
 
     <ul>
         <li>In-cabin pets</li>
@@ -332,9 +365,11 @@ const TravelingWithPets = () => (
 
 const TakeFlightClub = () => (
     <>
-    <h3>Take Flight Club and lounges</h3>
-    <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
-
+    <div className="headingDiv">
+        <h3>Take Flight Club and lounges</h3>
+        <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
+    </div>
+    
     <ul>
         <li>Hours</li>
         <p>See when Take Flight locations and lounges are open</p>
@@ -371,36 +406,47 @@ const HelpWithToday = () => {
   const [selectedTopic, setSelectedTopic] = useState("Wheelchair assistance");
 
   return (
-    <div style={{ display: "flex", height: "100vh", fontFamily: "Arial, sans-serif" }}>
-      {/* Sidebar with buttons */}
-      <div style={{ width: "260px", borderRight: "1px solid #ddd", padding: "1rem", background: "#f9f9f9" }}>
-        {Object.keys(contentMap).map((topic) => (
-          <button
-            key={topic}
-            onClick={() => setSelectedTopic(topic)}
-            style={{
-              display: "block",
-              width: "100%",
-              padding: "10px",
-              marginBottom: "8px",
-              backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
-              border: "1px solid #ccc",
-              borderRadius: "5px",
-              textAlign: "left",
-              cursor: "pointer",
-              fontWeight: selectedTopic === topic ? "bold" : "normal"
-            }}
-          >
-            {topic}
-          </button>
-        ))}
-      </div>
+    <div className="helpMainDiv">
+        <div className='mainRightDiv' 
+            style={{ 
+                display: 'flex',
+                justifyContent: 'center'
+            }}>
+            {/* Sidebar with buttons */}
+            <div style={{ 
+                width: "260px", 
+                borderRight: "1px solid #ddd", 
+                padding: "1rem", 
+                background: "#f9f9f9" }}>
+                {Object.keys(contentMap).map((topic) => (
+                <button
+                    key={topic}
+                    onClick={() => setSelectedTopic(topic)}
+                    style={{
+                    display: "block",
+                    width: "100%",
+                    padding: "10px",
+                    marginBottom: "8px",
+                    backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
+                    border: "1px solid #ccc",
+                    borderRadius: "5px",
+                    textAlign: "left",
+                    cursor: "pointer",
+                    fontWeight: selectedTopic === topic ? "bold" : "normal"
+                    }}
+                >
+                    {topic}
+                </button>
+                ))}
+            </div>
 
-      {/* Content area */}
-      <div style={{ flex: 1, padding: "2rem" }}>
-        {contentMap[selectedTopic]}
-      </div>
+            {/* Content area */}
+            <div className='contentDiv' style={{ flex: 1, padding: "2rem" }}>
+                {contentMap[selectedTopic]}
+            </div>
+        </div>
     </div>
+    
   );
 };
 

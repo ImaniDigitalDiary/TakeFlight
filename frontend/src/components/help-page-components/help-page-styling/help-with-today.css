@@ -1,0 +1,26 @@
+.helpMainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.mainDiv {
+
+}
+
+.headingDiv {
+    padding-left: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+li {
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
