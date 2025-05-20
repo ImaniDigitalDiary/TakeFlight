@@ -174,6 +174,26 @@ const HelpWithTrips = () => (
     </>
 )
 
+const HotelCarPackages = () => (
+    <>
+    <h3>Hotels, Cars, Cruises and Vacation packages</h3>
+    <p>Support with everything you'll need and want to do once you're off the plane.</p>
+    
+    <ul>
+        <li>Take Flight Packages</li>
+        <p>Information and booking</p>
+
+        <li>Car rentals</li>
+        <p>Information and reservations</p>
+
+        <li>Take Flight Hotels</li>
+        <p>Book a room or see your reservation</p>
+
+        <li>Take Flight Cruises</li>
+        <p>Information and tickets</p>
+    </ul>
+    </>
+)
 
     // ****Map string keys to JSX components****
     const contentMap = {
@@ -184,6 +204,7 @@ const HelpWithTrips = () => (
         'Customer Care': <CustomerCare />,
         'Digital Trust Center': <DigitalTrustCenter />,
         'Help With Trips': <HelpWithTrips />,
+        'Hotel Car Packages': <HotelCarPackages />,
     }
 
 const HelpWithToday = () => {
