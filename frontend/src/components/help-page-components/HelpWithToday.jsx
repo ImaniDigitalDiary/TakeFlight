@@ -138,6 +138,42 @@ const DigitalTrustCenter = () => (
     </>
 )
 
+const HelpWithTrips = () => (
+    <>
+    <h3>Help with trips</h3>
+    <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
+    
+    <ul>
+        <li>TSA PreCheck</li>
+        <p>Get through security faster with a Known Traveler Numbers</p>
+
+        <li>Global Entry</li>
+        <p>Make international travel easier</p>
+
+        <li>Changing or canceling a trip</li>
+        <p>What to do when your plans change</p>
+
+        <li>Missed, delayed and canceled flights</li>
+        <p>What to do if there's a change to your flight's schedule</p>
+
+        <li>Flight status</li>
+        <p>Check your flight time, standby list position and more</p>
+
+        <li>Check-in</li>
+        <p>What you need, and when and how to do it</p>
+
+        <li>Travel alerts</li>
+        <p>Check for any travel-related alerts or waivers</p>
+
+        <li>What to expect</li>
+        <p>Learn what to expect when you get to the airport</p>
+
+        <li>COVID-19 guidelines</li>
+        <p>Find the latest travel policies and restrictions</p>
+    </ul>
+    </>
+)
+
 
     // ****Map string keys to JSX components****
     const contentMap = {
@@ -147,6 +183,7 @@ const DigitalTrustCenter = () => (
         'Children and Infants': <ChildrenAndInfants />,
         'Customer Care': <CustomerCare />,
         'Digital Trust Center': <DigitalTrustCenter />,
+        'Help With Trips': <HelpWithTrips />,
     }
 
 const HelpWithToday = () => {
