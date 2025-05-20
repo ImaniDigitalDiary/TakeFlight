@@ -195,16 +195,72 @@ const HotelCarPackages = () => (
     </>
 )
 
+const InternationalTravel = () => (
+    <>
+    <h3>International travel</h3>
+    <p>What you need to bring if you're traveling abroad.</p>
+
+    <ul>
+        <li>International travel documents</li>
+        <p>Learn what documents you need for your trips</p>
+
+        <li>Travel requirements</li>
+        <p>Helpful links and destination informaiton for your international trip</p>
+    </ul>
+    </>
+)
+
+const MyMileagePlus = () => (
+    <>
+    <h3>My MileagePlus account</h3>
+    <p>Update your account info, check on your award miles balance, help accessing your account and more.</p>
+
+    <ul>
+        <li>TravelBank</li>
+        <p>What you need to know and how to use it</p>
+
+        <li>Forgot MileagePlus number</li>
+        <p>Help locating your account info</p>
+
+        <li>Name change</li>
+        <p>How to change the name in your account</p>
+
+        <li>Locked account</li>
+        <p>Help getting back into your account</p>
+
+        <li>Join MileagePlus</li>
+        <p>See how to sign up and start earning when you fly</p>
+
+        <li>Premier</li>
+        <p>See how close you are to qualifying</p>
+
+        <li>Missing miles</li>
+        <p>Request to add credits to your account</p>
+
+        <li>Buy or transfer miles</li>
+        <p>Get more miles for you or a friend whenever you want</p>
+
+        <li>MileagePlus Service Center</li>
+        <p>Your one-stop shop for all account support</p>
+
+        <li>Contact info</li>
+        <p>Get additional help</p>
+    </ul>
+    </>
+)
+
     // ****Map string keys to JSX components****
     const contentMap = {
-        'Accessibility and Assistance': <AccessibilityAndAssistance />,
+        'Accessibility and assistance': <AccessibilityAndAssistance />,
         'Baggage': <Baggage />,
         'Booking': <Booking />,
-        'Children and Infants': <ChildrenAndInfants />,
-        'Customer Care': <CustomerCare />,
-        'Digital Trust Center': <DigitalTrustCenter />,
-        'Help With Trips': <HelpWithTrips />,
-        'Hotel Car Packages': <HotelCarPackages />,
+        'Children and infants': <ChildrenAndInfants />,
+        'Customer care': <CustomerCare />,
+        'Digital trust center': <DigitalTrustCenter />,
+        'Help with trips': <HelpWithTrips />,
+        'Hotels, Cars, Cruises and Vacation packages': <HotelCarPackages />,
+        'International travel': <InternationalTravel />,
+        'MyMileagePlus account': <MyMileagePlus />,
     }
 
 const HelpWithToday = () => {
