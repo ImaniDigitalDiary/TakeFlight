@@ -61,6 +61,33 @@ const Baggage = () => (
     </>
 )
 
+const Booking = () => (
+    <>
+    <h3>Booking a trip</h3>
+    <p>Find out everything you need to know, from booking a flight to using travel credits.</p>
+
+    <ul>
+        <li>Book a flight</li>
+        <p>Let's get started with a new trip</p>
+
+        <li>Flexible booking options</li>
+        <p>Answers to common questions about booking flights</p>
+
+        <li>Sustainable travel</li>
+        <p>Learn about Take Flight's carbon offset program and how you can participate</p>
+
+        <li>Insurance</li>
+        <p>Learn more about tracel insurance</p>
+
+        <li>Travel credits</li>
+        <p>Learn more about the different types and how to use them</p>
+
+        <li>FareLock</li>
+        <p>See how to reserve your trip now and pay later</p>
+    </ul>
+    </>
+)
+
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and Assistance': <AccessibilityAndAssistance />,
