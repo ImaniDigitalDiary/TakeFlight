@@ -425,7 +425,7 @@ const HelpWithToday = () => {
                     style={{
                     display: "block",
                     width: "100%",
-                    padding: "10px",
+                    // padding: "10px",
                     marginBottom: "8px",
                     backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
                     border: "1px solid #ccc",
@@ -441,7 +441,7 @@ const HelpWithToday = () => {
             </div>
 
             {/* Content area */}
-            <div className='contentDiv' style={{ flex: 1, padding: "2rem" }}>
+            <div className='contentDiv'>
                 {contentMap[selectedTopic]}
             </div>
         </div>

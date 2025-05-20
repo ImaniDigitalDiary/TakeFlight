@@ -1,10 +1,11 @@
 .helpMainDiv {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .mainDiv {
-
+    /* width: 1135px; */
 }
 
 .headingDiv {
@@ -23,4 +24,9 @@ li {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .3px;
+}
+
+.contentDiv {
+    flex: 1;
+    padding: 40px;
 }
