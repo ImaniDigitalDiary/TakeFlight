@@ -88,10 +88,65 @@ const Booking = () => (
     </>
 )
 
+const ChildrenAndInfants = () => (
+    <>
+    <h3>Children and infants</h3>
+    <p>Tips and information if you'll be traveling with little ones.</p>
+
+    <ul>
+        <li>Traveling with children</li>
+        <p>Tips for travel with little ones</p>
+
+        <li>Traveling while pregnant</li>
+        <p>Safe travel tips with a baby on the way</p>
+
+        <li>Minors traveling alone</li>
+        <p>Policies and procedures for young children traveling on their own</p>
+
+        <li>Baggage for infants</li>
+        <p>What you can bring on board for free and what you need to check</p>
+    </ul>
+    </>
+)
+
+const CustomerCare = () => (
+    <>
+    <h3>Customer care</h3>
+    <p>Share your feedback or get in touch.</p>
+
+    <ul>
+        <li>Customer care</li>
+        <br />
+        <li>Reimbursements</li>
+        <p>Request reimbursements for expenses caused by delayed or canceled flights</p>
+    </ul>
+    </>
+)
+
+const DigitalTrustCenter = () => (
+    <>
+    <h3>Digital Trust Center</h3>
+    <p>Learn about Take Flight's commitment to the transparent use of your data and your data privacy rights.</p>
+
+    <ul>
+        <li>How does Take Flight use and protect my personal data?</li>
+        <p>Understand the types of data collected, how it is used and where to manage your data preferences</p>
+
+        <li>Privacy Policy</li>
+        <p>Learn more about our legal policies around data privacy</p>
+    </ul>
+    </>
+)
+
+
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and Assistance': <AccessibilityAndAssistance />,
-        'Baggage': <Baggage />
+        'Baggage': <Baggage />,
+        'Booking': <Booking />,
+        'Children and Infants': <ChildrenAndInfants />,
+        'Customer Care': <CustomerCare />,
+        'Digital Trust Center': <DigitalTrustCenter />,
     }
 
 const HelpWithToday = () => {
