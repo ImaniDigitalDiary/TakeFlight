@@ -5,6 +5,8 @@ import React, {useState} from 'react'
 // ACCESSIBILITY AND ASSISTANCE //
 const AccessibilityAndAssistance = () => (
     <>
+    <h3>Accessibility and assistance</h3>
+    <p>What to know when you're traveling with a wheelchair, a service dog or need extra assisstance with your trip.</p>
     <ul>
         <li>Wheelchair Assistance</li>
         <p>How to request and info on checking yours</p>
@@ -32,13 +34,37 @@ const AccessibilityAndAssistance = () => (
 
 const Baggage = () => (
     <>
-    
+    <h3>Baggage</h3>
+    <p>Answers to your questions about checking, carrying on, paying for and tracking your bags.</p>
+    <ul>
+        <li>Baggage fee calculator</li>
+        <p>See what it will cost to check your bags</p>
+
+        <li>Carry-on bags</li>
+        <p>See which bags can join you on board</p>
+
+        <li>Checked bags</li>
+        <p>Learn more about our checked bag policies</p>
+
+        <li>Damaged or delayed bags</li>
+        <p>Submit a claim or trace baggage</p>
+
+        <li>Claim status</li>
+        <p>See the status of a baggage claim you filed</p>
+
+        <li>Lost items</li>
+        <p>How to report and follow up on missing items</p>
+
+        <li>Bag info</li>
+        <p>Find out more about our bag policies</p>
+    </ul>
     </>
 )
 
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and Assistance': <AccessibilityAndAssistance />,
+        'Baggage': <Baggage />
     }
 
 const HelpWithToday = () => {
