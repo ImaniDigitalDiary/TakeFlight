@@ -26,6 +26,13 @@ li {
     letter-spacing: .3px;
 }
 
+.topicBtn {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    border: none;
+}
+
 .contentDiv {
     flex: 1;
     padding: 40px;

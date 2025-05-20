@@ -420,16 +420,11 @@ const HelpWithToday = () => {
                 background: "#f9f9f9" }}>
                 {Object.keys(contentMap).map((topic) => (
                 <button
+                    className='topicBtn'
                     key={topic}
                     onClick={() => setSelectedTopic(topic)}
                     style={{
-                    display: "block",
-                    width: "100%",
-                    // padding: "10px",
-                    marginBottom: "8px",
                     backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
-                    border: "1px solid #ccc",
-                    borderRadius: "5px",
                     textAlign: "left",
                     cursor: "pointer",
                     fontWeight: selectedTopic === topic ? "bold" : "normal"
