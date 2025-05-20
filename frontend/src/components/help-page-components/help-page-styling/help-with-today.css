@@ -31,6 +31,10 @@ li {
     width: 100%;
     margin-bottom: 8px;
     border: none;
+    
+}
+.topicBtn:hover {
+    border: solid 1px #1414d2;
 }
 
 .contentDiv {
