@@ -249,6 +249,57 @@ const MyMileagePlus = () => (
     </>
 )
 
+const RefundsAndReceipts = () => (
+    <>
+    <h3>Refunds and receipts</h3>
+    <p>Request a refund, check the status of one or search for a receipt.</p>
+
+    <ul>
+        <li>Refund policy</li>
+        <p>Find out if you qualify for a refund</p>
+
+        <li>Refund requests</li>
+        <p>Request a refund or check the status of one</p>
+
+        <li>Reimbursements</li>
+        <p>Request reimbursement for expenses caused by delayed for canceled flights</p>
+
+        <li>Reimbursements</li>
+        <p>Request reimbusement for delayed or lsot bags</p>
+
+        <li>Search receipts</li>
+        <p>Get a copy of your receipt</p>
+    </ul>
+    </>
+)
+
+const SeatsAndUpgrades = () => (
+    <>
+    <h3>Seats and upgrades</h3>
+    <p>We're here to help you find your favorite seat and fly in comfort.</p>
+
+    <ul>
+        <li>Seat options</li>
+        <p>See all our seat types and cabin options</p>
+
+        <li>Change seats</li>
+        <p>How to pick a different one</p>
+
+        <li>Basic Economy</li>
+        <p>See more about your ticket</p>
+
+        <li>Economy Plus</li>
+        <p>See what this fare gives you</p>
+
+        <li>Upgrades</li>
+        <p>Everything you need to know</p>
+
+        <li>Upgrade with miles</li>
+        <p>How to redeem your award miles</p>
+    </ul>
+    </>
+)
+
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and assistance': <AccessibilityAndAssistance />,
@@ -261,6 +312,8 @@ const MyMileagePlus = () => (
         'Hotels, Cars, Cruises and Vacation packages': <HotelCarPackages />,
         'International travel': <InternationalTravel />,
         'MyMileagePlus account': <MyMileagePlus />,
+        'Refunds and receipts': <RefundsAndReceipts />,
+        'Seats and upgrades': <SeatsAndUpgrades />,
     }
 
 const HelpWithToday = () => {
