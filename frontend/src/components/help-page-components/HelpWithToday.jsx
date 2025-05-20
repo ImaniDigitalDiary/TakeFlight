@@ -318,6 +318,36 @@ const SpecialtyDesks = () => (
     </>
 )
 
+const TravelingWithPets = () => (
+    <>
+    <h3>Traveling with pets</h3>
+    <p>Everything you need to know before you bring your four-legged friend on board.</p>
+
+    <ul>
+        <li>In-cabin pets</li>
+        <p>See how and if you can fly with your pet</p>
+    </ul>
+    </>
+)
+
+const TakeFlightClub = () => (
+    <>
+    <h3>Take Flight Club and lounges</h3>
+    <p>See how to check in for flights, watch your flight's status, register for TSA PreCheck and more.</p>
+
+    <ul>
+        <li>Hours</li>
+        <p>See when Take Flight locations and lounges are open</p>
+
+        <li>Access</li>
+        <p>How you can get into a Take Flight Club location or enjoy the lounge</p>
+
+        <li>Visiting Take Flight Club and lounge locations</li>
+        <p>How to buy memberships and one-time passes</p>
+    </ul>
+    </>
+)
+
     // ****Map string keys to JSX components****
     const contentMap = {
         'Accessibility and assistance': <AccessibilityAndAssistance />,
@@ -333,6 +363,8 @@ const SpecialtyDesks = () => (
         'Refunds and receipts': <RefundsAndReceipts />,
         'Seats and upgrades': <SeatsAndUpgrades />,
         'Specialty desks': <SpecialtyDesks />,
+        'Traveling with pets': <TravelingWithPets />,
+        'Take Flight Club and lounges': <TakeFlightClub />
     }
 
 const HelpWithToday = () => {
