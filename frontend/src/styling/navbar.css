@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #002244;
+    /* background-color: #002244; */
+    background-color: #000;
     color: #f0f8ff;
     display: flex;
     justify-content: space-around;
