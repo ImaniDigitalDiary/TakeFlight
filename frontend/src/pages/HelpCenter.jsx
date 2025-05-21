@@ -4,7 +4,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import HelpWithToday from '../components/help-page-components/HelpWithToday'
 
-
+// IMAGES
+import cloudImage from '../images/clouds.jpg'
 
 // STYLING
 import '../components/help-page-components/help-page-styling/help-center.css'
@@ -63,6 +64,23 @@ function HelpCenter() {
       </div>
 
       <HelpWithToday />
+
+      <div
+        className='btmSearchBar'
+        style={{
+          backgroundImage: `url(${cloudImage})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          height: '238px'
+        }}
+      >
+        <label htmlFor="searchBar"></label>
+        <div className='btmSearchBarInputDiv'>
+          <input className='btmSearchBarInput' type="text"  placeholder='What else can we help you find?'/>
+          <button>Search</button>
+        </div>
+        
+      </div>
 
       
     </div>
