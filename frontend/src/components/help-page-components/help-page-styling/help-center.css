@@ -1,14 +1,19 @@
 /* HELP CENTER DIV 1 */
 .helpCenterPage {
+    display: flex;
+    flex-direction: column;
     font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
 }
 
 .helpCenterPageMainDiv {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
 }
 
 .helpCenterDiv1 {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0 15px 150px;
 }
 .helpCenterDiv1 h1 {
@@ -31,7 +36,7 @@
 }
 .helpCenterDiv2 h3 {
     font-weight: 700;
-    padding: 0 0 15px 150px;
+    padding: 20px 0 15px 150px;
 }
 
 .mileagePlusMainDiv {
@@ -51,10 +56,12 @@
     align-items: center;
     padding-left: 40px;
     gap: 20px;
+    align-items: center;
 }
 .mileagePlusText {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
 }
 .mileagePlusText h4 {
     font-size: 22px;
@@ -93,11 +100,12 @@
 .helpCenterDiv3 {
     display: flex;
     flex-direction: column;
+    align-self: center;
     width: 1135px;
     height: 280px;
     box-shadow: 2px 2px 6px 3px rgba(202, 202, 202, 0.4);
-    margin: 20px 0 0 150px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .findTripBtn {
     border: none;
