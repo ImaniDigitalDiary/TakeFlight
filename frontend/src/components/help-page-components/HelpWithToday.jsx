@@ -407,11 +407,6 @@ const TakeFlightClub = () => (
         'Take Flight Club and lounges': <TakeFlightClub />
     }
 
-    // icons for string keys in contentMap object
-    // const iconMap = {
-    //     'Accessibility and assistance': 
-    // }
-
 const HelpWithToday = () => {
   const [selectedTopic, setSelectedTopic] = useState("Accessibility and assistance");
     console.log(contentMap[selectedTopic])
