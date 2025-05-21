@@ -421,30 +421,34 @@ const HelpWithToday = () => {
                 justifyContent: 'center'
             }}>
             {/* Sidebar with buttons */}
-            <div style={{ 
-                width: "260px", 
-                borderRight: "1px solid #ddd", 
-                padding: "1rem", 
-                background: "#f9f9f9" }}>
-                {Object.keys(contentMap).map((topic) => (
-                <button
-                    key={topic}
-                    className='topicBtn'               
-                    onClick={() => setSelectedTopic(topic)}
-                    style={{
-                    backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
-                    textAlign: "left",
-                    cursor: "pointer",
-                    fontWeight: selectedTopic === topic ? "bold" : "normal"
-                    }}
-                >
+            <div className='topicBtnDiv' >
+                <div 
+                    style={{ 
+                        width: "260px", 
+                        borderRight: "1px solid #ddd", 
+                        padding: "1rem", 
+                        background: "#f9f9f9" }}>
+                        {Object.keys(contentMap).map((topic) => (
+                        <button
+                            key={topic}
+                            className='topicBtn'               
+                            onClick={() => setSelectedTopic(topic)}
+                            style={{
+                            backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
+                            textAlign: "left",
+                            cursor: "pointer",
+                            fontWeight: selectedTopic === topic ? "bold" : "normal"
+                            }}
+                        >
 
-                    {topic}
-                    {/* font awesome icon for all topics for the right side of topics */}
-                    <FontAwesomeIcon icon={faChevronRight}  className='faChevronRight'/>
-                </button>
-                ))}
+                            {topic}
+                            {/* font awesome icon for all topics for the right side of topics */}
+                            <FontAwesomeIcon icon={faChevronRight}  className='faChevronRight'/>
+                        </button>
+                        ))}
+                </div>
             </div>
+            
 
             {/* Content area */}
             <div className='contentDiv'>
