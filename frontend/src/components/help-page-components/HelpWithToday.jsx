@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 
 // STYLING\
 import './help-page-styling/help-with-today.css'
+    // FONT AWESOME ICONS
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+    import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 // individual components for each button
 const AccessibilityAndAssistance = () => (
@@ -402,6 +405,11 @@ const TakeFlightClub = () => (
         'Take Flight Club and lounges': <TakeFlightClub />
     }
 
+    // icons for string keys in contentMap object
+    // const iconMap = {
+    //     'Accessibility and assistance': 
+    // }
+
 const HelpWithToday = () => {
   const [selectedTopic, setSelectedTopic] = useState("Wheelchair assistance");
 
@@ -420,8 +428,8 @@ const HelpWithToday = () => {
                 background: "#f9f9f9" }}>
                 {Object.keys(contentMap).map((topic) => (
                 <button
-                    className='topicBtn'
                     key={topic}
+                    className='topicBtn'               
                     onClick={() => setSelectedTopic(topic)}
                     style={{
                     backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
@@ -430,7 +438,10 @@ const HelpWithToday = () => {
                     fontWeight: selectedTopic === topic ? "bold" : "normal"
                     }}
                 >
+
                     {topic}
+                    {/* font awesome icon for all topics for the right side of topics */}
+                    <FontAwesomeIcon icon={faChevronRight}  className='faChevronRight'/>
                 </button>
                 ))}
             </div>
