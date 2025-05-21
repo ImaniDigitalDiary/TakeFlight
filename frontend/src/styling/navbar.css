@@ -39,10 +39,14 @@ li {
     font-size: 14px;
     font-weight: 500;
 }
+.navLinks2 li {
+    color: #fff;
+}
 .navLink2:hover {
     color: #000;
     background-color: #a8d0f7;
 }
+
 
 .globe:hover {
     padding: 5px;
