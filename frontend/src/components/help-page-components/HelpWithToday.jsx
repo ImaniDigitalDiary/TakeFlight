@@ -360,8 +360,10 @@ const TravelingWithPets = () => (
     </div>
 
     <ul>
-        <li>In-cabin pets</li>
-        <p>See how and if you can fly with your pet</p>
+        <li>In-cabin pets
+        <div>See how and if you can fly with your pet</div>
+        </li>
+        
     </ul>
     </>
 )
@@ -411,8 +413,8 @@ const TakeFlightClub = () => (
     // }
 
 const HelpWithToday = () => {
-  const [selectedTopic, setSelectedTopic] = useState("Wheelchair assistance");
-
+  const [selectedTopic, setSelectedTopic] = useState("Accessibility and assistance");
+    console.log(contentMap[selectedTopic])
   return (
     <div className="helpMainDiv">
         <div className='mainRightDiv' 
@@ -421,23 +423,22 @@ const HelpWithToday = () => {
                 justifyContent: 'center'
             }}>
             {/* Sidebar with buttons */}
-            <div className='topicBtnDiv' >
-                <div 
+                <div className='topicBtnDiv' 
                     style={{ 
                         width: "260px", 
                         borderRight: "1px solid #ddd", 
                         padding: "1rem", 
-                        background: "#f9f9f9" }}>
+                        }}>
                         {Object.keys(contentMap).map((topic) => (
                         <button
-                            key={topic}
-                            className='topicBtn'               
+                            className='topicBtn'
+                            key={topic}               
                             onClick={() => setSelectedTopic(topic)}
                             style={{
-                            backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
+                            // backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
                             textAlign: "left",
                             cursor: "pointer",
-                            fontWeight: selectedTopic === topic ? "bold" : "normal"
+                            // fontWeight: selectedTopic === topic ? "bold" : "normal"
                             }}
                         >
 
@@ -447,7 +448,6 @@ const HelpWithToday = () => {
                         </button>
                         ))}
                 </div>
-            </div>
             
 
             {/* Content area */}
