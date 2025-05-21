@@ -412,6 +412,10 @@ const HelpWithToday = () => {
     console.log(contentMap[selectedTopic])
   return (
     <div className="helpMainDiv">
+        <div className='helpMainCont'>
+            <h1>What can we help you with today?</h1>
+        
+        
         <div className='mainRightDiv' 
             style={{ 
                 display: 'flex',
@@ -449,6 +453,7 @@ const HelpWithToday = () => {
             <div className='contentDiv'>
                 {contentMap[selectedTopic]}
             </div>
+        </div>
         </div>
     </div>
     
