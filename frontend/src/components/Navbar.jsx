@@ -25,26 +25,29 @@ import '../styling/navbar.css'
 
 function Navbar() {
   return (
-   <div className='navbar'>
+    <div className="navbarMainDiv">
+      <div className='navbar'>
     
-    <ul className='navLinks1'>
-      <Link className='navLink1' to={'/home'}><img src={logo} className='logo'/></Link>
-      <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
-      <li className='navLink1'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
-      <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon icon={faChevronRight} /></Link>
-    </ul>
+      <ul className='navLinks1'>
+        <Link className='navLink1' to={'/home'}><img src={logo} className='logo'/></Link>
+        <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
+        <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
+        <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
+        <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
+        <li className='navLink1'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
+        <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon icon={faChevronRight} /></Link>
+      </ul>
+    
+      <ul className='navLinks2'>
+        <li className='navLink2 globe'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
+        <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
+        <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faUserLarge} /></li>
+        <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faCartShopping} /></li>
+      </ul>
+    
+    </div>
+    </div>
    
-    <ul className='navLinks2'>
-      <li className='navLink2 globe'><FontAwesomeIcon icon={faGlobe} /> English-US$</li>
-      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
-      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faUserLarge} /></li>
-      <li className='navLink2 link2Icon'><FontAwesomeIcon icon={faCartShopping} /></li>
-    </ul>
-  
-   </div>
     
   )
 }
