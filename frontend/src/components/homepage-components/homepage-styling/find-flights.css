@@ -1,15 +1,21 @@
 
-.findFlightsContent {
+.findFlightsMainDiv {
+    
+}
 
+.findFlightsContent {
+   
 }
 .findFlights {
     width: 568px;  
     height: auto; 
-}  
+}
 
 
 .findFlightsForm {
-
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }
 
 

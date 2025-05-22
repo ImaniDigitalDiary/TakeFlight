@@ -29,7 +29,7 @@ function FindFlights() {
 
   
   return (
-    <>
+    <div className='findFlightsMainDiv'>
     <div className='findFlightsWrapper'>
       <Carousel />
 
@@ -176,7 +176,7 @@ function FindFlights() {
       </div>
     </div>
 
-    </>  
+    </div>  
   )
 }
 

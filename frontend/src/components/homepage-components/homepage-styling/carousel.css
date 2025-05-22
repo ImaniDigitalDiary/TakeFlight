@@ -3,6 +3,8 @@
     width: 100%;
     /* height: 100vh; */
     overflow: hidden;
+    /* display: flex; */
+    justify-content: center;
 }
 .findFlightsContent {
     position: relative;
@@ -13,7 +15,7 @@
     /* height: 580px; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     background-color: rgba(0,0,0, 0.2); /*overlay*/
 }
 .findFlightsForm {
