@@ -3,6 +3,7 @@ import React from 'react'
 // COMPONENTS
 import Navbar from '../components/Navbar'
 import HelpWithToday from '../components/help-page-components/HelpWithToday'
+import SearchLinksFooter from '../components/SearchLinksFooter'
 
 // IMAGES
 import cloudImage from '../images/clouds.jpg'
@@ -79,8 +80,10 @@ function HelpCenter() {
           <input className='btmSearchBarInput' type="text"  placeholder='What else can we help you find?'/>
           <button>Search</button>
         </div>
-        
       </div>
+
+      <SearchLinksFooter />
+
 
       
     </div>
