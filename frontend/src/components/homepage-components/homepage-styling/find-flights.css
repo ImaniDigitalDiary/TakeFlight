@@ -318,6 +318,7 @@ li.link2:hover {
 }
 .para2 span {
     color: #1414d2;
+    text-decoration: underline;
 }
 .advSearchButtons {
     display: flex;
