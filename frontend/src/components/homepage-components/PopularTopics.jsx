@@ -1,8 +1,11 @@
 import React from 'react'
 
+// COMPONENTS
+import '../SearchLinksFooter'
 
 // STYLING
 import './homepage-styling/popular-topics.css'
+import '../styling/search-links-footer.css'
 // FONT AWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
@@ -16,6 +19,7 @@ import { faSackDollar } from '@fortawesome/free-solid-svg-icons'
 import { faHeadset } from '@fortawesome/free-solid-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
+import SearchLinksFooter from '../SearchLinksFooter'
 
 function PopularTopics() {
   return (
@@ -40,19 +44,7 @@ function PopularTopics() {
             <li><FontAwesomeIcon icon={faHeadset} className='faHeadset'/>Help Center</li>
         </ul>
     </div>
-    <div className='searchTopicsLinksMainFooter'>
-        <div>
-            <ul className='searchlinksFooter'>
-                <li><FontAwesomeIcon icon={faChevronDown} /> About Take Flight</li>
-                <li><FontAwesomeIcon icon={faChevronDown} /> Products and services</li>
-                <li><FontAwesomeIcon icon={faChevronDown} /> Popular destinations</li>
-                <li><FontAwesomeIcon icon={faChevronDown} /> Careers</li>
-            </ul>
-        </div>
-        <div className='impNoticeDiv'>
-            <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> Important notices
-        </div>
-    </div>
+    <SearchLinksFooter />
     
     </div>
   )
