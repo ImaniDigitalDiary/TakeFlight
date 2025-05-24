@@ -215,3 +215,15 @@ input {
     font-weight: bold;
     letter-spacing: .3px;
 }
+
+
+
+.contactUsMainDiv {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactUsDivs {
+    background-color: #fff;
+}
