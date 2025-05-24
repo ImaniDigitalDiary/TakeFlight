@@ -10,6 +10,8 @@ import CarouselTwo from '../components/homepage-components/CarouselTwo'
 import PopularTopics from '../components/homepage-components/PopularTopics'
 import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
+// STYLING
+import '../components/homepage-components/homepage-styling/homepage-main.css'
 function HomePage() {
   return (
     <div className='homePage'>

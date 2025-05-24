@@ -21,13 +21,17 @@
 
 
 /* LINKS 1 */
-.links1.books {
-    
+.links1 {
+   
 }
+
+
+
 ul.links1Ul {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: #002244;
     border-radius: 10px 10px 0 0;
 
@@ -35,6 +39,7 @@ ul.links1Ul {
 li.links1 {
     display: flex;
     align-items: center;
+    justify-content: center;
     list-style-type: none;
     text-decoration: none;
     font-size: 16px;
@@ -342,7 +347,7 @@ li.link2:hover {
 .cardAndBonus {
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
+    margin: 0 150px 0 80px;
 }
 .customCard {
     background-color: rgba(0, 0, 0, 0.5);

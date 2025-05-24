@@ -1,17 +1,13 @@
 .navbarMainDiv {
-    display: flex;
-    justify-content: center;
     background-color: #000;
     
 }
 .navbar {
-    /* background-color: #002244; */
     background-color: #000;
     color: #f0f8ff;
     display: flex;
-    justify-content: space-around;
     height: 90px;
-    width: 80%;
+    width: 100%;
 }
 .logo {
     width: 90px;
