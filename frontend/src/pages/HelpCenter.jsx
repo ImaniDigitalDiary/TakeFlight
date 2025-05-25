@@ -13,6 +13,10 @@ import '../components/help-page-components/help-page-styling/help-center.css'
   // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+  import { faMobileScreen } from '@fortawesome/free-solid-svg-icons'
+  import { faComments } from '@fortawesome/free-solid-svg-icons'
+  import { faHeadphonesSimple } from '@fortawesome/free-solid-svg-icons'
+
 
 function HelpCenter() {
   return (
@@ -87,21 +91,22 @@ function HelpCenter() {
           <h4>Not finding what you're looking for? Contact us!</h4>
         <div className="contactUsTextAndIcons">
           <div className="contactUsDiv1">
+            <FontAwesomeIcon icon={faMobileScreen}  className='contactUsIcon'/>
             <h6>Text us</h6>
               <p>Need help and don't want to be tied to your desktop or wait on hold? Text 'TakeFlight'
                 to 28133 for Take Flight Customer Servie on the go!
               </p>
           </div>
           <div className="contactUsDiv2">
+            <FontAwesomeIcon icon={faComments} className='contactUsIcon'/>
             <h6>Chat with us</h6>
             <p>Agents available</p>
-            <br />
             <a>Chat now</a>
           </div>
           <div className="contactUsDiv3">
+            <FontAwesomeIcon icon={faHeadphonesSimple} className='contactUsIcon'/>
             <h6>Call us</h6>
             <p>Talk with an agent</p>
-            <br />
             <a>View directory</a>
           </div>
         </div>
