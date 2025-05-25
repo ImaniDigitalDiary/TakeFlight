@@ -4,6 +4,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import HelpWithToday from '../components/help-page-components/HelpWithToday'
 import SearchLinksFooter from '../components/SearchLinksFooter'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
+
 
 // IMAGES
 import cloudImage from '../images/clouds.jpg'
@@ -130,8 +132,8 @@ function HelpCenter() {
 
       <SearchLinksFooter />
 
+      <HomepageFooter />
 
-      
     </div>
     </div>
   )
