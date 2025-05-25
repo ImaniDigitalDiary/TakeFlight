@@ -42,23 +42,18 @@
    display: grid;
    grid-template-columns: repeat(7, auto);
    justify-content: space-between;
-   color:aqua;
+   /* color:aqua; */
+}
+.mainFooterLinks li {
+    color: #b0cee2;
 }
 
 .footerLinks1 {
-    /* display: flex; */
-    /* justify-content:space-around; */
-    color: #7baefb;
-
     display: contents;
     padding: 0;
     margin: 0;
 }
 .footerLinks2 {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    color: #7baefb;
-
     display: contents;
     padding: 0;
     margin: 0;

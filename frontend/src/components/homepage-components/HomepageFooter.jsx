@@ -49,10 +49,9 @@ function HomepageFooter() {
                 <li>Interest Based Ads</li>
                 <li>Take Flight Jetstream</li>
                 <li>Cargo</li>
-            </ul>
-                
-            
+            </ul>  
         </div>
+        
         <p><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='faArrowUpRightFromSquare'/>
             Indicates an external site that may or may not meet accessibility guidelines. 
             Copyright © 2025 United Airlines, Inc. All rights reserved.</p>
