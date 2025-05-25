@@ -237,11 +237,17 @@ input {
     font-weight: bold;
     margin: 30px 0 30px 0;
 }
+
 .contactUsTextAndIcons {
     display: flex;
     flex-direction: row;
     width: 1071px
 }
+.contactUsTextAndIcons h6 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 
 .contactUsDiv1,
 .contactUsDiv2,
