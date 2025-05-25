@@ -259,9 +259,15 @@ input {
     justify-content: center;
     flex-direction: column; 
     align-items: center;
+    text-align: center;
     /* align-self: center ; */
 }
 .contactUsIcon {
     padding-bottom: 20px;
+}
+
+
+.contactUsDiv1 {
+    margin-top: 15px;
 }
 
