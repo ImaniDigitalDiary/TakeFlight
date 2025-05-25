@@ -6,6 +6,7 @@ import './styling/app.css'
 
 // PAGES
 import HomePage from './pages/HomePage';
+import Book from './pages/Book';
 import HelpCenter from './pages/HelpCenter';
 
 
@@ -15,6 +16,7 @@ function App() {
     <div className='app'>
       <Routes>
         <Route path='/home' element={<HomePage />} />
+        <Route path='/book' element={<Book />} />
         <Route path='/help-center' element={<HelpCenter />} />
       </Routes>
     </div>

@@ -30,7 +30,7 @@ function Navbar() {
     
       <ul className='navLinks1'>
         <Link className='navLink1' to={'/home'}><img src={logo} className='logo'/></Link>
-        <li className='navLink1'>Book <FontAwesomeIcon icon={faChevronDown} /></li>
+        <Link className='navLink1' to={'/book'}>Book <FontAwesomeIcon icon={faChevronDown} /></Link>
         <li className='navLink1'>My trips <FontAwesomeIcon icon={faChevronDown} /></li>
         <li className='navLink1'>Travel info <FontAwesomeIcon icon={faChevronDown} /></li>
         <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
