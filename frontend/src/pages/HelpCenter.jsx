@@ -86,6 +86,8 @@ function HelpCenter() {
         </div>
       </div>
 
+
+      {/* CONTACT US DIV */}
       <div className='contactUsMainDiv'>
         <div className="contactUsDivs">
           <h4>Not finding what you're looking for? Contact us!</h4>
@@ -116,6 +118,12 @@ function HelpCenter() {
             </div>           
           </div>
         </div>
+        </div>
+
+        <div className="feedbackCont">
+          Was this helpful?
+          <button>Yes</button>
+          <button>No</button>
         </div>
       </div>
 
