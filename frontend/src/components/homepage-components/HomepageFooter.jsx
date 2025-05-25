@@ -51,10 +51,10 @@ function HomepageFooter() {
                 <li>Cargo</li>
             </ul>  
         </div>
-        
+
         <p><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='faArrowUpRightFromSquare'/>
             Indicates an external site that may or may not meet accessibility guidelines. 
-            Copyright © 2025 United Airlines, Inc. All rights reserved.</p>
+            Copyright © 2025 TakeFlight Airlines, Inc. All rights reserved.</p>
       
     </div>
   )
