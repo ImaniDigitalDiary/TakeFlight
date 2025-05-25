@@ -240,8 +240,9 @@ input {
 
 .contactUsTextAndIcons {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    width: 1071px;
+    width: 1135px;
     height: 300px;
 }
 .contactUsTextAndIcons h6 {
@@ -269,5 +270,7 @@ input {
 
 .contactUsDiv1 {
     margin-top: 15px;
+    /* width: 380px; */
 }
+
 
