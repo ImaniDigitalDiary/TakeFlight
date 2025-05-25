@@ -103,7 +103,7 @@ function HelpCenter() {
             <div>
               Agents available
               <br />
-              <a>Chat now</a>
+              <a className='contactUsLink'>Chat now</a>
             </div>
           </div>
           <div className="contactUsDiv3">
@@ -112,7 +112,7 @@ function HelpCenter() {
             <div>
               Talk with an agent
               <br />
-              <a>View directory</a>
+              <a className='contactUsLink'>View directory</a>
             </div>           
           </div>
         </div>

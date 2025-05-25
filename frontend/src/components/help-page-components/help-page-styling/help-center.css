@@ -245,7 +245,7 @@ input {
     align-self: center;
     flex-direction: row;
     width: 1135px;
-    height: 300px;
+    height: 270px;
 }
 .contactUsTextAndIcons h6 {
     font-weight: bold;
@@ -276,8 +276,9 @@ input {
     padding-left: 50px;
     /* width: 380px; */
 }
-.contactUsDiv2 {
-
+.contactUsLink {
+    text-decoration: underline;
+    color: #1414d2;
 }
 
 
