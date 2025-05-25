@@ -5,6 +5,9 @@ import Navbar from '../components/Navbar'
 
 // STYLING
 import '../styling/book-page.css'
+    // FONT AWESOME ICONS
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+    import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 
 
 function Book() {
@@ -15,12 +18,14 @@ function Book() {
             <div className="bookFlightPageMainDiv1">
                 <h1>Book a flight</h1>
                 <div>
-                    <a href="signIn">Sign in</a> to your MileagePlus account for even faster checkout.
+                    <FontAwesomeIcon icon={faCircleInfo} />
+                    <a href="signIn"> Sign in</a> to your MileagePlus account for even faster checkout.
                 </div>
             </div>
             <div className="bookFlightPageMainDiv2">
-                <h6>Learn more:</h6>
+                
                 <ul>
+                    <h6>Learn more:</h6>
                     <li>Unaccompanied minors</li>
                     <li>Traveling with children</li>
                     <li>Learn about fare classes</li>
