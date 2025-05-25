@@ -5,6 +5,7 @@ import '../styling/book-page.css'
 
 function Book() {
   return (
+    <>
     <div className='bookFlightPageMainDiv'>
         <div className="bookFlightPageMainDiv1">
             <h1>Book a flight</h1>
@@ -28,6 +29,9 @@ function Book() {
         </div>
       
     </div>
+
+    </>
+    
   )
 }
 
