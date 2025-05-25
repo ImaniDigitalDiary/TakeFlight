@@ -241,7 +241,8 @@ input {
 .contactUsTextAndIcons {
     display: flex;
     flex-direction: row;
-    width: 1071px
+    width: 1071px;
+    height: 300px;
 }
 .contactUsTextAndIcons h6 {
     font-weight: bold;
@@ -255,11 +256,12 @@ input {
     width: 357px;
     height: 184px;
     display: flex;
+    justify-content: center;
     flex-direction: column; 
     align-items: center;
-    align-self: center ;
+    /* align-self: center ; */
 }
-
 .contactUsIcon {
     padding-bottom: 20px;
 }
+
