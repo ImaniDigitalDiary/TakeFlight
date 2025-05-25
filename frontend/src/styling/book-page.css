@@ -1,4 +1,10 @@
+.bookPage {
+    display: flex;
+    flex-direction: column;
+}
+
 .bookFlightPageMainDiv {
     display: flex;
-    flex: row;
+    flex-direction: row;
+    justify-content: center;
 }
