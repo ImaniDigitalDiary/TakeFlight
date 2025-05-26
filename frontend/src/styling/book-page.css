@@ -9,9 +9,42 @@
     justify-content: center;
 }
 
+.bookFlightPageMainDiv1 h1 {
+    font-weight: 600;
+    padding: 25px 0 25px 0;
+    font-size: 50px;
+}
+
+
+.bookFlightPageMainDiv2  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 115px;
+}
+.bookFlightPageMainDiv2 h6 {
+    color: #000;
+    font-weight: bold;
+}
+
+
 .faCircleInfo {
+    padding: 0 15px 0 15px;
     color: #2172ba;
+}
+
+.signInDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 741px;
+    height: 58px;
+    border: solid 1px #276ef1;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #f4f8fe;
 }
 .signIn {
     color: #2172ba;
+    padding-right: 5px;
 }

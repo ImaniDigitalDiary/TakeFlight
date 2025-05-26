@@ -17,9 +17,9 @@ function Book() {
         <div className='bookFlightPageMainDiv'>
             <div className="bookFlightPageMainDiv1">
                 <h1>Book a flight</h1>
-                <div>
+                <div className='signInDiv'>
                     <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo'/>
-                    <a href="signIn" className='signIn'> Sign in</a> to your MileagePlus account for even faster checkout.
+                    <a href="signIn" className='signIn'>Sign in</a> to your MileagePlus account for even faster checkout.
                 </div>
             </div>
 
