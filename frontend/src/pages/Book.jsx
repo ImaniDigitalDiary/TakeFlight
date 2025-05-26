@@ -21,6 +21,32 @@ function Book() {
                     <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo'/>
                     <a href="signIn" className='signIn'>Sign in</a> to your MileagePlus account for even faster checkout.
                 </div>
+
+                <div className="radioBtnsMain">
+                    <h6>Show trip selection</h6>
+                    <div className="radioBtns">
+                        <div className="tripSelectRadioBtns">
+                            <input type="radio"/>
+                            <label htmlFor="">Flight only</label>
+                        </div>
+                        <div className="tripSelectRadioBtns">
+                            <input type="radio"/>
+                            <label htmlFor="">Flight + hotel</label>
+                        </div>
+                        <div className="tripSelectRadioBtns">
+                            <input type="radio"/>
+                            <label htmlFor="">Flight + hotel + cars</label>
+                        </div>
+                        <div className="tripSelectRadioBtns">
+                            <input type="radio"/>
+                            <label htmlFor="">Flight + car</label>
+                        </div>
+
+                    </div>
+                    
+
+                    
+                </div>
             </div>
 
             <div className="bookFlightPageMainDiv2">
@@ -37,7 +63,6 @@ function Book() {
                     <li>Earning miles</li>
                 </ul>
             </div>
-        
         </div>
 
     </div>

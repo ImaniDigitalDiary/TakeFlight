@@ -16,6 +16,32 @@
 }
 
 
+.radioBtnsMain {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.radioBtnsMain h6 {
+    font-weight: 600;
+}
+.radioBtns {
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 5px;
+}
+.tripSelectRadioBtns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    height: 44px;
+    border: solid 1px #808080;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
 .bookFlightPageMainDiv2  ul{
     display: flex;
     flex-direction: column;
