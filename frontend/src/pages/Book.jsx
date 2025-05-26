@@ -18,12 +18,12 @@ function Book() {
             <div className="bookFlightPageMainDiv1">
                 <h1>Book a flight</h1>
                 <div>
-                    <FontAwesomeIcon icon={faCircleInfo} />
-                    <a href="signIn"> Sign in</a> to your MileagePlus account for even faster checkout.
+                    <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo'/>
+                    <a href="signIn" className='signIn'> Sign in</a> to your MileagePlus account for even faster checkout.
                 </div>
             </div>
+
             <div className="bookFlightPageMainDiv2">
-                
                 <ul>
                     <h6>Learn more:</h6>
                     <li>Unaccompanied minors</li>
