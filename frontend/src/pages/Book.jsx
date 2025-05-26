@@ -23,25 +23,41 @@ function Book() {
                 </div>
 
                 <div className="radioBtnsMain">
-                    <h6>Show trip selection</h6>
-                    <div className="radioBtns">
-                        <div className="tripSelectRadioBtns">
-                            <input type="radio"/>
-                            <label htmlFor="">Flight only</label>
+                    
+                    <div className="radioBtnsMainDiv1">
+                        <h6>Show trip selection</h6>
+                        <div className="radioBtnsDiv1">
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Flight only</label>
+                            </div>
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Flight + hotel</label>
+                            </div>
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Flight + hotel + cars</label>
+                            </div>
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Flight + car</label>
+                            </div>
                         </div>
-                        <div className="tripSelectRadioBtns">
-                            <input type="radio"/>
-                            <label htmlFor="">Flight + hotel</label>
-                        </div>
-                        <div className="tripSelectRadioBtns">
-                            <input type="radio"/>
-                            <label htmlFor="">Flight + hotel + cars</label>
-                        </div>
-                        <div className="tripSelectRadioBtns">
-                            <input type="radio"/>
-                            <label htmlFor="">Flight + car</label>
-                        </div>
+                    </div>
 
+                    <div className="radioBtnsMainDiv2">
+                        <h6>Show price in</h6>
+                        <div className="radioBtnsDiv2">
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Money</label>
+                            </div>
+                            <div className="tripSelectRadioBtns">
+                                <input type="radio"/>
+                                <label htmlFor="">Miles</label>
+                            </div>
+                        </div>
                     </div>
                     
 
