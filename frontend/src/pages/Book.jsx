@@ -59,6 +59,54 @@ function Book() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="bookPageFormMain">
+                        <div className="bookPageFormLinksDiv">
+                            <div className="bookPageFormLinks">
+                                Roundtrip
+                            </div>
+                            <div className="bookPageFormLinks">
+                                One-way
+                            </div>
+                            <div className="bookPageFormLinks">
+                                Multi-city
+                            </div>
+                        </div>
+
+                        <div className="bookPageFormDiv1">
+                            <div className="bookPageFromInputDiv1 bookPageFormInputDiv1">
+                                <label htmlFor="">From</label>
+                                <input className='bookPageFormInput' type="text" placeholder='Cleveland, OH, US (CLE)'/>
+                                <div className='bookPageFormCheckbox'>
+                                    <div>
+                                        <input type="checkbox" name="" id="" />
+                                        Search nearby airports
+                                    </div>
+                                    
+                                </div> 
+                            </div>
+
+                            <div className="bookPageToInputDiv1 bookPageFormInputDiv1">
+                                <label htmlFor="">To</label>
+                                <input className='bookPageFormInput' type="text" placeholder='City or airport'/>
+
+                                <div className='bookPageFormCheckbox'>
+                                    <div>
+                                        <input type="checkbox" name="" id="" />
+                                        Search nearby airports
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="" id="" />
+                                        Nonstop only
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    
                     
 
                     
