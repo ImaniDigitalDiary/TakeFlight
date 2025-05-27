@@ -103,6 +103,27 @@ function Book() {
                             </div>
                         </div>
 
+                        <div className="bookPageFormDiv2">
+                            <div className="bookPageTravInputDiv2 bookPageFormInputDiv2">
+                                <label htmlFor="">Select travelers</label>
+                                <input className='bookPageFormInput' type="text" placeholder='3 Travelers'/>
+                            </div>
+                            <div className="bookPageDatesInputDiv2 bookPageFormInputDiv2">
+                                <label htmlFor="">Select dates</label>
+                                <input className='bookPageFormInput' type="text" placeholder='3 Travelers'/>
+
+                                <div className='bookPageFormCheckbox'>
+                                    <div>
+                                        <input type="checkbox" name="" id="" />
+                                        Flexible dates
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        
                     </div>
 
 
