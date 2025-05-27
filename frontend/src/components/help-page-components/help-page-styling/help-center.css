@@ -8,6 +8,8 @@
 .helpCenterPageMainDiv {
     display: flex;
     flex-direction: column;
+    /* align-self: center; */
+    /* justify-content: center; */
     /* align-items: center; */
 }
 
@@ -35,8 +37,10 @@
     
 }
 .helpCenterDiv2 h3 {
+    align-self: center;
     font-weight: 700;
-    padding: 20px 0 15px 150px;
+    width: 1135px;
+    /* padding: 20px 0 15px 150px; */
 }
 
 .mileagePlusMainDiv {
