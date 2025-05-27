@@ -80,7 +80,7 @@ function Book() {
                                 <div className='bookPageFormCheckbox'>
                                     <div>
                                         <input type="checkbox" name="" id="" />
-                                        Search nearby airports
+                                        <span>Search nearby airports</span>
                                     </div>
                                     
                                 </div> 
@@ -92,12 +92,12 @@ function Book() {
 
                                 <div className='bookPageFormCheckbox'>
                                     <div>
-                                        <input type="checkbox" name="" id="" />
-                                        Search nearby airports
+                                        <input type="checkbox" name="" id="" className='bookPageCheckbox'/>
+                                        <span>Search nearby airports</span>
                                     </div>
                                     <div>
-                                        <input type="checkbox" name="" id="" />
-                                        Nonstop only
+                                        <input type="checkbox" name="" id="" className='bookPageCheckbox'/>
+                                        <span>Nonstop only</span>
                                     </div>
                                 </div>
                             </div>
@@ -114,8 +114,8 @@ function Book() {
 
                                 <div className='bookPageFormCheckbox'>
                                     <div>
-                                        <input type="checkbox" name="" id="" />
-                                        Flexible dates
+                                        <input type="checkbox" name="" id="" className='bookPageCheckbox'/>
+                                        <span>Flexible dates</span>
                                     </div>
                                 </div>
                             </div>

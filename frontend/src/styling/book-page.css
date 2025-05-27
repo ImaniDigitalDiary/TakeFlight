@@ -156,6 +156,9 @@
     flex-direction: column;
     padding-top: 10px;
 }
+.bookPageFormCheckbox span {
+    padding-left: 7px;
+}
 
 
 /* BOOK PAGE FORM DIV 2 */
