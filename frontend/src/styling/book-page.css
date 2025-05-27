@@ -118,6 +118,7 @@
     font-weight: 500;
     letter-spacing: .2px;
 }
+/* BOOK PAGE FORM DIV 1 */
 .bookPageFormDiv1 {
     display: flex;
     flex-direction: row;
@@ -156,6 +157,8 @@
     padding-top: 10px;
 }
 
+
+/* BOOK PAGE FORM DIV 2 */
 .bookPageFormDiv2 {
     display: flex;
     flex-direction: row;
@@ -163,6 +166,9 @@
 }
 .bookPageFormInputDiv2 {
     padding: 30px 10px 0px 10px;
+}
+.bookPageFormInputDiv2 label {
+    font-weight: 600;
 }
 
 .bookPageTravInputDiv2 {
@@ -174,3 +180,17 @@
     flex-direction: column;
 }
 
+
+
+/* BOOK PAGE FORM DIV 3 */
+.bookPageFormDiv3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bookPageFormInputDiv3 {
+    padding: 30px 10px 0px 10px;
+}
+.bookPageFormInputDiv3 label {
+    font-weight: 600;
+}

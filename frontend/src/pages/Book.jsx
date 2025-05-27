@@ -119,8 +119,17 @@ function Book() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-
+                        <div className="bookPageFormDiv3">
+                            <div className="bookPageTravInputDiv3 bookPageFormInputDiv3">
+                                <label htmlFor="">Outbound time of day</label>
+                                <input className='bookPageFormInput' type="text" placeholder='Anytime'/>
+                            </div>
+                            <div className="bookPageDatesInputDiv3 bookPageFormInputDiv3">
+                                <label htmlFor="">Return time of day</label>
+                                <input className='bookPageFormInput' type="text" placeholder='Anytime'/>
+                            </div>
                         </div>
 
                         
