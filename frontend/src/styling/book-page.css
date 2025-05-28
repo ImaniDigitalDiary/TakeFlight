@@ -127,6 +127,9 @@
 .roundTrip {
     border-top-left-radius: 10px;
 }
+.multiCity {
+    border-top-right-radius: 10px;
+}
 /* BOOK PAGE FORM DIV 1 */
 .bookPageFormDiv1 {
     display: flex;
