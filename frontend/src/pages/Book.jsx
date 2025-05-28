@@ -62,13 +62,13 @@ function Book() {
 
                     <div className="bookPageFormMain">
                         <div className="bookPageFormLinksDiv">
-                            <div className="bookPageFormLinks">
+                            <div className="bookPageFormLinks roundTrip">
                                 Roundtrip
                             </div>
-                            <div className="bookPageFormLinks">
+                            <div className="bookPageFormLinks oneWay">
                                 One-way
                             </div>
-                            <div className="bookPageFormLinks">
+                            <div className="bookPageFormLinks multiCity">
                                 Multi-city
                             </div>
                         </div>
