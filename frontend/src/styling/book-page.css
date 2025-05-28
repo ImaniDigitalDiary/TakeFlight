@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.bookFlightPageMainDiv input::placeholder {
+    padding-left: 5px;
+}
+
 .bookFlightPageMainDiv1 h1 {
     font-weight: 600;
     padding: 25px 0 25px 0;
