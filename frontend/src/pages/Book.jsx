@@ -11,14 +11,16 @@ import '../styling/book-page.css'
 
 
 function Book() {
-    const [buttonSelected, setButtonSelected] = useState('firstBtn') //initial button
+    const [cabinButtonSelected, setCabinButtonSelected] = useState('cabinFirstBtn') // cabin initial button selected
+    const [fareButtonSelected, setFareButtonSelected] = useState('fareFirstBtn') // fare initial button selected
+
 
     const handleChangeToggleBtnDiv1 = (e) => {
-        setButtonSelected(e.target.value)
+        setCabinButtonSelected (e.target.value)
     }
 
     const handleChangeToggleBtnDiv2 = (e) => {
-        
+        setFareButtonSelected (e.target.value)
     }
 
     
@@ -151,22 +153,22 @@ function Book() {
                 Cabin
                 <div className="toggleBtnDiv1Cont">
                     
-                    <label className={`radioLabel ${buttonSelected === 'firstBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabel ${cabinButtonSelected === 'cabinFirstBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type="radio" 
                             name="color" 
-                            value='firstBtn'
-                            checked={buttonSelected === 'firstBtn'}
+                            value='cabinFirstBtn'
+                            checked={cabinButtonSelected === 'cabinFirstBtn'}
                             onChange={handleChangeToggleBtnDiv1}
                         />
                         Economy / Premium Economy
                     </label>
-                    <label className={`radioLabel ${buttonSelected === 'secondBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabel ${cabinButtonSelected === 'cabinSecondBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type="radio" 
                             name='color'
-                            value='secondBtn'
-                            checked={buttonSelected === 'secondBtn'}
+                            value='cabinSecondBtn'
+                            checked={cabinButtonSelected === 'cabinSecondBtn'}
                             onChange={handleChangeToggleBtnDiv1}
                         />
                         Business / First Class
