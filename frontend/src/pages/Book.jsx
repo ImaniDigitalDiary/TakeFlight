@@ -13,16 +13,23 @@ import '../styling/book-page.css'
 function Book() {
     const [cabinButtonSelected, setCabinButtonSelected] = useState('cabinFirstBtn') // cabin initial button selected
     const [fareButtonSelected, setFareButtonSelected] = useState('fareFirstBtn') // fare initial button selected
+    const [flightsButtonSelected, setFlightsButtonSelected] = useState('flightsFirstBtn') // show flights initial button selected
 
 
+    // CABIN HADLE CHANGE - DIV 1
     const handleChangeToggleBtnDiv1 = (e) => {
         setCabinButtonSelected (e.target.value)
     }
 
+    // FARE HANDLE CHANGE - DIV 2
     const handleChangeToggleBtnDiv2 = (e) => {
         setFareButtonSelected (e.target.value)
     }
 
+    // FLIGHTS HANDLE CHANGE - DIV 3
+    const handleChangeToggleBtnDiv3 = (e) => {
+        setFlightsButtonSelected (e.target.value)
+    }
     
   return (
     <div className='bookPage'>
@@ -154,20 +161,20 @@ function Book() {
                 Cabin
                 <div className="toggleBtnDiv1Cont">
                     
-                    <label className={`radioLabel ${cabinButtonSelected === 'cabinFirstBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabelDiv1  ${cabinButtonSelected === 'cabinFirstBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type="radio" 
-                            name="color" 
+                            name="cabinColor" 
                             value='cabinFirstBtn'
                             checked={cabinButtonSelected === 'cabinFirstBtn'}
                             onChange={handleChangeToggleBtnDiv1}
                         />
                         Economy / Premium Economy
                     </label>
-                    <label className={`radioLabel ${cabinButtonSelected === 'cabinSecondBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabelDiv1  ${cabinButtonSelected === 'cabinSecondBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type='radio' 
-                            name='color'
+                            name='cabinColor'
                             value='cabinSecondBtn'
                             checked={cabinButtonSelected === 'cabinSecondBtn'}
                             onChange={handleChangeToggleBtnDiv1}
@@ -181,25 +188,33 @@ function Book() {
             <div className="toggleBtnDiv2">
                 Type of fare
                 <div className="toggleBtnDiv2Cont">
-                    <label className={`radioLabel ${fareButtonSelected === 'fareFirstBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabelDiv2 ${fareButtonSelected === 'fareFirstBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type='radio'
-                            name='color'
+                            name='fareColor'
                             value='fareFirstBtn'
                             checked={fareButtonSelected === 'fareFirstBtn'}
                             onChange={handleChangeToggleBtnDiv2}
                         />
                         Lowest available fares
                     </label>
-                    <label className={`radioLabel ${fareButtonSelected === 'fareSecondBtn' ? 'blue' : 'gray'}`}>
+                    <label className={`radioLabelDiv2 ${fareButtonSelected === 'fareSecondBtn' ? 'blue' : 'gray'}`}>
                         <input 
                             type='radio'
-                            name='color'
+                            name='fareColor'
                             value='fareSecondBtn'
                             checked={fareButtonSelected === 'fareSecondBtn'}
                             onChange={handleChangeToggleBtnDiv2}
                         />
                         Fully refundable
+                    </label>
+                </div>
+            </div>
+
+            <div className="toggleBtnDiv3">
+                <div className="toggleBtnDiv3Cont">
+                    <label>
+
                     </label>
                 </div>
             </div>
