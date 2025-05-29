@@ -13,7 +13,7 @@ import '../styling/book-page.css'
 function Book() {
     const [cabinButtonSelected, setCabinButtonSelected] = useState('cabinFirstBtn') // cabin initial button selected
     const [fareButtonSelected, setFareButtonSelected] = useState('fareFirstBtn') // fare initial button selected
-    const [flightsButtonSelected, setFlightsButtonSelected] = useState('flightsFirstBtn') // show flights initial button selected
+    const [flightButtonSelected, setFlightButtonSelected] = useState('flightFirstBtn') // show flights initial button selected
 
 
     // CABIN HADLE CHANGE - DIV 1
@@ -28,7 +28,7 @@ function Book() {
 
     // FLIGHTS HANDLE CHANGE - DIV 3
     const handleChangeToggleBtnDiv3 = (e) => {
-        setFlightsButtonSelected (e.target.value)
+        setFlightButtonSelected (e.target.value)
     }
     
   return (
@@ -211,10 +211,38 @@ function Book() {
                 </div>
             </div>
 
+            {/* TOGGLE BTNS DIV 3 */}
             <div className="toggleBtnDiv3">
                 <div className="toggleBtnDiv3Cont">
-                    <label>
-
+                    <label className={`radioLabelDiv3 ${flightButtonSelected === 'flightFirstBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type='radio' 
+                            name='flightColor'
+                            value='flightFirstBtn'
+                            checked={flightButtonSelected === 'flightFirstBtn'}
+                            onChange={handleChangeToggleBtnDiv3}
+                        />
+                        All airlines
+                    </label>
+                    <label className={`radioLabelDiv3 ${flightButtonSelected === 'flightSecondBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type='radio' 
+                            name='flightColor'
+                            value='flightSecondBtn'
+                            checked={flightButtonSelected === 'flightSecondBtn'}
+                            onChange={handleChangeToggleBtnDiv3}
+                        />
+                        Take Flight Express only
+                    </label>
+                    <label className={`radioLabelDiv3 ${flightButtonSelected === 'flightThirdBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type='radio' 
+                            name='flightColor'
+                            value='flightThirdBtn'
+                            checked={flightButtonSelected === 'flightThirdBtn'}
+                            onChange={handleChangeToggleBtnDiv3}
+                        />
+                        TakeStar Alliance airlines
                     </label>
                 </div>
             </div>
