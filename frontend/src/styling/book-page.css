@@ -284,3 +284,38 @@
 }
 
 
+/* toggle div 3 */
+.toggleBtnDiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 40px 0 40px 0;
+}
+
+.toggleBtnDiv3Cont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.radioLabelDiv3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.radioLabelDiv3.blue {
+    /* background-color: #007bff; */
+    border: solid 2px #007bff;
+    color: #000;
+}
+
+.radioLabelDiv3.gray {
+    border: solid 2px #808080;
+    color: #000;
+}
