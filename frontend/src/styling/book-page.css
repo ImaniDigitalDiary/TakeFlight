@@ -218,7 +218,7 @@
 .toggleBtnDiv1 {
     display: flex;
     gap: 20px;
-    margin: 20px;
+    margin: 40px 0 40px 0;
 }
 .radioLabel {
     display: flex;

@@ -117,7 +117,7 @@ function Book() {
                             </div>
                             <div className="bookPageDatesInputDiv2 bookPageFormInputDiv2">
                                 <label htmlFor="">Select dates</label>
-                                <input className='bookPageFormInput' type="text" placeholder='3 Travelers'/>
+                                <input className='bookPageFormInput' type="text" placeholder='Date placeholder'/>
 
                                 <div className='bookPageFormCheckbox'>
                                     <div>
