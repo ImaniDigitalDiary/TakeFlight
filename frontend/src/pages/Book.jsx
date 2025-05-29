@@ -17,6 +17,10 @@ function Book() {
         setButtonSelected(e.target.value)
     }
 
+    const handleChangeToggleBtnDiv2 = (e) => {
+        
+    }
+
     
   return (
     <div className='bookPage'>
@@ -144,26 +148,31 @@ function Book() {
 
             {/* TOGGLE BUTTONS */}
             <div className="toggleBtnDiv1">
-                <label className={`radioLabel ${buttonSelected === 'firstBtn' ? 'blue' : 'gray'}`}>
-                    <input 
-                        type="radio" 
-                        name="color" 
-                        value='firstBtn'
-                        checked={buttonSelected === 'firstBtn'}
-                        onChange={handleChangeToggleBtnDiv1}
-                    />
-                    Economy / Premium Economy
-                </label>
-                <label className={`radioLabel ${buttonSelected === 'secondBtn' ? 'blue' : 'gray'}`}>
-                    <input 
-                        type="radio" 
-                        name='color'
-                        value='secondBtn'
-                        checked={buttonSelected === 'secondBtn'}
-                        onChange={handleChangeToggleBtnDiv1}
-                    />
-                    Business / First Class
-                </label>
+                Cabin
+                <div className="toggleBtnDiv1Cont">
+                    
+                    <label className={`radioLabel ${buttonSelected === 'firstBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type="radio" 
+                            name="color" 
+                            value='firstBtn'
+                            checked={buttonSelected === 'firstBtn'}
+                            onChange={handleChangeToggleBtnDiv1}
+                        />
+                        Economy / Premium Economy
+                    </label>
+                    <label className={`radioLabel ${buttonSelected === 'secondBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type="radio" 
+                            name='color'
+                            value='secondBtn'
+                            checked={buttonSelected === 'secondBtn'}
+                            onChange={handleChangeToggleBtnDiv1}
+                        />
+                        Business / First Class
+                    </label>
+
+                </div>
             </div>
 
             </div>

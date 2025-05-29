@@ -217,8 +217,14 @@
 /* TOGGLE BUTTONS */
 .toggleBtnDiv1 {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 5px;
     margin: 40px 0 40px 0;
+}
+.toggleBtnDiv1Cont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 .radioLabel {
     display: flex;
