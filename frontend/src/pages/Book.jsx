@@ -149,6 +149,7 @@ function Book() {
 
 
             {/* TOGGLE BUTTONS */}
+            {/* TOGGLE BTNS DIV 1 */}
             <div className="toggleBtnDiv1">
                 Cabin
                 <div className="toggleBtnDiv1Cont">
@@ -165,7 +166,7 @@ function Book() {
                     </label>
                     <label className={`radioLabel ${cabinButtonSelected === 'cabinSecondBtn' ? 'blue' : 'gray'}`}>
                         <input 
-                            type="radio" 
+                            type='radio' 
                             name='color'
                             value='cabinSecondBtn'
                             checked={cabinButtonSelected === 'cabinSecondBtn'}
@@ -173,10 +174,35 @@ function Book() {
                         />
                         Business / First Class
                     </label>
-
                 </div>
             </div>
 
+            {/* TOGGLE BTNS DIV 2 */}
+            <div className="toggleBtnDiv2">
+                Type of fare
+                <div className="toggleBtnDiv2Cont">
+                    <label className={`radioLabel ${fareButtonSelected === 'fareFirstBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type='radio'
+                            name='color'
+                            value='fareFirstBtn'
+                            checked={fareButtonSelected === 'fareFirstBtn'}
+                            onChange={handleChangeToggleBtnDiv2}
+                        />
+                        Lowest available fares
+                    </label>
+                    <label className={`radioLabel ${fareButtonSelected === 'fareSecondBtn' ? 'blue' : 'gray'}`}>
+                        <input 
+                            type='radio'
+                            name='color'
+                            value='fareSecondBtn'
+                            checked={fareButtonSelected === 'fareSecondBtn'}
+                            onChange={handleChangeToggleBtnDiv2}
+                        />
+                        Fully refundable
+                    </label>
+                </div>
+            </div>
             </div>
 
             <div className="bookFlightPageMainDiv2">
