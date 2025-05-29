@@ -213,6 +213,7 @@ function Book() {
 
             {/* TOGGLE BTNS DIV 3 */}
             <div className="toggleBtnDiv3">
+                Show flights from
                 <div className="toggleBtnDiv3Cont">
                     <label className={`radioLabelDiv3 ${flightButtonSelected === 'flightFirstBtn' ? 'blue' : 'gray'}`}>
                         <input 
@@ -246,8 +247,30 @@ function Book() {
                     </label>
                 </div>
             </div>
+            <div className="fareClassOptMain">
+                <div className="fareClassOptDiv1">
+                <div>Fare class (optional)</div>
+                    <div className="fareClassOptInputDiv1">
+                        <input className='fareClassInput' type='text'  placeholder='Examples: Y, B, M'/>
+                        <div className='fareText'>Searching by fare class may not be combinable with other search 
+                            preferences (e.g. upgrades, fare types).
+                        </div>
+                    </div>                   
+                </div>
+
+                <div className="fareClassOptDiv2">
+                    <div>Sort flights by</div>
+                    <div className="fareClassOptInputDiv2">
+                        <input type="text" className="fareClassOptInput" />
+                    </div>
+                </div>
+
+                
+            </div>
             </div>
 
+
+{/* BOOK FLIGHT PAGE MAIN DIV 2 */}
             <div className="bookFlightPageMainDiv2">
                 <ul>
                     <h6>Learn more:</h6>
