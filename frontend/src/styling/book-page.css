@@ -227,14 +227,15 @@
     padding: 10px 20px;
     border: solid 2px transparent;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
 }
 .radioLabel.blue {
-    background-color: #007bff;
-    color: #fff;
+    /* background-color: #007bff; */
+    border: solid 2px #007bff;
+    color: #000;
 }
 .radioLabel.gray {
-    border: solid 1px #000;
+    border: solid 2px #808080;
     color: #000;
 }
