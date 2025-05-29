@@ -248,3 +248,15 @@
 }
 
 /* toggle div 2 */
+.toggleBtnDiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 40px 0 40px 0;
+}
+
+.toggleBtnDiv2Cont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
