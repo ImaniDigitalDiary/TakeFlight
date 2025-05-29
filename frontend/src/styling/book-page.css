@@ -213,3 +213,28 @@
 .bookPageFormInputDiv3 label {
     font-weight: 600;
 }
+
+/* TOGGLE BUTTONS */
+.toggleBtnDiv1 {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.radioLabel.blue {
+    background-color: #007bff;
+    color: #fff;
+}
+.radioLabel.gray {
+    border: solid 1px #000;
+    color: #000;
+}

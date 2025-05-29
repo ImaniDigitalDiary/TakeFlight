@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
@@ -11,6 +11,13 @@ import '../styling/book-page.css'
 
 
 function Book() {
+    const [buttonSelected, setButtonSelected] = useState('firstBtn') //initial button
+
+    const handleChangeToggleBtnDiv1 = (e) => {
+        setButtonSelected(e.target.value)
+    }
+
+    
   return (
     <div className='bookPage'>
         <Navbar />
@@ -131,16 +138,34 @@ function Book() {
                                 <input className='bookPageFormInput' type="text" placeholder='Anytime'/>
                             </div>
                         </div>
-
-                        
-                    </div>
-
-
-                    
-                    
-
-                    
+                    </div>              
                 </div>
+
+
+            {/* TOGGLE BUTTONS */}
+            <div className="toggleBtnDiv1">
+                <label className={`radioLabel ${buttonSelected === 'firstBtn' ? 'blue' : 'gray'}`}>
+                    <input 
+                        type="radio" 
+                        name="color" 
+                        value='firstBtn'
+                        checked={buttonSelected === 'firstBtn'}
+                        onChange={handleChangeToggleBtnDiv1}
+                    />
+                    Economy / Premium Economy
+                </label>
+                <label className={`radioLabel ${buttonSelected === 'secondBtn' ? 'blue' : 'gray'}`}>
+                    <input 
+                        type="radio" 
+                        name='color'
+                        value='secondBtn'
+                        checked={buttonSelected === 'secondBtn'}
+                        onChange={handleChangeToggleBtnDiv1}
+                    />
+                    Business / First Class
+                </label>
+            </div>
+
             </div>
 
             <div className="bookFlightPageMainDiv2">
