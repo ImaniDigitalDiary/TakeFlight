@@ -1,0 +1,9 @@
+.myTripsDiv1 {
+    display: flex;
+    flex-direction: row;
+}
+.myTripsDiv1Text {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
