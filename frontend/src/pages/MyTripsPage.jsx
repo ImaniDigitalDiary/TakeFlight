@@ -43,17 +43,21 @@ function MyTripsPage() {
             {/* MY TRIPS DIV 3 */}
             <div className="myTripsDiv3">
                 <div className="myTripsDiv3Heading">
-                    Find a trip
+                    <h2>Find a trip</h2>
                 </div>
                 <div className="myTripsDiv3InputDiv">
-                    <label htmlFor="">
-                        Confirmation number
-                        <input type='text' />
-                    </label>
-                    <label htmlFor="">
-                        Last name
-                        <input type='text' />
-                    </label>
+                    <div className="myTripsInput1">
+                        <label htmlFor="">
+                            Confirmation number
+                        </label>
+                        <input type="text" />
+                    </div>
+                    <div className="myTripsInput2">
+                        <label htmlFor="">
+                            Last name
+                        </label>
+                        <input type="text" />
+                    </div>
                     <div>To add this trip to your account, <span>Sign in</span>.</div>
                     <button className='nextBtn'>Next</button>
                 </div>

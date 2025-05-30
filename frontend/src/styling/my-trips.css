@@ -56,3 +56,17 @@
     display: flex;
     align-items: center;
 }
+.myTripsDiv3Heading h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.myTripsDiv3InputDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.myTripsInput1,
+.myTripsInput2 {
+    display: flex;
+    flex-direction: column;
+}
