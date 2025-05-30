@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
+import SearchLinksFooter from '../components/SearchLinksFooter'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
 // STYLING
 import '../styling/book-page.css'
@@ -14,6 +16,7 @@ function Book() {
     const [cabinButtonSelected, setCabinButtonSelected] = useState('cabinFirstBtn') // cabin initial button selected
     const [fareButtonSelected, setFareButtonSelected] = useState('fareFirstBtn') // fare initial button selected
     const [flightButtonSelected, setFlightButtonSelected] = useState('flightFirstBtn') // show flights initial button selected
+
 
 
     // CABIN HADLE CHANGE - DIV 1
@@ -249,9 +252,12 @@ function Book() {
             </div>
             <div className="fareClassOptMain">
                 <div className="fareClassOptDiv1">
-                <div>Fare class (optional)</div>
+                <div className='fareOptHeading'>Fare class (optional)</div>
                     <div className="fareClassOptInputDiv1">
-                        <input className='fareClassInput' type='text'  placeholder='Examples: Y, B, M'/>
+                        <input 
+                            className='fareClassInput'
+                            type='text'  placeholder='Examples: Y, B, M'
+                        />
                         <div className='fareText'>Searching by fare class may not be combinable with other search 
                             preferences (e.g. upgrades, fare types).
                         </div>
@@ -259,9 +265,14 @@ function Book() {
                 </div>
 
                 <div className="fareClassOptDiv2">
-                    <div>Sort flights by</div>
+                    <div className='fareOptHeading'>Sort flights by</div>
                     <div className="fareClassOptInputDiv2">
-                        <input type="text" className="fareClassOptInput" />
+                        <select className='fareSelect' name="fare" id="fare">
+                            <option value="">Departure Time</option>
+                            <option value="">Travel Time</option>
+                            <option value="">Arrival Time</option>
+                            <option value="">Number of spots</option>
+                        </select>
                     </div>
                 </div>
 
@@ -286,6 +297,9 @@ function Book() {
                 </ul>
             </div>
         </div>
+
+        <SearchLinksFooter />
+        <HomepageFooter />
 
     </div>
     
