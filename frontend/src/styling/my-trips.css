@@ -26,3 +26,14 @@
     flex-direction: row;
     align-self: center;
 }
+
+
+.nextBtn {
+    background-color: #1414d2;
+    color: #fff;
+    font-weight: 600;
+    width: 132px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
