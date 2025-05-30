@@ -1,9 +1,27 @@
+.myTripsPage {
+    display: flex;
+    flex-direction: column;
+        font-family: "NeuePlakforUnited-SmBd", "Noto Sans", "Arial", sans-serif;
+}
+.myTripsPageMainDiv {
+    display: flex;
+    flex-direction: column;
+}
 .myTripsDiv1 {
     display: flex;
     flex-direction: row;
+    align-self: center;
+    width: 1135px;
+    /* justify-content: center; */
 }
 .myTripsDiv1Text {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.myTripsDiv2 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
