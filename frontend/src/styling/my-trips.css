@@ -21,6 +21,8 @@
     margin: 20px 20px;
 }
 
+
+/* MY TRIPS DIV 3 */
 .myTripsDiv2 {
     display: flex;
     flex-direction: row;
@@ -36,4 +38,15 @@
     height: 50px;
     border-radius: 50px;
     border: none;
+}
+
+
+/* MY TRIPS DIV 3 */
+.myTripsDiv3 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1135px;
+    height: 463px;
+    border: solid 1px #000;
 }
