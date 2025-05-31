@@ -58,7 +58,7 @@ function MyTripsPage() {
                         </label>
                         <input type="text" />
                     </div>
-                    <div>To add this trip to your account, <span className='signIn'>Sign in</span>.</div>
+                    <div>To add this trip to your account, <span className='signIn'>Sign in.</span></div>
                     <button className='nextBtn'>Next</button>
                 </div>
             </div>
