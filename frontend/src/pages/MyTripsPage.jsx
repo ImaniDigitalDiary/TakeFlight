@@ -63,6 +63,14 @@ function MyTripsPage() {
                 </div>
             </div>
 
+            <div className="myTripsDiv4">
+                <div className="travelCreditDiv">
+                    Looking for travel credit?
+                    <br />
+                    <span>Search travel credits</span>
+                </div>
+            </div>
+
               
 
 

@@ -81,7 +81,9 @@
 }
 .myTripsInput1 label,
 .myTripsInput2 label {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .3px;
 }
 .myTripsInput1 input,
 .myTripsInput2 input {
@@ -96,4 +98,13 @@
 
 .myTripsInput2 {
     margin-bottom: 30px;
+}
+
+
+/* MY TRIPS DIV 4 */
+.myTripsDiv4 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1135px;
 }
