@@ -71,6 +71,13 @@ function MyTripsPage() {
                 </div>
             </div>
 
+
+            <div className="myTripsDiv5">
+                <div className="faqs">
+                    <h2>FAQS</h2>
+                </div>
+            </div>
+
               
 
 
