@@ -2,6 +2,7 @@ import React from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
+import Faq from '../components/my-trips-components/Faq'
 
 // STYLING
 import '../styling/my-trips.css'
@@ -74,7 +75,7 @@ function MyTripsPage() {
 
             <div className="myTripsDiv5">
                 <div className="faqs">
-                    <h2>FAQS</h2>
+                    <Faq />
                 </div>
             </div>
 

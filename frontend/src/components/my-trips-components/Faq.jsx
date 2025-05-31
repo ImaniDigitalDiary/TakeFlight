@@ -24,12 +24,40 @@ import React, {useState} from 'react'
         }
     ]
 function Faq() {
+    const [ activeFaqIndex, setActiveFaqIndex] = useState(null)
 
-
-
+    const toggleFaq = (index) => {
+        setActiveFaqIndex(activeFaqIndex === index ? null : index)
+    }
 
   return (
     <div>
+        <div className='max-w-3xl mx-auto p-4'>
+            <h1 className='text-2xl font-bold mb-6'>FAQs</h1>
+            <div className='space-y-4'>
+                {faqs.map((faq, index) => (
+                    <div key={index} className='border-b pb-4'>
+                        <button
+                            onClick={() => toggleFaq(index)}
+                            className='flex justify-between w-full text-left font-semibold focus:outline-none'
+                        >
+                            <span>{faq.question}</span>
+                            <span>{activeFaqIndex === index ? 'UP' : 'DOWN'}</span>
+                        </button>
+                        {activeFaqIndex === index && (
+                            <p className='mt-2 text-gray-700'>
+                                {faq.answer}
+                            </p>
+                        )}
+                    </div>
+                ))}
+            </div>
+            <div className='mt-8'>
+                <a href="#" className='text-blue-600 hover:underline'>
+                    View more Trip FAQs &gt;
+                </a>
+            </div>
+        </div>
       
     </div>
   )
