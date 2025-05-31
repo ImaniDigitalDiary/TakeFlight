@@ -64,7 +64,9 @@
 }
 .myTripsDiv3Heading h2 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: .4px;
+    padding-left: 20px;
 }
 .myTripsDiv3InputDiv {
     display: flex;
