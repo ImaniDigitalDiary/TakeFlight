@@ -14,6 +14,8 @@
 }
 .faqBtn {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: none;
     width: 1135px;
 }
