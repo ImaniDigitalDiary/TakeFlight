@@ -1,0 +1,10 @@
+.faqComponentMain {
+    display: flex;
+    flex-direction: column;
+}
+.faqComponent {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1135px;
+}

@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 
+// STYLING
+import '../my-trips-components/faq.css'
+
     // faqs array of objects - questions and answers for FAQs components
     const faqs = [
         {
@@ -31,21 +34,21 @@ function Faq() {
     }
 
   return (
-    <div>
-        <div className='max-w-3xl mx-auto p-4'>
+    <div className='faqComponentMain'>
+        <div className='faqComponent'>
             <h1 className='text-2xl font-bold mb-6'>FAQs</h1>
-            <div className='space-y-4'>
+            <div className='faqDiv space-y-4'>
                 {faqs.map((faq, index) => (
-                    <div key={index} className='border-b pb-4'>
+                    <div key={index} className='faqBtnDiv border-b '>
                         <button
                             onClick={() => toggleFaq(index)}
-                            className='flex justify-between w-full text-left font-semibold focus:outline-none'
+                            className='faqBtn'
                         >
-                            <span>{faq.question}</span>
-                            <span>{activeFaqIndex === index ? 'UP' : 'DOWN'}</span>
+                            <span className='faqQuestion'>{faq.question}</span>
+                            <span className='faqToggle'>{activeFaqIndex === index ? 'UP' : 'DOWN'}</span>
                         </button>
                         {activeFaqIndex === index && (
-                            <p className='mt-2 text-gray-700'>
+                            <p className='faqAnswer mt-2 text-gray-700'>
                                 {faq.answer}
                             </p>
                         )}

@@ -6,6 +6,8 @@ import Faq from '../components/my-trips-components/Faq'
 
 // STYLING
 import '../styling/my-trips.css'
+// import '../components/my-trips-components/faq.css'
+
     // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
