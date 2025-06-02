@@ -5,6 +5,7 @@ import '../my-trips-components/faq.css'
     // FONT AWESOME
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+    import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
     // faqs array of objects - questions and answers for FAQs components
     const faqs = [
@@ -49,7 +50,7 @@ function Faq() {
                         >
                             <span className='faqQuestion'>{faq.question}</span>
                             <div className="upDownDiv">
-                                <span className='faqToggle'>{activeFaqIndex === index ? 'UP' : <FontAwesomeIcon icon={faChevronDown} />}</span>
+                                <span className='faqToggle'>{activeFaqIndex === index ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faChevronDown} />}</span>
                             </div>
                             
                         </button>
