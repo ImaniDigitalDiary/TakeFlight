@@ -45,7 +45,10 @@ function Faq() {
                             className='faqBtn'
                         >
                             <span className='faqQuestion'>{faq.question}</span>
-                            <span className='faqToggle'>{activeFaqIndex === index ? 'UP' : 'DOWN'}</span>
+                            <div className="upDownDiv">
+                                <span className='faqToggle'>{activeFaqIndex === index ? 'UP' : 'DOWN'}</span>
+                            </div>
+                            
                         </button>
                         {activeFaqIndex === index && (
                             <p className='faqAnswer mt-2 text-gray-700'>

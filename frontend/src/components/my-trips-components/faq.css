@@ -8,3 +8,12 @@
     align-self: center;
     width: 1135px;
 }
+
+.faqDiv {
+    /* background-color: blue; */
+}
+.faqBtn {
+    display: flex;
+    border: none;
+    width: 1135px;
+}
