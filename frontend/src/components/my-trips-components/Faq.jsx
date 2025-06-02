@@ -36,7 +36,7 @@ function Faq() {
   return (
     <div className='faqComponentMain'>
         <div className='faqComponent'>
-            <h1 className='text-2xl font-bold mb-6'>FAQs</h1>
+            <h1 className='faqsHeader text-2xl font-bold mb-6'>FAQs</h1>
             <div className='faqDiv space-y-4'>
                 {faqs.map((faq, index) => (
                     <div key={index} className='faqBtnDiv border-b '>

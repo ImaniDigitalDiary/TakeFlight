@@ -9,6 +9,10 @@
     width: 1135px;
 }
 
+.faqsHeader {
+    border-bottom: solid 1px #d7d7d4;
+}
+
 .faqDiv {
     /* background-color: blue; */
 }
@@ -19,4 +23,5 @@
     border: none;
     width: 1135px;
     background-color: #fff;
+    border-bottom: solid 1px #d7d7d4;
 }
