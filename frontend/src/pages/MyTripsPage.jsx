@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Faq from '../components/my-trips-components/Faq'
 import SearchLinksFooter from '../components/SearchLinksFooter'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
 // STYLING
 import '../styling/my-trips.css'
@@ -83,6 +84,7 @@ function MyTripsPage() {
             </div>
 
             <SearchLinksFooter />
+            <HomepageFooter />
 
               
 
