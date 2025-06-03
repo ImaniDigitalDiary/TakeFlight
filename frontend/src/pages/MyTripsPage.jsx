@@ -3,6 +3,7 @@ import React from 'react'
 // COMPONENTS
 import Navbar from '../components/Navbar'
 import Faq from '../components/my-trips-components/Faq'
+import SearchLinksFooter from '../components/SearchLinksFooter'
 
 // STYLING
 import '../styling/my-trips.css'
@@ -80,6 +81,8 @@ function MyTripsPage() {
                     <Faq />
                 </div>
             </div>
+
+            <SearchLinksFooter />
 
               
 
