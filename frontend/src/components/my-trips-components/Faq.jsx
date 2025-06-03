@@ -62,8 +62,8 @@ function Faq() {
                     </div>
                 ))}
             </div>
-            <div className='mt-8'>
-                <a href="#" className='text-blue-600 hover:underline'>
+            <div className='faqLinkDiv mt-8'>
+                <a href="#" className='faqLink text-blue-600 hover:underline'>
                     View more Trip FAQs &gt;
                 </a>
             </div>
