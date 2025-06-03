@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import Book from './pages/Book';
 import HelpCenter from './pages/HelpCenter';
 import MyTripsPage from './pages/MyTripsPage';
+import TravelInfoPage from './pages/TravelInfoPage';
 
 
 
@@ -19,7 +20,8 @@ function App() {
         <Route path='/home' element={<HomePage />} />
         <Route path='/book' element={<Book />} />
         <Route path='/help-center' element={<HelpCenter />} />
-        <Route path='/my-trips' element={<MyTripsPage />}/>
+        <Route path='/my-trips' element={<MyTripsPage />} />
+        <Route path='/travel-info' element={<TravelInfoPage />} />
       </Routes>
     </div>
   );
