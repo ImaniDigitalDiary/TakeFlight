@@ -6,6 +6,7 @@ import '../my-trips-components/faq.css'
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
     import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
+    import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
     // faqs array of objects - questions and answers for FAQs components
     const faqs = [
@@ -64,7 +65,7 @@ function Faq() {
             </div>
             <div className='faqLinkDiv mt-8'>
                 <a href="#" className='faqLink text-blue-600 hover:underline'>
-                    View more Trip FAQs &gt;
+                    View more Trip FAQs <FontAwesomeIcon icon={faChevronRight} />
                 </a>
             </div>
         </div>
