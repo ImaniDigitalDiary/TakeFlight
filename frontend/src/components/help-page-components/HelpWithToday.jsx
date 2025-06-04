@@ -434,10 +434,8 @@ const HelpWithToday = () => {
                             key={topic}               
                             onClick={() => setSelectedTopic(topic)}
                             style={{
-                            // backgroundColor: selectedTopic === topic ? "#e0e0e0" : "#fff",
                             textAlign: "left",
                             cursor: "pointer",
-                            // fontWeight: selectedTopic === topic ? "bold" : "normal"
                             }}
                         >
 
