@@ -23,8 +23,8 @@ const PlanATrip = () => (
                 <p>What you need to know before you get to the airport.</p>
             </div>
             <div className="planATripCont">
-                <div className="planATripIcon">
-                    <FontAwesomeIcon icon={faMobileScreen} />
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faMobileScreen}  className='planATripIcon fa-2x' />
                 </div>
                 <div className="planATripText">
                     <h3 className="planATripContHeader">Take Flight App</h3>
