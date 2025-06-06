@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 // COMPONENTS
 import Navbar from '../components/Navbar'
 import Homepage from '../components/homepage-components/HomepageFooter'
+import SearchLinksFooter from '../components/SearchLinksFooter'
 
 // STYLING
 import '../styling/travel-info.css'
@@ -328,7 +329,9 @@ function TravelInfoPage() {
 
             
         </div>
+        <SearchLinksFooter />
         <HomepageFooter />
+        
     
     </>
   )
