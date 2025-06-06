@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
+import Homepage from '../components/homepage-components/HomepageFooter'
 
 // STYLING
 import '../styling/travel-info.css'
@@ -20,6 +21,7 @@ import '../styling/travel-info.css'
 
 // IMAGES
 import travelInfoImage from '../images/travel-info-image.png'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
 // individual compeonents for each button
 const PlanATrip = () => (
@@ -323,7 +325,10 @@ function TravelInfoPage() {
                 </div>
             </div>
             </div>
+
+            
         </div>
+        <HomepageFooter />
     
     </>
   )
