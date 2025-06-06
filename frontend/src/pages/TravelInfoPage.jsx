@@ -11,6 +11,12 @@ import '../styling/travel-info.css'
     import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
     import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
     import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
+    import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
+    import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons'
+    import { faInfo } from '@fortawesome/free-solid-svg-icons'
+    import { faSuitcaseRolling } from '@fortawesome/free-solid-svg-icons'
+    import { faQrcode } from '@fortawesome/free-solid-svg-icons'
+
 
 // IMAGES
 import travelInfoImage from '../images/travel-info-image.png'
@@ -37,13 +43,78 @@ const PlanATrip = () => (
                 </div>
             </div>
             {/* AIRCRAFT INFORMATION */}
-             <div className="planATripCont">
+            <div className="planATripCont">
                 <div className="planATripIconDiv">
                     <FontAwesomeIcon icon={faMapLocationDot}  className='planATripIcon fa-2x' />
                 </div>
                 <div className="planATripText">
                     <h3 className="planATripContHeader">Aircraft informaiton</h3>
                     <p>Seat maps for every type of plane in our fleet.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* OUR CABINS */}
+            <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faChalkboardUser}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">Our cabins</h3>
+                    <p>Learn about our different onboard experiences and find the seat that's best for you.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* INTERNATIONAL TRAVEL REQUIREMENTS */}
+            <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faEarthAmericas}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">International travel requirements</h3>
+                    <p>Every country has its own entry requirements. Find out what documents you'll need to bring with you.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* AIRPORT INFORMATION */}
+            <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faInfo}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">Airport information</h3>
+                    <p>Learn about our airport check-in process, expedited security programs like TSA PreCheck and our TakeFlight Clubs.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* TRAVELING WITH BAGS */}
+            <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faSuitcaseRolling}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">Traveling with bags</h3>
+                    <p>Our rules for checked and carry-on bags, special items and fees.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* TSA SECURITY RULES */}
+            <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faQrcode}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">TSA security rules</h3>
+                    <p>Information on TSA screening and tips on how to get through security faster.</p>
                 </div>
                 <div className="planATripArrowDiv">
                     <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
