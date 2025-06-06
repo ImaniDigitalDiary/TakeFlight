@@ -12,6 +12,7 @@
 .planATripMain {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 .planATripCont {
     display: flex;
@@ -32,6 +33,7 @@
 .planATripArrowDiv {
     display: flex;
     align-items: center;
+    color: #1414d2;
 }
 
 
@@ -40,6 +42,7 @@
 .accAndAssistMain {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .accAndAssistCont {
@@ -71,6 +74,7 @@
 .myTripsMain {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .myTripsCont {
