@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import '../styling/travel-info.css'
     // FONT AWESOME ICONS
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-    import { faMobileScreen, faWheelchair } from '@fortawesome/free-solid-svg-icons'
+    import { faDog, faMobileScreen, faPaw, faPersonBreastfeeding, faPersonWalkingLuggage, faWheelchair } from '@fortawesome/free-solid-svg-icons'
     import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
     import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
     import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -139,6 +139,60 @@ const PlanATrip = () => (
                 <div className="accAndAssistText">
                     <h3 className="accAndAssistContHeader">Mobility and wheelchair assistance</h3>
                     <p>Whether you plan to travel with your own device, or need to request mobility services, we're here to help you.</p>
+                </div>
+                <div className="accAndAssistArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
+                </div>
+            </div>
+            {/* SERVICE ANIMALS */}
+            <div className="accAndAssistCont">
+                <div className="accAndAssistIconDiv">
+                    <FontAwesomeIcon icon={faPaw}  className='accAndAssistIcon fa-2x' />
+                </div>
+                <div className="accAndAssistText">
+                    <h3 className="accAndAssistContHeader">Service animals</h3>
+                    <p>Dogs trained to perform tasks for someone with disabilities are considered service ansimals.
+                        They must meet some requirements to fly with us.
+                    </p>
+                </div>
+                <div className="accAndAssistArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
+                </div>
+            </div>
+            {/* SENIOR TRAVELERS */}
+            <div className="accAndAssistCont">
+                <div className="accAndAssistIconDiv">
+                    <FontAwesomeIcon icon={faPersonWalkingLuggage}  className='accAndAssistIcon fa-2x' />
+                </div>
+                <div className="accAndAssistText">
+                    <h3 className="accAndAssistContHeader">Senior travelers</h3>
+                    <p>Tips, tricks and advice for traveling as a senior.</p>
+                </div>
+                <div className="accAndAssistArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
+                </div>
+            </div>
+            {/* TRAVELING WITH CHILDREN */}
+            <div className="accAndAssistCont">
+                <div className="accAndAssistIconDiv">
+                    <FontAwesomeIcon icon={faPersonBreastfeeding}  className='accAndAssistIcon fa-2x' />
+                </div>
+                <div className="accAndAssistText">
+                    <h3 className="accAndAssistContHeader">Traveling with children</h3>
+                    <p>Our travel rules for passengers under the age of 18.</p>
+                </div>
+                <div className="accAndAssistArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
+                </div>
+            </div>
+            {/* TRAVELING WITH PETS */}
+            <div className="accAndAssistCont">
+                <div className="accAndAssistIconDiv">
+                    <FontAwesomeIcon icon={faDog}  className='accAndAssistIcon fa-2x' />
+                </div>
+                <div className="accAndAssistText">
+                    <h3 className="accAndAssistContHeader">Traveling with pets</h3>
+                    <p>Our rules for traveling with non-service animals.</p>
                 </div>
                 <div className="accAndAssistArrowDiv">
                     <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
