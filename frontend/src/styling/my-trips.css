@@ -118,3 +118,10 @@
     text-decoration: underline;
     color: #1414d2;
 }
+
+
+
+.travelBtnDiv .travelBtn:hover {
+    color: #fff;
+    background-color: #1414d2;
+}

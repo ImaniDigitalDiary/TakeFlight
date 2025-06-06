@@ -252,6 +252,8 @@ const PlanATrip = () => (
         </>
     )
 
+
+    // CONTENT MAP
     const contentMap = {
         'Plan a trip': <PlanATrip />,
         'Accessibility and assistance': <AccAndAssist />,
@@ -286,7 +288,7 @@ function TravelInfoPage() {
                     justifyContent: 'center'
                 }}>
                 {/* Sidebar with buttons */}
-                    <div className='topicBtnDiv' 
+                    <div className='topicBtnDiv travelBtnDiv' 
                         style={{ 
                             width: "260px", 
                             borderRight: "1px solid #ddd", 
@@ -294,7 +296,7 @@ function TravelInfoPage() {
                             }}>
                             {Object.keys(contentMap).map((topic) => (
                             <button
-                                className='topicBtn'
+                                className='topicBtn travelBtn'
                                 key={topic}               
                                 onClick={() => setSelectedTopic(topic)}
                                 style={{
