@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import '../styling/travel-info.css'
     // FONT AWESOME ICONS
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-    import { faDog, faMobileScreen, faPaw, faPersonBreastfeeding, faPersonWalkingLuggage, faWheelchair } from '@fortawesome/free-solid-svg-icons'
+    import { faClock, faDog, faMobileScreen, faMountainSun, faPaw, faPersonBreastfeeding, faPersonWalkingLuggage, faUserClock, faWheelchair } from '@fortawesome/free-solid-svg-icons'
     import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
     import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
     import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -202,9 +202,60 @@ const PlanATrip = () => (
         </>
     )
 
+    const MyTrips = () => (
+        <>
+        <div className="myTripsMain">
+            <div className="myTripsHeadingDiv">
+                <h2>My trips</h2>
+                <p>Before you board:</p>
+            </div>
+            {/* CHECK IN YOUR FLIGHT */}
+            <div className="myTripsCont">
+                <div className="myTripsIconDiv">
+                    <FontAwesomeIcon icon={faClock}  className='myTripsIcon fa-2x' />
+                </div>
+                <div className="myTripsText">
+                    <h3 className="myTripsContHeader">Check in your flight</h3>
+                    <p>You can start the check-in process 24 hours before departure.</p>
+                </div>
+                <div className="myTripsArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='myTripsArrow fa-2x'/>
+                </div>
+            </div>
+            {/* FLIGHT STATUS */}
+            <div className="myTripsCont">
+                <div className="myTripsIconDiv">
+                    <FontAwesomeIcon icon={faUserClock}  className='myTripsIcon fa-2x' />
+                </div>
+                <div className="myTripsText">
+                    <h3 className="myTripsContHeader">Flight status</h3>
+                    <p>Search by route or flight number.</p>
+                </div>
+                <div className="myTripsArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='myTripsArrow fa-2x'/>
+                </div>
+            </div>
+            {/* TRAVEL READY CENTER */}
+            <div className="myTripsCont">
+                <div className="myTripsIconDiv">
+                    <FontAwesomeIcon icon={faMountainSun}  className='myTripsIcon fa-2x' />
+                </div>
+                <div className="myTripsText">
+                    <h3 className="myTripsContHeader">Travel-Ready Center</h3>
+                    <p>Some countries require a visa or other papers for entry. Visit the Travel Ready Center to upload documents before your trip.</p>
+                </div>
+                <div className="myTripsArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='myTripsArrow fa-2x'/>
+                </div>
+            </div>
+        </div>   
+        </>
+    )
+
     const contentMap = {
         'Plan a trip': <PlanATrip />,
-        'Accessibility and assistance': <AccAndAssist />
+        'Accessibility and assistance': <AccAndAssist />,
+        'My trips': <MyTrips />
     }
 
 
