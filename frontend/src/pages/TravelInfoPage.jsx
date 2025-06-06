@@ -307,7 +307,11 @@ function TravelInfoPage() {
     
                                 {topic}
                                 {/* font awesome icon for all topics for the right side of topics */}
-                                <FontAwesomeIcon icon={faChevronRight}  className='faChevronRight'/>
+                                <div className="faChevronRightDiv">
+                                    <FontAwesomeIcon icon={faChevronRight}  className='chevronIcon'/>
+
+                                </div>
+                                
                             </button>
                             ))}
                     </div>

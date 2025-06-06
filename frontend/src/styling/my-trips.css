@@ -125,3 +125,14 @@
     color: #fff;
     background-color: #1414d2;
 }
+
+.chevronIcon {
+    color: #1414d2;
+    transition: color 0.1s ease;
+}
+.chevronIcon:hover {
+    color: #fff;
+}
+.travelBtnDiv:hover .chevronIcon {
+    color: #fff;
+}
