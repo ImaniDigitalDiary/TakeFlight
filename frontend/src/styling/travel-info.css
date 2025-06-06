@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
 }
 
+/* PLAN A TRIP */
+
 .planATripMain {
     display: flex;
     flex-direction: column;
@@ -28,6 +30,38 @@
     width: 700px;
 }
 .planATripArrowDiv {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ACC AND ASSIST */
+
+.accAndAssistMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.accAndAssistCont {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    height: 100px;
+    box-shadow: inset 0 0 0 1px #d7d7d4;
+    padding: 16px;
+}
+
+.accAndAssistIconDiv {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.accAndAssistText {
+    width: 700px;
+}
+
+.accAndAssistArrowDiv {
     display: flex;
     align-items: center;
 }

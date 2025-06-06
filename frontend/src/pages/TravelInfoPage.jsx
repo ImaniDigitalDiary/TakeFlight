@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import '../styling/travel-info.css'
     // FONT AWESOME ICONS
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-    import { faMobileScreen } from '@fortawesome/free-solid-svg-icons'
+    import { faMobileScreen, faWheelchair } from '@fortawesome/free-solid-svg-icons'
     import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
     import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
     import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
@@ -124,9 +124,36 @@ const PlanATrip = () => (
         </>
     )
 
+    const AccAndAssist = () => (
+        <>
+        <div className="accAndAssistMain">
+            <div className="accAndAssistHeadingDiv">
+                <h2>Accessibility and assistance</h2>
+                <p>Our accessible travel policies and procedures.</p>
+            </div>
+            {/* MOBILITY AND WHEELCHAIR ASSISTANCE*/}
+            <div className="accAndAssistCont">
+                <div className="accAndAssistIconDiv">
+                    <FontAwesomeIcon icon={faWheelchair}  className='accAndAssistIcon fa-2x' />
+                </div>
+                <div className="accAndAssistText">
+                    <h3 className="accAndAssistContHeader">Mobility and wheelchair assistance</h3>
+                    <p>Whether you plan to travel with your own device, or need to request mobility services, we're here to help you.</p>
+                </div>
+                <div className="accAndAssistArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='accAndAssistArrow fa-2x'/>
+                </div>
+            </div>
+        </div> 
+        </>
+    )
+
     const contentMap = {
-        'Plan a trip': <PlanATrip />
+        'Plan a trip': <PlanATrip />,
+        'Accessibility and assistance': <AccAndAssist />
     }
+
+
 function TravelInfoPage() {
     const [selectedTopic, setSelectedTopic] = useState('Plan a trip')
   return (
