@@ -10,6 +10,7 @@ import '../styling/travel-info.css'
     import { faMobileScreen } from '@fortawesome/free-solid-svg-icons'
     import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
     import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+    import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 // IMAGES
 import travelInfoImage from '../images/travel-info-image.png'
@@ -22,6 +23,7 @@ const PlanATrip = () => (
                 <h2>Plan a trip</h2>
                 <p>What you need to know before you get to the airport.</p>
             </div>
+            {/* TAKE FLIGHT APP */}
             <div className="planATripCont">
                 <div className="planATripIconDiv">
                     <FontAwesomeIcon icon={faMobileScreen}  className='planATripIcon fa-2x' />
@@ -30,8 +32,21 @@ const PlanATrip = () => (
                     <h3 className="planATripContHeader">Take Flight App</h3>
                     <p>The Take Flight app is the best way to plan, book and enjoy your next flight.</p>
                 </div>
-                <div className="planATripArrow">
-                    <FontAwesomeIcon icon={faArrowRight} />
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
+                </div>
+            </div>
+            {/* AIRCRAFT INFORMATION */}
+             <div className="planATripCont">
+                <div className="planATripIconDiv">
+                    <FontAwesomeIcon icon={faMapLocationDot}  className='planATripIcon fa-2x' />
+                </div>
+                <div className="planATripText">
+                    <h3 className="planATripContHeader">Aircraft informaiton</h3>
+                    <p>Seat maps for every type of plane in our fleet.</p>
+                </div>
+                <div className="planATripArrowDiv">
+                    <FontAwesomeIcon icon={faArrowRight} className='planATripArrow fa-2x'/>
                 </div>
             </div>
         </div>    

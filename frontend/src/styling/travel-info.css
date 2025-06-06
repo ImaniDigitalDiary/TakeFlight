@@ -14,6 +14,7 @@
 .planATripCont {
     display: flex;
     flex-direction: row;
+    /* justify-content: space-around; */
     height: 90px;
     box-shadow: inset 0 0 0 1px #d7d7d4;
     padding: 16px;
@@ -21,5 +22,12 @@
 .planATripIconDiv   {
     display: flex;
     align-items: center;
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
+}
+.planATripText {
+    width: 700px;
+}
+.planATripArrowDiv {
+    display: flex;
+    align-items: center;
 }
