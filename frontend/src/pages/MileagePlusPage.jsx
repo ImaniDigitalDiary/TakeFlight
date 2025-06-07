@@ -1,8 +1,12 @@
 import React from 'react'
 
+// COMPONENTS
+import Navbar from '../components/Navbar'
+
 function MileagePlusPage() {
   return (
     <div>
+        <Navbar />
       <div className="milePlusMain">
         <div className="milePlusHeadText">
             <h1>Create account</h1>
