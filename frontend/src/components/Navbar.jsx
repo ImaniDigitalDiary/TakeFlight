@@ -33,7 +33,7 @@ function Navbar() {
         <Link className='navLink1' to={'/book'}>Book <FontAwesomeIcon icon={faChevronDown} /></Link>
         <Link className='navLink1' to={'/my-trips'}>My trips <FontAwesomeIcon icon={faChevronDown} /></Link>
         <Link className='navLink1' to={'/travel-info'}>Travel info <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <li className='navLink1'>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></li>
+        <Link className='navLink1' to={'/mileage-plus'}>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></Link>
         <li className='navLink1'>Deals <FontAwesomeIcon icon={faChevronDown} /></li>
         <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon icon={faChevronRight} /></Link>
       </ul>
