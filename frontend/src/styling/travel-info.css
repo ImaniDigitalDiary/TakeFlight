@@ -7,12 +7,19 @@
     background-repeat: no-repeat;
 }
 
+.guidelines {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    align-self: center;
+}
 /* PLAN A TRIP */
 
 .planATripMain {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 1160px;
 }
 .planATripCont {
     display: flex;
@@ -113,4 +120,22 @@
     display: flex;
     align-items: center;
     color: #1414d2;
+}
+
+.travelBtnDiv .travelBtn:hover {
+    color: #fff;
+    background-color: #1414d2;
+}
+
+.chevronIcon {
+    color: #1414d2;
+    transition: color 0.1s ease;
+}
+
+.chevronIcon:hover {
+    color: #fff;
+}
+
+.travelBtnDiv:hover .chevronIcon {
+    color: #fff;
 }
