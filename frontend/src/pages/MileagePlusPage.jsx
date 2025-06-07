@@ -21,6 +21,7 @@ function MileagePlusPage() {
         <div className="memberDiv">
             <FontAwesomeIcon icon={faBookmark} />
             <h3>Already a member?</h3>
+            <button>Sign in</button>
         </div>
       </div>
     </div>
