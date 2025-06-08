@@ -53,6 +53,47 @@ function MileagePlusPage() {
                 <img className='memberImg' src={ticket} alt="window illustration" />
                 <h6>Quicker check-in</h6>
             </div>
+        </div>
+
+        <div className="aboutYourselfDiv">
+            <h3>Tell us about yourself</h3>
+            <p>To start, we need to know more about you. We'll use this information to confirm your identity at the end of the sign-up process.
+                <br />
+                All fields are required unless indicated otherwise.
+            </p> 
+            <hr />
+            <div className="contactDiv">
+                <h4>1. Contact information</h4>
+            <label htmlFor="email">Email address</label>
+            <input type="text" />
+
+            <label htmlFor="phoneNumber">Phone number</label>
+            <input type='number' />
+
+            {/* checkboxes */}
+            <label htmlFor="">
+                <input type="checkbox" name="" id="" />
+                I would like to receive MileagePlus marketing emails.
+            </label>
+            <label htmlFor="">
+                <input type="checkbox" name="" id="" />
+                Send me updates on my flights when I travel.
+            </label>
+            <p>Selecting 'Send me updates on my flights when I tavel' indicates that you consent to receiving automated
+                text and/or email messages concerning flight status updates or notifications. Message and data rates may apply.
+            </p>
+        </div>
+
+        <div className="personalInfoDiv">
+            <h4>2. Personal information</h4>
+            <p>Your name, date of birth and gender must match the government-issued ID you use to travel.</p>
+            <div className="peronsalInfoInputs">
+                <label htmlFor="">
+                    Title
+                </label>
+            </div>
+        </div>
+             
             
         </div>
       </div>
