@@ -10,6 +10,7 @@
 .memberDiv {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 815px;
     height: 102px;
     border: solid 2px #ccc;
