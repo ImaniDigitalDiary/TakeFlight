@@ -1,0 +1,28 @@
+.milePlusMain {
+    display: flex;
+    flex-direction: column;
+    width: 815px;
+}
+.milePlusHeadText {
+    display: flex;
+    flex-direction: column;
+}
+.memberDiv {
+    display: flex;
+    flex-direction: row;
+    width: 815px;
+    height: 102px;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+}
+.memberTextAndIcon {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.memberBtn {
+    width: 134px;
+    height: 52px;
+    border-radius: 50px;
+    align-self: center;
+}

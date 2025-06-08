@@ -3,15 +3,19 @@ import React from 'react'
 // COMPONENTS
 import Navbar from '../components/Navbar'
 
+
+// STYLING
+import '../styling/mile-plus.css'
 // FONT AWESOME ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 function MileagePlusPage() {
   return (
-    <div>
-        <Navbar />
+    <div>  
+        <Navbar /> 
       <div className="milePlusMain">
+        
         <div className="milePlusHeadText">
             <h1>Create account</h1>
             <p>Start your MileagePlus adventure today. Our loyalty program is free to join and the miles you earn 
@@ -19,9 +23,12 @@ function MileagePlusPage() {
             </p>
         </div>
         <div className="memberDiv">
-            <FontAwesomeIcon icon={faBookmark} />
-            <h3>Already a member?</h3>
-            <button>Sign in</button>
+            <div className="memberTextAndIcon">
+                <FontAwesomeIcon icon={faBookmark} />
+                <h3>Already a member?</h3>
+            </div>
+            
+            <button className='memberBtn'>Sign in</button>
         </div>
       </div>
     </div>
