@@ -60,3 +60,17 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.aboutYourselfDiv {
+    display: flex;
+    flex-direction: column;
+    width: 815px;
+}
+.aboutYourselfDiv h3 {
+    height: 48px;
+    background-color: #ebebe9;
+    align-content: center;
+}
+
+
+
