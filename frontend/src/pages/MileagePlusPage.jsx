@@ -10,6 +10,12 @@ import '../styling/mile-plus.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
+// IMAGES
+import planeTicket from '../images/mile-plus-images/plane-ticket.svg'
+import calendar from '../images/mile-plus-images/calendar.svg'
+import plane from '../images/mile-plus-images/plane.svg'
+import ticket from '../images/mile-plus-images/ticket.svg'
+
 function MileagePlusPage() {
   return (
     <div>  
@@ -27,8 +33,27 @@ function MileagePlusPage() {
                 <FontAwesomeIcon icon={faBookmark} />
                 <h3>Already a member?</h3>
             </div>
-            
             <button className='memberBtn'>Sign in</button>
+        </div>
+
+        <div className="memberImagesDiv">
+            <div className="memberImgDiv">
+                <img className='memberImg' src={planeTicket} alt="ticket illustration" />
+                <h6>Earn and redeem miles</h6>
+            </div>
+            <div className="memberImgDiv">
+                <img className='memberImg' src={calendar} alt="calendar illustration" />
+                <h6>Miles never expire</h6>
+            </div>
+            <div className="memberImgDiv">
+                <img className='memberImg' src={plane} alt="window illustration" />
+                <h6>Easily save & manage trips</h6>
+            </div>
+            <div className="memberImgDiv">
+                <img className='memberImg' src={ticket} alt="window illustration" />
+                <h6>Quicker check-in</h6>
+            </div>
+            
         </div>
       </div>
     </div>

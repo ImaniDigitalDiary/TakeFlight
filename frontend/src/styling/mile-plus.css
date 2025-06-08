@@ -31,3 +31,22 @@
     align-self: center;
     margin-right: 30px;
 }
+
+
+
+/* MEMBER IMAGES */
+.memberImagesDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.memberImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.memberImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
