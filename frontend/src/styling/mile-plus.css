@@ -47,6 +47,11 @@
 }
 .memberImgDiv h6 {
     font-weight: bold;
+    width: 125px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .memberImg {
     width: 150px;
