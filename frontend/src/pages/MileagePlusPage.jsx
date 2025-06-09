@@ -82,18 +82,20 @@ function MileagePlusPage() {
             
 
             {/* checkboxes */}
-    
-            <label htmlFor="">
-                <input className='contactCheckbox' type="checkbox" name="" id="" />
-                I would like to receive MileagePlus marketing emails.
-            </label>
-            <label htmlFor="">
-                <input className='contactCheckbox'  type="checkbox" name="" id="" />
-                Send me updates on my flights when I travel.
-            </label>
-            <p>Selecting 'Send me updates on my flights when I tavel' indicates that you consent to receiving automated
-                text and/or email messages concerning flight status updates or notifications. Message and data rates may apply.
-            </p>
+            <div className="contactCheckboxes">
+                <label htmlFor="">
+                    <input className='contactCheckbox' type="checkbox" name="" id="" />
+                    I would like to receive MileagePlus marketing emails.
+                </label>
+                <label htmlFor="">
+                    <input className='contactCheckbox'  type="checkbox" name="" id="" />
+                    Send me updates on my flights when I travel.
+                </label>
+                    <p>Selecting 'Send me updates on my flights when I tavel' indicates that you consent to receiving automated
+                        text and/or email messages concerning flight status updates or notifications. Message and data rates may apply.
+                    </p>
+            </div>
+            
         </div>
 
         <div className="personalInfoDiv">
