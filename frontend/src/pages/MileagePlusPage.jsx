@@ -82,7 +82,7 @@ function MileagePlusPage() {
             
 
             {/* checkboxes */}
-            <div className="contactCheckboxes">
+            <div className="contactCheckboxesDiv">
                 <label htmlFor="">
                     <input className='contactCheckbox' type="checkbox" name="" id="" />
                     I would like to receive MileagePlus marketing emails.

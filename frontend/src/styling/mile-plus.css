@@ -93,9 +93,10 @@
     border-radius: 8px;
 }
 
-.contactCheckboxes {
+.contactCheckboxesDiv {
     display: flex;
     flex-direction: column;
+    gap: 25px;
     font-size: 18px;
 }
 .contactCheckbox {
