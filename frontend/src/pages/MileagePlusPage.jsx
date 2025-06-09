@@ -95,15 +95,28 @@ function MileagePlusPage() {
                         text and/or email messages concerning flight status updates or notifications. Message and data rates may apply.
                     </p>
             </div>
-            
         </div>
+
+        <hr />
 
         <div className="personalInfoDiv">
             <h4>2. Personal information</h4>
             <p>Your name, date of birth and gender must match the government-issued ID you use to travel.</p>
             <div className="peronsalInfoInputs">
                 <label htmlFor="">
-                    Title
+                    Title (optional)
+                    <select name ="" id="">
+                        <option value="">Select a title</option>
+                        <option value="">Dr.</option>
+                        <option value="">Prof.</option>
+                        <option value="">Rev.</option>
+                        <option value="">Miss</option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                        <option value="">Sir</option>
+                        <option value="">Sister</option>
+                        <option value="">Not Selected</option> 
+                    </select>
                 </label>
             </div>
         </div>
