@@ -82,6 +82,10 @@
     display: flex;
     flex-direction: column;
 }
+.contactInputDiv {
+    display: flex;
+    flex-direction: row;
+}
 .contactInput {
     width: 370px;
     height: 40px;

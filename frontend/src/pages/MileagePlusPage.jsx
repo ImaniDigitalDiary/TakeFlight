@@ -67,11 +67,19 @@ function MileagePlusPage() {
             {/* CONTACT DIV */}
             <div className="contactDiv">
                 <h4>1. Contact information</h4>
-            <label htmlFor="email">Email address</label>
-            <input className='contactInput' type="text" />
+                <div className="contactInputDiv">
+                    <label htmlFor="email">
+                        Email address
+                        <input className='contactInput' type="text" />
+                    </label>
 
-            <label htmlFor="phoneNumber">Phone number</label>
-            <input className='contactInput' type='number' />
+                    <label htmlFor="phoneNumber">
+                        Phone number
+                        <input className='contactInput' type='number' />
+                    </label>
+                    
+                </div>
+            
 
             {/* checkboxes */}
             <label htmlFor="">
