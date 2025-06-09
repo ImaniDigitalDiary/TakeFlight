@@ -85,9 +85,11 @@
 .contactInputDiv {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 .contactInput {
     width: 370px;
     height: 40px;
     border-radius: 8px;
 }
+
