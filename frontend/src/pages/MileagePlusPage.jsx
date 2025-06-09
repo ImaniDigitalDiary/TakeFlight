@@ -57,10 +57,11 @@ function MileagePlusPage() {
 
         <div className="aboutYourselfDiv">
             <h3>Tell us about yourself</h3>
-            <p>To start, we need to know more about you. We'll use this information to confirm your identity at the end of the sign-up process.
-                <br />
-                All fields are required unless indicated otherwise.
-            </p> 
+            <div className="aboutYourselfPara">
+                <p>To start, we need to know more about you. We'll use this information to confirm your identity at the end of the sign-up process.            </p> 
+                <p>All fields are required unless indicated otherwise.</p>
+            </div>
+            
             <hr />
             <div className="contactDiv">
                 <h4>1. Contact information</h4>
