@@ -12,6 +12,7 @@ hr {
 .steps {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 815px;
     height: 60px;
     border: solid 1px #d7d7d4;
