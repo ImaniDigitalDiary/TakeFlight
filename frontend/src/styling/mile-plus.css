@@ -36,7 +36,8 @@ hr {
     border-radius: 50px;
     align-self: center;
     margin-right: 30px;
-    border: solid 2px #1414d2;
+    border: solid 3px #1414d2;
+    background-color: #fff;
 }
 
 
