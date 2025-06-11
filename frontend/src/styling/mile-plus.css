@@ -79,12 +79,14 @@
 }
 .aboutYourselfPara {
     font-weight: 600;
+    padding-left: 10px;
 }
 
 /* CONTACT  */
 .contactDiv {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 .contactInputDiv {
     display: flex;
@@ -112,6 +114,9 @@
 
 /* PERSONAL INFO INPUTS */
 
+.personalInfoDiv {
+    padding-left: 10px;
+}
 .peronsalInfoInputsDiv1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
