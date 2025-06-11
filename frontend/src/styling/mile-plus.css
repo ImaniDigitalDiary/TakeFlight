@@ -16,6 +16,7 @@ hr {
     width: 815px;
     height: 60px;
     border: solid 1px #d7d7d4;
+    padding-left: 20px;
 }
 .oneBtn, .twoBtn, .threeBtn {
     width: 30px;
