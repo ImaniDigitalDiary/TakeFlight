@@ -23,6 +23,7 @@ hr {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    margin-right: 6px;
 }
 .milePlusHeadText {
     display: flex;
