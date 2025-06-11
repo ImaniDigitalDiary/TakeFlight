@@ -201,4 +201,7 @@
     width: 150px;
     height: 50px;
     border-radius: 50px;
+    background-color: #fff;
+    color: #1414d2;
+    border: solid 2px #1414d2;
 }
