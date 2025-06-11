@@ -103,36 +103,50 @@ function MileagePlusPage() {
             <h4>2. Personal information</h4>
             <p>Your name, date of birth and gender must match the government-issued ID you use to travel.</p>
             <div className="peronsalInfoInputs">
-                <label htmlFor="">
-                    Title (optional)
-                    <select name ="" id="">
-                        <option value="">Select a title</option>
-                        <option value="">Dr.</option>
-                        <option value="">Prof.</option>
-                        <option value="">Rev.</option>
-                        <option value="">Miss</option>
-                        <option value="">Mr.</option>
-                        <option value="">Mrs.</option>
-                        <option value="">Sir</option>
-                        <option value="">Sister</option>
-                        <option value="">Not Selected</option> 
-                    </select>
-                </label>
+                 
+                <div className="infoInputsDiv1">
+                    <label className='div1' htmlFor="">
+                        Title (optional)
+                        <select name ="" id="">
+                            <option value="">Select a title</option>
+                            <option value="">Dr.</option>
+                            <option value="">Prof.</option>
+                            <option value="">Rev.</option>
+                            <option value="">Miss</option>
+                            <option value="">Mr.</option>
+                            <option value="">Mrs.</option>
+                            <option value="">Sir</option>
+                            <option value="">Sister</option>
+                            <option value="">Not Selected</option> 
+                        </select>
+                    </label>
+                </div>
+                
+                <div className="infoInputsDiv2">
+                    <label  className='div1' htmlFor="">
+                        First name
+                        <input type="text" name="" id="" />
+                    </label>
+                </div>
 
-                <label htmlFor="">
-                    First name
-                    <input type="text" name="" id="" />
-                </label>
+                <div className="infoInputsDiv3">
+                    <label className='div2' htmlFor="">
+                        Middle name/initial (optional)
+                        <input type="text" placeholder='(as shown on ID)' />
+                    </label>
+                </div>
 
-                <label htmlFor="">
-                    Middle name/initial (optional)
-                    <input type="text" placeholder='(as shown on ID)' />
-                </label>
+                <div className="infoInputsDiv4">
+                    <label className='div2' htmlFor="">
+                        Last name 
+                        <input type="text" />
+                    </label>
+                    </div>
+                
 
-                <label htmlFor="">
-                    Last name 
-                    <input type="text" />
-                </label>
+                
+
+                
 
                 <label htmlFor="">
                     Suffix (optional)
