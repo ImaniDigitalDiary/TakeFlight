@@ -185,7 +185,7 @@ function MileagePlusPage() {
                                 </select>
                             </label>
                             <label htmlFor="date">
-                                <input type="text" placeholder='DD' />
+                                <input className='date' type="text" placeholder='DD' />
                             </label>
                             <label htmlFor="year">
                                 <input type="text" placeholder='YYYY' />
