@@ -2,7 +2,8 @@ import React from 'react'
 
 // COMPONENTS
 import Navbar from '../components/Navbar'
-
+import SearchLinksFooter from '../components/SearchLinksFooter'
+import HomepageFooter from '../components/homepage-components/HomepageFooter'
 
 // STYLING
 import '../styling/mile-plus.css'
@@ -215,6 +216,9 @@ function MileagePlusPage() {
             <button className='cancelBtn'>Cancel</button>
         </div>
       </div>
+
+      <SearchLinksFooter />
+      <HomepageFooter />
     </div>
   )
 }
