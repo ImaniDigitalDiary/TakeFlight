@@ -168,7 +168,7 @@ function MileagePlusPage() {
                         Date of birth
                         <div className="dob">
                             <label htmlFor="month">
-                                <select name="" id="">
+                                <select className='month' name="month" id="month">
                                     <option value="">Month</option>
                                     <option value="">01 - January</option>
                                     <option value="">02 - February</option>
