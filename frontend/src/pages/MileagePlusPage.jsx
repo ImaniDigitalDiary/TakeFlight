@@ -206,9 +206,12 @@ function MileagePlusPage() {
                             </select>
                         </label>
                     </div>
-
                 </div>
 
+            <div className="personalInfoBtns">
+                <button className='contBtn'>Continue</button>
+                <button className='cancelBtn'>Cancel</button>
+            </div>
                 
 
             
