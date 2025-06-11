@@ -118,13 +118,13 @@
 .infoInputsDiv1 {
  grid-area: 1/1/2/2;
 }
-.infoInputsDiv1 {
+.infoInputsDiv2 {
     grid-area: 1/2/2/3;
 }
-.infoInputsDiv1 {
+.infoInputsDiv3 {
     grid-area: 2/1/3/2;
 }
-.infoInputsDiv1 {
+.infoInputsDiv4 {
     grid-area: 2/2/3/3;
 }
 .div1, .div2 {
