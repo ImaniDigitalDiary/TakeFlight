@@ -162,7 +162,6 @@
     width: 209px;
     height: 42px;
 }
-
 .month {
     width: 155px;
     height: 42px;
@@ -176,4 +175,8 @@
     width: 100px;
     height: 42px;
     border-radius: 8px;
+}
+.gender {
+    width: 210px;
+    height: 42px;
 }

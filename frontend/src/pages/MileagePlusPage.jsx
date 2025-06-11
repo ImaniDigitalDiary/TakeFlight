@@ -194,10 +194,10 @@ function MileagePlusPage() {
                         </div>
                     </div>
 
-                    <div className='gender'>
+                    <div>
                         <label className='div5' htmlFor="gender">
                             Gender
-                            <select name="" id="">
+                            <select className='gender' name="" id="">
                                 <option value="">Select a gender</option>
                                 <option value="">Male (M)</option>
                                 <option value="">Female (F)</option>
