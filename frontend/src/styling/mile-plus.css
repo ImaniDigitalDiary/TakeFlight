@@ -195,6 +195,7 @@
     border-radius: 50px;
     background-color: #1414d2;
     color: #fff;
+    border: none;
 }
 .cancelBtn {
     width: 150px;
