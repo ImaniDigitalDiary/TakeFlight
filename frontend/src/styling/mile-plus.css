@@ -38,7 +38,7 @@
 /* MEMBER IMAGES */
 .memberImagesDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
 }
 .memberImgDiv {
@@ -75,6 +75,7 @@
     height: 48px;
     background-color: #ebebe9;
     align-content: center;
+    padding-left: 10px;
 }
 .aboutYourselfPara {
     font-weight: 600;

@@ -50,10 +50,6 @@ function MileagePlusPage() {
                 <img className='memberImg' src={plane} alt="window illustration" />
                 <h6>Easily save & manage trips</h6>
             </div>
-            <div className="memberImgDiv">
-                <img className='memberImg' src={ticket} alt="window illustration" />
-                <h6>Quicker check-in</h6>
-            </div>
         </div>
 
         <div className="aboutYourselfDiv">
