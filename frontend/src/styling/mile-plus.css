@@ -1,7 +1,7 @@
 .milePlusMain {
     display: flex;
     flex-direction: column;
-    width: 815px;
+    width: 81s5px;
     padding-left: 30px;
 }
 .milePlusHeadText {
@@ -116,6 +116,7 @@
 
 .personalInfoDiv {
     padding-left: 10px;
+    width: 780px;
 }
 .peronsalInfoInputsDiv1 {
     display: grid;
