@@ -1,3 +1,8 @@
+hr {
+    width: 780px;
+    align-self: center;
+}
+
 .milePlusMain {
     display: flex;
     flex-direction: column;
