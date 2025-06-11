@@ -13,6 +13,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 20px;
     width: 815px;
     height: 60px;
     border: solid 1px #d7d7d4;
