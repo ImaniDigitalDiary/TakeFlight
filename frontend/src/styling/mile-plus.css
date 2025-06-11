@@ -189,6 +189,11 @@
 
 
 /* PERSONAL INFO BTNS */
+.personalInfoBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .contBtn {
     width: 150px;
     height: 50px;
