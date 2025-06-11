@@ -121,6 +121,9 @@ hr {
     flex-direction: column;
     padding-left: 10px;
 }
+.contactDiv h4 {
+    font-weight: 600;
+}
 .contactInputDiv {
     display: flex;
     flex-direction: row;
