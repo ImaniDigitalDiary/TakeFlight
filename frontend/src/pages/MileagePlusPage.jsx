@@ -148,7 +148,7 @@ function MileagePlusPage() {
                 <div className="peronsalInfoInputsDiv2">
                     <label  className='div3' htmlFor="">
                         Suffix (optional)
-                        <select name="" id="">
+                        <select className='suffix' name='suffix' id="">
                             <option value="">DDS</option>
                             <option value="">Dr</option>
                             <option value="">ESQ</option>

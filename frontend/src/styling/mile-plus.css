@@ -157,3 +157,8 @@
     display: flex;
     flex-direction: row;
 }
+
+.suffix {
+    width: 209px;
+    height: 42px;
+}
