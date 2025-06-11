@@ -25,6 +25,11 @@ hr {
     height: 30px;
     border-radius: 50%;
     margin-right: 6px;
+    background-color: #fff;
+}
+.oneBtn {
+    background-color: #1414d2;
+    color: #fff;
 }
 .milePlusHeadText {
     display: flex;
