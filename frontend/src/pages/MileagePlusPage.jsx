@@ -22,7 +22,20 @@ function MileagePlusPage() {
     <div>  
         <Navbar /> 
       <div className="milePlusMain">
-        
+        <div className="steps">
+            <div className="one">
+                <button className='oneBtn'>1</button>
+                About me
+            </div>
+            <div className="two">
+                <button className='twoBtn'>2</button>
+                Address
+            </div>
+            <div className="three">
+                <button className='threeBtn'>3</button>
+                Security
+            </div>
+        </div>
         <div className="milePlusHeadText">
             <h1>Create account</h1>
             <p>Start your MileagePlus adventure today. Our loyalty program is free to join and the miles you earn 

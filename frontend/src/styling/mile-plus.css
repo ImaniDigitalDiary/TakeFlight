@@ -9,6 +9,17 @@ hr {
     width: 815px;
     padding-left: 30px;
 }
+.steps {
+    display: flex;
+    flex-direction: row;
+    width: 815px;
+    height: 60px;
+    border: solid 1px #d7d7d4;
+}
+.oneBtn, .twoBtn, .threeBtn {
+    width: 30px;
+    height: 30px;
+}
 .milePlusHeadText {
     display: flex;
     flex-direction: column;
