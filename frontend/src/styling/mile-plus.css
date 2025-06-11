@@ -124,6 +124,9 @@ hr {
 .contactDiv h4 {
     font-weight: 600;
 }
+.personalInfoDiv h4 {
+    font-weight: 600;
+}
 .contactInputDiv {
     display: flex;
     flex-direction: row;
