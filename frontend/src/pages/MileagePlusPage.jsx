@@ -102,7 +102,7 @@ function MileagePlusPage() {
         <div className="personalInfoDiv">
             <h4>2. Personal information</h4>
             <p>Your name, date of birth and gender must match the government-issued ID you use to travel.</p>
-            <div className="peronsalInfoInputs">
+            <div className="peronsalInfoInputsDiv1">
                  
                 <div className="infoInputsDiv1">
                     <label className='div1' htmlFor="">
@@ -142,67 +142,76 @@ function MileagePlusPage() {
                         <input type="text" />
                     </label>
                     </div>
+                </div>
+
+
+                <div className="peronsalInfoInputsDiv2">
+                    <label  className='div3' htmlFor="">
+                        Suffix (optional)
+                        <select name="" id="">
+                            <option value="">DDS</option>
+                            <option value="">Dr</option>
+                            <option value="">ESQ</option>
+                            <option value="">II</option>
+                            <option value="">III</option>
+                            <option value="">IV</option>
+                            <option value="">Jr</option>
+                            <option value="">MD</option>
+                            <option value="">PHD</option>
+                            <option value="">RN</option>
+                            <option value="">Sr</option>
+                            <option value="">V</option>
+                        </select>
+                    </label>
+
+                    <div className="div4">
+                        Date of birth
+                        <div className="dob">
+                            <label htmlFor="month">
+                                <select name="" id="">
+                                    <option value="">Month</option>
+                                    <option value="">01 - January</option>
+                                    <option value="">02 - February</option>
+                                    <option value="">03 - March</option>
+                                    <option value="">04 - April</option>
+                                    <option value="">05 - May</option>
+                                    <option value="">06 - June</option>
+                                    <option value="">07 - July</option>
+                                    <option value="">08 - August</option>
+                                    <option value="">09 - September</option>
+                                    <option value="">10 - October</option>
+                                    <option value="">11 - November</option>
+                                    <option value="">12 - December</option>
+                                </select>
+                            </label>
+                            <label htmlFor="date">
+                                <input type="text" placeholder='DD' />
+                            </label>
+                            <label htmlFor="year">
+                                <input type="text" placeholder='YYYY' />
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <div className='gender'>
+                        <label className='div5' htmlFor="gender">
+                            Gender
+                            <select name="" id="">
+                                <option value="">Select a gender</option>
+                                <option value="">Male (M)</option>
+                                <option value="">Female (F)</option>
+                                <option value="">Unspecified (X)</option>
+                                <option value="">Undisclosed (U)</option>
+                            </select>
+                        </label>
+                    </div>
+
+                </div>
+
                 
 
-
-                <label htmlFor="">
-                    Suffix (optional)
-                    <select name="" id="">
-                        <option value="">DDS</option>
-                        <option value="">Dr</option>
-                        <option value="">ESQ</option>
-                        <option value="">II</option>
-                        <option value="">III</option>
-                        <option value="">IV</option>
-                        <option value="">Jr</option>
-                        <option value="">MD</option>
-                        <option value="">PHD</option>
-                        <option value="">RN</option>
-                        <option value="">Sr</option>
-                        <option value="">V</option>
-                    </select>
-                </label>
-
-                <div className="dob">
-                    <label htmlFor="month">
-                        <select name="" id="">
-                            <option value="">Month</option>
-                            <option value="">01 - January</option>
-                            <option value="">02 - February</option>
-                            <option value="">03 - March</option>
-                            <option value="">04 - April</option>
-                            <option value="">05 - May</option>
-                            <option value="">06 - June</option>
-                            <option value="">07 - July</option>
-                            <option value="">08 - August</option>
-                            <option value="">09 - September</option>
-                            <option value="">10 - October</option>
-                            <option value="">11 - November</option>
-                            <option value="">12 - December</option>
-                        </select>
-                    </label>
-                    <label htmlFor="date">
-                        <input type="text" placeholder='DD' />
-                    </label>
-                    <label htmlFor="year">
-                        <input type="text" placeholder='YYYY' />
-                    </label>
-                </div>
-
-                <div className="gender">
-                    <label htmlFor="gender">
-                        Gender
-                        <select name="" id="">
-                            <option value="">Select a gender</option>
-                            <option value="">Male (M)</option>
-                            <option value="">Female (F)</option>
-                            <option value="">Unspecified (X)</option>
-                            <option value="">Undisclosed (U)</option>
-                        </select>
-                    </label>
-                </div>
-
-            </div>
+            
         </div>
              
             
