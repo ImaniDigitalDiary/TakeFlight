@@ -147,7 +147,7 @@
 .peronsalInfoInputsDiv2 {
     display: flex;
     flex-direction: row;
-    gap: 28px;
+    gap: 18px;
 }
 
 .div3, .div4, .div5 {
@@ -157,6 +157,7 @@
 .dob {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .suffix {
