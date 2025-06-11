@@ -175,4 +175,5 @@
 .year {
     width: 100px;
     height: 42px;
+    border-radius: 8px;
 }
