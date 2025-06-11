@@ -88,7 +88,7 @@ function MileagePlusPage() {
                     <input className='contactCheckbox'  type="checkbox" name="" id="" />
                     Send me updates on my flights when I travel.
                 </label>
-                    <p>Selecting 'Send me updates on my flights when I tavel' indicates that you consent to receiving automated
+                    <p>Selecting <span>'Send me updates on my flights when I tavel'</span> indicates that you consent to receiving automated
                         text and/or email messages concerning flight status updates or notifications. Message and data rates may apply.
                     </p>
             </div>
