@@ -188,7 +188,7 @@ function MileagePlusPage() {
                                 <input className='date' type="text" placeholder='DD' />
                             </label>
                             <label htmlFor="year">
-                                <input type="text" placeholder='YYYY' />
+                                <input className='year' type="text" placeholder='YYYY' />
                             </label>
 
                         </div>

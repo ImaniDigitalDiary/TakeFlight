@@ -167,9 +167,12 @@
     width: 155px;
     height: 42px;
 }
-
 .date {
     width: 87px;
     height: 42px;
     border-radius: 8px;
+}
+.year {
+    width: 100px;
+    height: 42px;
 }
