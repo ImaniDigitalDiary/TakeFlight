@@ -65,12 +65,12 @@ function MileagePlusPage() {
             <div className="contactDiv">
                 <h4>1. Contact information</h4>
                 <div className="contactInputDiv">
-                    <label htmlFor="email">
+                    <label htmlFor="email" className='email'>
                         Email address
                         <input className='contactInput' type="text" />
                     </label>
 
-                    <label htmlFor="phoneNumber">
+                    <label htmlFor="phoneNumber" className='phoneNumber'>
                         Phone number
                         <input className='contactInput' type='number' />
                     </label>
@@ -102,7 +102,7 @@ function MileagePlusPage() {
             <div className="peronsalInfoInputsDiv1">
                  
                 <div className="infoInputsDiv1">
-                    <label className='div1' htmlFor="">
+                    <label className='div1 title' htmlFor="">
                         Title (optional)
                         <select className='selectTitle' name ="" id="">
                             <option value="">Select a title</option>
@@ -120,21 +120,21 @@ function MileagePlusPage() {
                 </div>
                 
                 <div className="infoInputsDiv2">
-                    <label  className='div1' htmlFor="">
+                    <label  className='div1 first' htmlFor="">
                         First name
                         <input type="text" name="" id="" />
                     </label>
                 </div>
 
                 <div className="infoInputsDiv3">
-                    <label className='div2' htmlFor="">
+                    <label className='div2 middle' htmlFor="">
                         Middle name/initial (optional)
                         <input type="text" placeholder='(as shown on ID)' />
                     </label>
                 </div>
 
                 <div className="infoInputsDiv4">
-                    <label className='div2' htmlFor="">
+                    <label className='div2 last' htmlFor="">
                         Last name 
                         <input type="text" />
                     </label>
@@ -161,7 +161,7 @@ function MileagePlusPage() {
                         </select>
                     </label>
 
-                    <div className="div4">
+                    <div className="div4 dobDiv">
                         Date of birth
                         <div className="dob">
                             <label htmlFor="month">

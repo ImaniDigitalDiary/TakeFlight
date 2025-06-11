@@ -125,6 +125,17 @@ span {
     font-weight: 500;
 }
 
+.email, 
+.phoneNumber, 
+.title, 
+.first,
+.middle, 
+.last, 
+.suffix, 
+.dobDiv {
+    font-weight: 500;
+}
+
 
 
 /* PERSONAL INFO INPUTS */
