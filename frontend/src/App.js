@@ -11,6 +11,7 @@ import HelpCenter from './pages/HelpCenter';
 import MyTripsPage from './pages/MyTripsPage';
 import TravelInfoPage from './pages/TravelInfoPage';
 import MileagePlusPage from './pages/MileagePlusPage';
+import DealsPage from './pages/DealsPage';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/my-trips' element={<MyTripsPage />} />
         <Route path='/travel-info' element={<TravelInfoPage />} />
         <Route path='/mileage-plus' element={<MileagePlusPage />} />
+        <Route path='deals' element={<DealsPage />} />
       </Routes>
     </div>
   );
