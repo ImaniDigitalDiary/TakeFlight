@@ -10,6 +10,9 @@ import newYorkImg from '../images/deals-images/new-york.jpg'
 import laImg from '../images/deals-images/los-angeles.jpg'
 import denverImg from '../images/deals-images/denver.jpg'
 
+// STYLING
+import '../styling/deals.css'
+
 function DealsPage() {
   return (
     <div>
