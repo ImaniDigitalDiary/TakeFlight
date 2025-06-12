@@ -38,29 +38,29 @@ function DealsPage() {
 
             <div className="ongoingDealsDiv">
                 <h5>On-going deals</h5>
-                {/* IMGES */}
+                {/* IMAGES */}
                 <div className="ongoingDealsImages">
-                    <div className="chicago">
+                    <div className="dealsImgDiv chicago">
                         <img src={chicagoImg} alt="Chicago" className='dealsImg' />
                         <a href="#">Flights from Chicago</a>
                     </div>
-                    <div className="houston">
+                    <div className="dealsImgDiv houston">
                         <img src={houstonImg} alt="Houston" className="dealsImg" />
                         <a href="#">Flights from Houston</a>
                     </div>
-                    <div className="newyork">
+                    <div className="dealsImgDiv newyork">
                         <img src={newYorkImg} alt="New York City" className="dealsImg" />
                         <a href="#">Flights from New York City</a>
                     </div>
-                    <div className="sanfran">
+                    <div className="dealsImgDiv sanfran">
                         <img src={sanFranImg} alt="San Francisco" className="dealsImg" />
                         <a href="#">Flights from San Francisco</a>
                     </div>
-                    <div className="la">
+                    <div className="dealsImgDiv la">
                         <img src={laImg} alt="Los Angeles" className="dealsImg" />
                         <a href="#">Flights from Los Angeles</a>
                     </div>
-                    <div className="denver">
+                    <div className="dealsImgDiv denver">
                         <img src={denverImg} alt="Denver" className="dealsImg" />
                         <a href="#">Flights from Denver</a>
                     </div>
