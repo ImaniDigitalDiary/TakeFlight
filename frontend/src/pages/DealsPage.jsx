@@ -3,7 +3,7 @@ import React from 'react'
 function DealsPage() {
   return (
     <div>
-      Deal page
+      <h1>Travel deals</h1>
     </div>
   )
 }
