@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar'
 import chicagoImg from '../images/deals-images/chicago.jpg'
 import houstonImg from '../images/deals-images/houston.jpg'
 import newYorkImg from '../images/deals-images/new-york.jpg'
+import sanFranImg from '../images/deals-images/sanfran.jpg'
 import laImg from '../images/deals-images/los-angeles.jpg'
 import denverImg from '../images/deals-images/denver.jpg'
 
@@ -40,8 +41,28 @@ function DealsPage() {
                 {/* IMGES */}
                 <div className="ongoingDealsImages">
                     <div className="chicago">
-                        <img className='dealsImg' src={chicagoImg} alt="chicago" />
+                        <img src={chicagoImg} alt="Chicago" className='dealsImg' />
                         <a href="#">Flights from Chicago</a>
+                    </div>
+                    <div className="houston">
+                        <img src={houstonImg} alt="Houston" className="dealsImg" />
+                        <a href="#">Flights from Houston</a>
+                    </div>
+                    <div className="newyork">
+                        <img src={newYorkImg} alt="New York City" className="dealsImg" />
+                        <a href="#">Flights from New York City</a>
+                    </div>
+                    <div className="sanfran">
+                        <img src={sanFranImg} alt="San Francisco" className="dealsImg" />
+                        <a href="#">Flights from San Francisco</a>
+                    </div>
+                    <div className="la">
+                        <img src={laImg} alt="Los Angeles" className="dealsImg" />
+                        <a href="#">Flights from Los Angeles</a>
+                    </div>
+                    <div className="denver">
+                        <img src={denverImg} alt="Denver" className="dealsImg" />
+                        <a href="#">Flights from Denver</a>
                     </div>
                 </div>
             </div>
