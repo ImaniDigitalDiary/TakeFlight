@@ -3,6 +3,13 @@ import React from 'react'
 // COMPONENTS
 import Navbar from '../components/Navbar'
 
+// IMAGES
+import chicagoImg from '../images/deals-images/chicago.jpg'
+import houstonImg from '../images/deals-images/houston.jpg'
+import newYorkImg from '../images/deals-images/new-york.jpg'
+import laImg from '../images/deals-images/los-angeles.jpg'
+import denverImg from '../images/deals-images/denver.jpg'
+
 function DealsPage() {
   return (
     <div>
@@ -23,6 +30,10 @@ function DealsPage() {
             </div>
             <h3>Special flight offers</h3>
             <p>You can explore our current flight offers and promotions using our <span><a href="#">search tool</a></span>.</p>
+            </div>
+
+            <div className="ongoingDealsDiv">
+                <h5>On-going deals</h5>
             </div>
         </div>
       
