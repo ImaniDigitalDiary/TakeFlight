@@ -40,8 +40,8 @@ function DealsPage() {
                 {/* IMGES */}
                 <div className="ongoingDealsImages">
                     <div className="chicago">
-                        <img src={chicagoImg} alt="chicago" />
-                        <a className='dealsImg' href="#">Flights from Chicago</a>
+                        <img className='dealsImg' src={chicagoImg} alt="chicago" />
+                        <a href="#">Flights from Chicago</a>
                     </div>
                 </div>
             </div>
