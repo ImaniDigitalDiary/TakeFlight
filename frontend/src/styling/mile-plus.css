@@ -6,8 +6,9 @@ hr {
 .milePlusMain {
     display: flex;
     flex-direction: column;
+    /* justify-self: center; */
     width: 815px;
-    padding-left: 30px;
+    padding-left: 180px;
 }
 .steps {
     display: flex;
