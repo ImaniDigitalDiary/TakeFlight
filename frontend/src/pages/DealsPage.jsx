@@ -34,6 +34,13 @@ function DealsPage() {
 
             <div className="ongoingDealsDiv">
                 <h5>On-going deals</h5>
+                {/* IMGES */}
+                <div className="ongoingDealsImages">
+                    <div className="chicago">
+                        <img src={chicagoImg} alt="chicago" />
+                        <a className='dealsImg' href="#">Flights from Chicago</a>
+                    </div>
+                </div>
             </div>
         </div>
       
