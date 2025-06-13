@@ -17,6 +17,7 @@
 .dealsOfferLinks {
     display: flex;
     flex-direction: row;
+    margin: 30px 0 30px 0 ;
 }
 .specialOffers {
     display: flex;
