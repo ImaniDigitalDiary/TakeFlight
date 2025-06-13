@@ -19,6 +19,7 @@ import '../styling/deals.css'
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
     import { faPlane } from '@fortawesome/free-solid-svg-icons'
     import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+    import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
 
 function DealsPage() {
   return (
@@ -41,7 +42,9 @@ function DealsPage() {
                     <FontAwesomeIcon icon={faArrowDown} />
                 </div>
                 <div className="otherOffers">
+                    <FontAwesomeIcon icon={faBagShopping} />
                     <a href="#">Other offers</a>
+                    <FontAwesomeIcon icon={faArrowDown} />
                 </div>
             </div>
             <h3>Special flight offers</h3>

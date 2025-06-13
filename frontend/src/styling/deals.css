@@ -19,11 +19,17 @@
     flex-direction: row;
 }
 .specialOffers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: solid 1px #ccc;
     width: 555px;
     height: 58px;
 }
 .otherOffers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: solid 1px #ccc;
     width: 555px;
     height: 58px;
