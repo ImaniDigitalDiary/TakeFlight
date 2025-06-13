@@ -21,18 +21,30 @@
 .specialOffers {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     border: solid 1px #ccc;
     width: 555px;
     height: 58px;
+    padding: 0 20px 0 20px;
 }
 .otherOffers {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     border: solid 1px #ccc;
     width: 555px;
     height: 58px;
+    padding: 0 20px 0 20px;
+}
+.specDiv {
+    display: flex;
+    gap: 10px;
+}
+.otherDiv {
+    display: flex;
+    gap: 10px;
 }
 
 .ongoingDealsImages {
