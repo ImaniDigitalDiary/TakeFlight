@@ -37,14 +37,14 @@ function DealsPage() {
             <div className="dealsOfferLinksDiv">
                 <div className="dealsOfferLinks">
                 <div className="specialOffers">
-                    <FontAwesomeIcon icon={faPlane} />
+                    <FontAwesomeIcon icon={faPlane} className='fa-2x' />
                     <a href="#">Special flight offers</a>
-                    <FontAwesomeIcon icon={faArrowDown} />
+                    <FontAwesomeIcon icon={faArrowDown} className='fa-2x' />
                 </div>
                 <div className="otherOffers">
-                    <FontAwesomeIcon icon={faBagShopping} />
+                    <FontAwesomeIcon icon={faBagShopping} className='fa-2x' />
                     <a href="#">Other offers</a>
-                    <FontAwesomeIcon icon={faArrowDown} />
+                    <FontAwesomeIcon icon={faArrowDown} className='fa-2x' />
                 </div>
             </div>
             <h3>Special flight offers</h3>
