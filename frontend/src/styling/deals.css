@@ -4,6 +4,9 @@
     display: flex;
     flex-direction: column;
 }
+.dealsHeadingDiv h1 {
+    font-weight: 600;
+}
 
 .ongoingDealsImages {
     display: grid;
@@ -15,10 +18,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: flex-start;
-    width: 375px;
-    height: 240px;
-    overflow: hidden; */
 }
 .dealsImg {
     width: 100%;
@@ -44,6 +43,6 @@
 }
 
 .offersPara {
-    margin: 40px 0 20px 40px;
+    margin: 40px 0 40px 20px;
     width: 850px;
 }
