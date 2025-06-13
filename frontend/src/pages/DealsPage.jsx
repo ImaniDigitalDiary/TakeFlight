@@ -15,6 +15,10 @@ import denverImg from '../images/deals-images/denver.jpg'
 
 // STYLING
 import '../styling/deals.css'
+    // FONT AWESOME ICONS
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+    import { faPlane } from '@fortawesome/free-solid-svg-icons'
+    import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 function DealsPage() {
   return (
@@ -32,7 +36,9 @@ function DealsPage() {
             <div className="dealsOfferLinksDiv">
                 <div className="dealsOfferLinks">
                 <div className="specialOffers">
+                    <FontAwesomeIcon icon={faPlane} />
                     <a href="#">Special flight offers</a>
+                    <FontAwesomeIcon icon={faArrowDown} />
                 </div>
                 <div className="otherOffers">
                     <a href="#">Other offers</a>

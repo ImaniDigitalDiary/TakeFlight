@@ -14,9 +14,6 @@
     font-weight: 500;
 }
 
-.dealsOfferLinksDiv {
-    
-}
 .dealsOfferLinks {
     display: flex;
     flex-direction: row;
