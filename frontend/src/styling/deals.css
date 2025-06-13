@@ -14,6 +14,24 @@
     font-weight: 500;
 }
 
+.dealsOfferLinksDiv {
+    
+}
+.dealsOfferLinks {
+    display: flex;
+    flex-direction: row;
+}
+.specialOffers {
+    border: solid 1px #ccc;
+    width: 555px;
+    height: 58px;
+}
+.otherOffers {
+    border: solid 1px #ccc;
+    width: 555px;
+    height: 58px;
+}
+
 .ongoingDealsImages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
