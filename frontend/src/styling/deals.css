@@ -1,11 +1,17 @@
-
+.dealsMain {
+    padding: 30px 100px 50px 100px;
+}
 
 .dealsHeadingDiv {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 .dealsHeadingDiv h1 {
     font-weight: 600;
+}
+.dealsHeadingDiv p {
+    font-weight: 500;
 }
 
 .ongoingDealsImages {
