@@ -71,7 +71,7 @@ function DealsPage() {
                         <a href="#">Flights from Denver</a>
                     </div>
                 </div>
-                <p>*Special offer prices are nonrefundable, except during the first 24 hours after purchase. 
+                <p className='offersPara'>*Special offer prices are nonrefundable, except during the first 24 hours after purchase. 
                     Tickets might also need to be bought in advance. Find more information on special offers in the 
                     <span><a href="#"> terms and conditions.</a></span>
                 </p>
