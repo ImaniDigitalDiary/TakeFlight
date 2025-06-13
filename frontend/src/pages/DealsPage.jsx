@@ -18,13 +18,17 @@ import '../styling/deals.css'
 
 function DealsPage() {
   return (
-    <div>
+    <div className='dealsWrapper'>
         <Navbar />
         <div className="dealsMain">
-            <h1>Travel deals</h1>
-            <p>Enjoy discounts on over 4,500 flights to 300+ destinations.
+            <div className="dealsHeadingDiv">
+                <h1>Travel deals</h1>
+                <p>Enjoy discounts on over 4,500 flights to 300+ destinations.
                 Some Take Flight deals also let you earn extra miles.
-            </p>
+                </p>
+            </div>
+            
+            
             <div className="dealsOfferLinksDiv">
                 <div className="dealsOfferLinks">
                 <div className="specialOffers">
@@ -73,6 +77,7 @@ function DealsPage() {
                 </p>
             </div>
         </div>
+
         <SearchLinksFooter />
         <HomepageFooter />
     </div>

@@ -1,15 +1,30 @@
+
+
+.dealsHeadingDiv {
+    display: flex;
+    flex-direction: column;
+}
+
 .ongoingDealsImages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 .dealsImgDiv {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-start;
+    width: 375px;
+    height: 240px;
+    overflow: hidden; */
 }
 .dealsImg {
-    width: 357px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .chicago { grid-area: 1/1/2/2;}
 .houston {grid-area: 1/2/2/3;}
@@ -17,3 +32,12 @@
 .sanfran {grid-area: 2/1/3/2;}
 .la {grid-area: 2/2/3/3;}
 .denver {grid-area: 2/3/3/4;}
+
+.dealsImgDiv a {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-decoration: none;
+}

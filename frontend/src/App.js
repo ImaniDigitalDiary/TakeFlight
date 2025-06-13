@@ -25,7 +25,7 @@ function App() {
         <Route path='/my-trips' element={<MyTripsPage />} />
         <Route path='/travel-info' element={<TravelInfoPage />} />
         <Route path='/mileage-plus' element={<MileagePlusPage />} />
-        <Route path='deals' element={<DealsPage />} />
+        <Route path='/deals' element={<DealsPage />} />
       </Routes>
     </div>
   );
