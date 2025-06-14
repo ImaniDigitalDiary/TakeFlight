@@ -1,5 +1,15 @@
 @media screen and (max-width: 2560px) {
 
+    /* TRAVEL INFO PAGE START */
+    .guidelines {
+        width: 1800px;
+    }
+    button.topicBtn.travelBtn {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    /* TRAVEL INFO PAGE END */
+
     /* MILEAGE PLUS PAGE START */
     .milePlusMain {
         width: 2000px;
@@ -48,7 +58,6 @@
 
     .personalInfoBtns {
         margin: 50px 0 50px 0;
-        padding-left: 200px;
     }
     /* MILEAGE PLUS PAGE END */
 
