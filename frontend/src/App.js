@@ -3,6 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 
 //  STYLES
 import './styling/app.css'
+  // QUERIES
+  import '../src/styling/media-queries/screen-2560.css'
 
 // PAGES
 import HomePage from './pages/HomePage';

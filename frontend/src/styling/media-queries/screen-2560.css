@@ -1,0 +1,41 @@
+@media screen and (max-width: 2560px) {
+    /* DEALS PAGE START */
+    .dealsHeadingDiv p {
+        font-size: 20px;
+    }
+    .dealsOfferLinks {
+        justify-content: center;
+        gap: 200px;
+    }
+    .dealsOfferLinksDiv h3 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .specialOffers {
+        width: 1100px;
+        height: 80px;
+    }
+    .otherOffers {
+        width: 1100px;
+        height: 80px;
+    }
+    .dealsOfferLinksDiv p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+        
+    .ongoingDealsDiv h5 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 50px 0 10px 0;
+    }
+    .ongoingDealsImages a {
+        font-size: 20px;
+    }
+    .offersPara {
+        font-size: 20px;
+    }
+
+    /* DEALS PAGE END */
+
+}
