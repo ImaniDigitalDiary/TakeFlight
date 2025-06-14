@@ -35,7 +35,46 @@
     .offersPara {
         font-size: 20px;
     }
-
     /* DEALS PAGE END */
+
+
+    /* MILEAGE PLUS PAGE START */
+    .milePlusMain {
+        width: 2000px;
+    }
+
+    .steps {
+        width: 1000px;
+    }
+
+    .milePlusHeadText p {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .memberDiv {
+        width: 2000px;
+    }
+
+    .aboutYourselfDiv {
+        width: 2000px;
+    }
+    .aboutYourselfDiv h3 {
+        width: 2000px;
+    }
+    .aboutYourselfPara p {
+        font-size: 18px;
+    }
+    .contactInputDiv{
+        gap: 20px;
+    }
+    
+    .personalInfoBtns {
+        margin-top: 50px;
+    }
+
+
+    /* MILEAGE PLUS PAGE END */
+     
 
 }
