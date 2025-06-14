@@ -1,4 +1,58 @@
 @media screen and (max-width: 2560px) {
+
+    /* MILEAGE PLUS PAGE START */
+    .milePlusMain {
+        width: 2000px;
+    }
+
+    .steps {
+        width: 1000px;
+    }
+
+    .milePlusHeadText p {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+    .memberDiv {
+        width: 2000px;
+    }
+
+    .aboutYourselfDiv {
+        width: 2000px;
+    }
+
+    .aboutYourselfDiv h3 {
+        width: 2000px;
+    }
+
+    .aboutYourselfPara p {
+        font-size: 18px;
+    }
+
+    .aboutYourselfDiv hr {
+        width: 1800px;
+    }
+
+    .contactDiv {
+        padding: 20px 0 0 200px;
+    }
+
+    .contactInputDiv {
+        gap: 20px;
+    }
+
+    .personalInfoDiv {
+        padding: 20px 0 0 200px;
+    }
+
+    .personalInfoBtns {
+        margin: 50px 0 50px 0;
+        padding-left: 200px;
+    }
+    /* MILEAGE PLUS PAGE END */
+
+
     /* DEALS PAGE START */
     .dealsHeadingDiv p {
         font-size: 20px;
@@ -38,54 +92,36 @@
     /* DEALS PAGE END */
 
 
-    /* MILEAGE PLUS PAGE START */
-    .milePlusMain {
-        width: 2000px;
-    }
-
-    .steps {
-        width: 1000px;
-    }
-
-    .milePlusHeadText p {
-        font-size: 20px;
-        margin: 0 0 30px 0;
-    }
-
-    .memberDiv {
-        width: 2000px;
-    }
-
-    .aboutYourselfDiv {
-        width: 2000px;
-    }
-    .aboutYourselfDiv h3 {
-        width: 2000px;
-    }
-    .aboutYourselfPara p {
-        font-size: 18px;
-    }
-    .aboutYourselfDiv hr {
+    /* HELP PAGE START */
+    .helpCenterDiv1 {
         width: 1800px;
     }
+    .mileagePlusMainDiv {
+        width: 1800px;
+    }
+    .helpCenterDiv2 h3 {
+        width: 1800px;
+    }
+    .helpCenterDiv3 {
+        width: 1800px;
+    }
+    button.findTripBtn {
+        font-size: 20px;
+    }
 
-    .contactDiv {
-        padding: 20px 0 0 200px;
+    .helpMainCont h1 {
+        width: 1800px;
     }
-    .contactInputDiv{
-        gap: 20px;
+    .topicBtnDiv {
+        font-size: 18px;
     }
+    .divMain li {
+        font-size: 20px;
+    }
+    p {
+        font-size: 20px;
+    }
+    /* HELP PAGE END */
     
-    .personalInfoDiv {
-        padding: 20px 0 0 200px;
-    }
-    .personalInfoBtns {
-        margin: 50px 0 50px 0;
-        padding-left: 200px;
-    }
-
-
-    /* MILEAGE PLUS PAGE END */
-     
 
 }
