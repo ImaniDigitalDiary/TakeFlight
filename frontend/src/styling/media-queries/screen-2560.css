@@ -48,6 +48,9 @@
     .fareText {
         font-size: 14px;
     }
+    h1.usefulLinkHeading {  
+        padding-left: 660px;
+    }
     /* BOOK PAGE END */
 
     
@@ -156,11 +159,11 @@
         font-size: 28px;
         font-weight: bold;
     }
-    .specialOffers {
+    div.specialOffers {
         width: 1100px;
         height: 80px;
     }
-    .otherOffers {
+    div.otherOffers {
         width: 1100px;
         height: 80px;
     }
@@ -174,24 +177,25 @@
         font-weight: 600;
         margin: 50px 0 10px 0;
     }
-    .ongoingDealsImages a {
+    div.ongoingDealsImages a {
         font-size: 20px;
     }
+
     .offersPara {
         font-size: 20px;
     }
+    
     /* DEALS PAGE END */
 
 
     /* HELP PAGE START */
     .helpCenterDiv1  {
-        width: 1800px;
-    }
-    .helpCenterPageMainDiv {
-
+        margin-top: 50px;
+        width:1800px;
     }
     .helpCenterDiv2 {
-        width: 1800px;
+        width: 1900px;
+        margin-bottom: 30px;
     }
     /* .helpCenterDiv2 h3 {
         width: 1800px;
@@ -202,7 +206,9 @@
     button.findTripBtn {
         font-size: 20px;
     }
-
+    .helpMainDiv {
+        margin-top: 50px;
+    }
     .helpMainCont h1 {
         width: 1800px;
     }
