@@ -1,6 +1,4 @@
-.travelInfoImageDiv {
 
-}
 .travelInfoImage {
     width: 100%;
     height: 300px;
@@ -36,7 +34,7 @@
 .planATripCont {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     /* width: 1160px; */
     height: 110px;
     box-shadow: inset 0 0 0 1px #d7d7d4;

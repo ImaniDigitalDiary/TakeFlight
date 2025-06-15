@@ -1,12 +1,45 @@
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2560px) {
+
+    /* BOOK PAGE START */
+    .bookFlightPageMainDiv2 li {
+        font-size: 16px;
+    }
+    .fareText {
+        font-size: 14px;
+    }
+    /* BOOK PAGE END */
+
+    
+    /* MY TRIPS PAGE START */
+    .travelCreditDiv {
+        font-size: 18px;
+    }
+    span.faqQuestion {
+        font-size: 18px;
+    }
+    .faqAnswer {
+        letter-spacing: .2px;
+    }
+    .faqLinkDiv {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    /* MY TRIPS PAGE END */
 
     /* TRAVEL INFO PAGE START */
-    .guidelines {
+    div.guidelines {
         width: 1800px;
     }
     button.topicBtn.travelBtn {
         font-size: 20px;
         font-weight: 500;
+    }
+    .planATripCont {
+        height: 130px;
+        justify-content: space-between;
+    }
+    .planATripArrowDiv {
+        margin-left: 600px;
     }
     /* TRAVEL INFO PAGE END */
 
@@ -102,15 +135,18 @@
 
 
     /* HELP PAGE START */
-    .helpCenterDiv1 {
+    .helpCenterDiv1  {
         width: 1800px;
     }
-    .mileagePlusMainDiv {
+    .helpCenterPageMainDiv {
+
+    }
+    .helpCenterDiv2 {
         width: 1800px;
     }
-    .helpCenterDiv2 h3 {
+    /* .helpCenterDiv2 h3 {
         width: 1800px;
-    }
+    } */
     .helpCenterDiv3 {
         width: 1800px;
     }

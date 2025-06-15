@@ -13,6 +13,7 @@ import cloudImage from '../images/clouds.jpg'
 // STYLING
 import '../components/help-page-components/help-page-styling/help-center.css'
 import '../components/homepage-components/homepage-styling/homepage-footer.css'
+import '../styling/media-queries/screen-2560.css'
 
   // FONT AWESOME ICONS
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
