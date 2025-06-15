@@ -1,0 +1,59 @@
+@media screen and (min-width:1024px)  {
+    /* HELP CENTER PAGE START */
+    .helpCenterPageMainDiv {
+       width: 800px;
+    }
+    .helpCenterDiv1 {
+        width: 700px;
+    }
+    .helpCenterDiv2 {
+        margin-left: 200px;
+    }
+    .helpCenterDiv2 h3{
+        width: 900px;
+    }
+    .mileagePlusMainDiv {
+        width: 900px;
+    }
+    .helpCenterDiv3 {
+        width: 900px;
+        margin-left: 200px;
+    }
+    .helpMainCont {
+        width: 800px;
+        margin-left: 290px;
+    }
+    .btmSearchBar {
+        width: 1024px;
+    }
+    .contactUsDivs {
+        width: 800px;
+        margin-left: 90px;
+    }
+    .contactUsTextAndIcons {
+        width: 700px;
+    }
+    .feedbackCont {
+        margin-left: 90px;
+    }
+    .searchTopicsLinksMainFooter {
+        width: 1024px;
+        justify-items: center;
+        font-size: 18px;
+    }
+    div ul.searchlinksFooter {
+        /* width: 700px; */
+        padding: 0 0 0 120px;
+        font-size: 14px;
+        gap: 10px;
+    }
+    .impNoticeDiv {
+        font-size: 14px;
+        /* margin-left: 20px; */
+        width: 210px;
+    }
+    .homeFooterMain {
+        width: 1024px;
+    }
+    /* HELP CENTER PAGE END */
+}
