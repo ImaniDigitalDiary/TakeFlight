@@ -1,0 +1,114 @@
+@media screen and (min-width: 425px) {
+    * {
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    ul.navLinks1 {
+        width: 425px;
+    }
+    .helpMainDiv {
+        width: 425px;
+        margin: 0;
+    }
+    div.helpCenterDiv1 {
+        width: 425px;
+    }
+    div.mileagePlusMainDiv {
+        width: 425px;
+        height: 200px;
+        flex-direction: column;
+    }
+    .mileagePlusBtns {
+
+    }
+    div.contactUsMainDiv {
+        width: 425px;
+        flex-direction: column;
+    }
+    /* ul.navLinks2 {
+        width: 425px;
+    } */
+    div.helpCenterDiv3 {
+        width: 425px;
+        height: 500px;
+    }
+    div.helpCenterDiv2 h3 {
+        width: 425px;
+    }
+    div.findTripInputsAndBtn {
+        width: 425px;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .helpMainCont {
+        width: 425px;
+    }
+    div.contactUsDivs {
+        width: 300px;
+    }
+    div.contactUsDiv1 {
+        width: 425px;
+    }
+    div.contactUsDiv1 div {
+        /* width: 305px; */
+    }
+    div.contactUsDiv1 h6 {
+        /* width: 425px; */
+        /* padding-right: 50px; */
+    }
+    div.contactUsDiv2 {
+        width: 425px;
+    }
+    div.contactUsDiv3 {
+        width: 425px;
+    }
+    div.contentDiv {
+        width: 425px;
+    }
+    .contactUsDivs {
+        width: 425px;
+    }
+    .contactUsDivs h4 {
+        font-size: 14px;
+    }
+    div.contactUsTextAndIcons {
+        width: 425px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .searchlinksFooter {
+        justify-content: center;
+        width: 425px;
+    }
+    div.searchTopicsLinksMainFooter {
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        align-items: center;
+    }
+    ul.searchlinksFooter {
+        flex-direction: column;
+        align-items: center;
+        width: 425px;
+    }
+    div.impNoticeDiv {
+        width: 425px;
+        justify-self: center;
+        padding-left: 155px;
+    }
+    .homeFooterMain {
+        width: 425px;
+    }
+    div.mainFooterLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

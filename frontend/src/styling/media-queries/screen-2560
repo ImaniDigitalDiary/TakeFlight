@@ -1,4 +1,8 @@
 @media screen and (min-width: 2560px) {
+    /* NAVBAR START */
+
+    /* NAVBAR END */
+    
     /* HOME PAGE START */
     .findFlightsContent {
         justify-content: space-around;
@@ -77,6 +81,9 @@
     button.topicBtn.travelBtn {
         font-size: 20px;
         font-weight: 500;
+    }
+    button.topicBtn {
+        font-size: 20px;
     }
     .planATripCont {
         height: 130px;
@@ -184,11 +191,13 @@
     .offersPara {
         font-size: 20px;
     }
-    
     /* DEALS PAGE END */
 
 
     /* HELP PAGE START */
+    .helpCenterPage {
+       
+    }
     .helpCenterDiv1  {
         margin-top: 50px;
         width:1800px;
@@ -196,6 +205,10 @@
     .helpCenterDiv2 {
         width: 1900px;
         margin-bottom: 30px;
+    }
+    .mileagePlusMainDiv {
+        width: 1800px;
+        margin: 20px 0 0 650px;
     }
     /* .helpCenterDiv2 h3 {
         width: 1800px;
@@ -224,4 +237,4 @@
     /* HELP PAGE END */
     
 
-}
+} 

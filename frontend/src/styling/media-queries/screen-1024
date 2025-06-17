@@ -1,5 +1,10 @@
 @media screen and (min-width:1024px)  {
-    /* HELP CENTER PAGE START */
+    /* NAVBAR START */
+  
+    /* NAVBAR END */
+
+
+    /* HELP PAGE START */
     .helpCenterPageMainDiv {
        width: 800px;
     }
