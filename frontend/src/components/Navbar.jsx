@@ -30,12 +30,12 @@ function Navbar() {
     
       <ul className='navLinks1'>
         <Link className='navLink1' to={'/home'}><img src={logo} className='logo'/></Link>
-        <Link className='navLink1' to={'/book'}>Book <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <Link className='navLink1' to={'/my-trips'}>My trips <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <Link className='navLink1' to={'/travel-info'}>Travel info <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <Link className='navLink1' to={'/mileage-plus'}>MileagePlus <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <Link className='navLink1' to={'/deals'}>Deals <FontAwesomeIcon icon={faChevronDown} /></Link>
-        <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon icon={faChevronRight} /></Link>
+        <Link className='navLink1' to={'/book'}>Book <FontAwesomeIcon className='link1Icon' icon={faChevronDown} /></Link>
+        <Link className='navLink1' to={'/my-trips'}>My trips <FontAwesomeIcon className='link1Icon' icon={faChevronDown} /></Link>
+        <Link className='navLink1' to={'/travel-info'}>Travel info <FontAwesomeIcon className='link1Icon' icon={faChevronDown} /></Link>
+        <Link className='navLink1' to={'/mileage-plus'}>MileagePlus <FontAwesomeIcon className='link1Icon' icon={faChevronDown} /></Link>
+        <Link className='navLink1' to={'/deals'}>Deals <FontAwesomeIcon className='link1Icon' icon={faChevronDown} /></Link>
+        <Link className='navLink1' to={'/help-center'}>Help <FontAwesomeIcon className='link1Icon' icon={faChevronRight} /></Link>
       </ul>
     
       <ul className='navLinks2'>

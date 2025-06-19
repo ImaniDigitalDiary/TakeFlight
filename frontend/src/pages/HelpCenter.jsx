@@ -84,11 +84,14 @@ function HelpCenter() {
           height: '238px'
         }}
       >
-        <label htmlFor="searchBar"></label>
+        {/* <label className='searchBar' htmlFor="searchBar"></label> */}
         <div className='btmSearchBarInputDiv'>
           <input className='btmSearchBarInput' type="text"  placeholder='What else can we help you find?'/>
-          <button>Search</button>
         </div>
+          <div className="btmSearchBtnDiv">
+            <button className='btmSearchBtn'>Search</button>
+          </div>
+        
       </div>
 
 
