@@ -13,34 +13,40 @@
 
 
     /* NAVBAR START */
+    div.navbar {
+        padding: 0 20px 0 20px;
+    }
+    img.logo {
+        width: 70px;
+        height: 50px;
+    }
     ul.navLinks1, ul.navLinks2 {
     display: none;
-  }
+    }
 
-  .hamburger {
-    display: block;
-  }
+    .hamburger {
+        display: block;
+    }
 
-  .mobileMenu {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 1rem;
-    gap: 0.75rem;
-    position: absolute;
-    top: 60px; /* adjust based on your navbar height */
-    left: 0;
-    right: 0;
-    z-index: 100;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        gap: 0.75rem;
+        position: absolute;
+        top: 60px; /* adjust based on your navbar height */
+        left: 0;
+        right: 0;
+        z-index: 100;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-  .mobileMenu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.1rem;
-  }
-
+    .mobileMenu a {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.1rem;
+    }
     /* NAVBAR END  */
 
 
