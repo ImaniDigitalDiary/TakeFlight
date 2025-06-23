@@ -47,6 +47,9 @@
         color: #333;
         font-size: 1.1rem;
     }
+    .mobileMenu a:hover {
+        color: #1414d2;
+    }
     /* NAVBAR END  */
 
 
@@ -65,8 +68,8 @@
         text-align: center;
     }
     div.mileagePlusMainDiv {
-        width: 425px;
-        height: 250px;
+        width: 400px;
+        height: 150px;
         flex-direction: column;
         justify-content: space-around;
     }
@@ -76,6 +79,9 @@
     .mileagePlusBtns {
         padding: 0 !important;
     }
+    button.signInBtn {
+        width: 100px;
+    }
     div.feedbackCont {
         align-items: center;
         justify-content: center;
@@ -84,16 +90,13 @@
         width: 490px;
         flex-direction: column;
     }
-    /* ul.navLinks2 {
-        width: 425px;
-    } */
     div.helpCenterDiv3 {
         width: 425px;
         height: 500px;
     }
     div.helpCenterDiv2 h3 {
         width: 425px;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
     .findTripDiv h3 {
