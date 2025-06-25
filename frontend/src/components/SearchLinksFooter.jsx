@@ -18,7 +18,8 @@ function SearchLinksFooter() {
                   </ul>
               </div>
               <div className='impNoticeDiv'>
-                  <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> Important notices
+                  <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> 
+                  Important notices
               </div>
           </div>
     </div>

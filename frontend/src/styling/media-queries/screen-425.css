@@ -110,38 +110,55 @@
     }
     div.btmSearchBar {
         width: 425px;
+        padding: 0 10px;
     }
     .btmSearchBarInputDiv {
         display: flex;
         flex-direction: column;
+        width: 325px;
+    } 
+    .btmSearchBarInput {
+        
+    }
+    input.btmSearchBarInput::placeholder {
+        font-size: 20px;
+        text-align: center;
     }
     button.btmSearchBtn {
         width: 150px;
         height: 50px;
         margin-top: 20px;
         border-radius: 50px;
-        background-color: rgba(255, 255, 255, 0.531);
+        background-color: rgba(255, 255, 255, 0.38);
         color: #1414d2;
         border: solid 2px #1414d2;
         font-weight: 600;
+    }
+    div.headingDiv {
+        width: 200px;
+    }
+    div.headingDiv h3 {
+        font-size: 16px;
     }
     
     .helpMainCont {
         width: 425px;
     }
+    .helpMainCont h1 {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+    }
     div.contactUsDivs {
         width: 425px;
         height: 500px;
     }
-    div.contactUsDiv1 {
-        width: 425px;
-    }
-    div.contactUsDiv1 div {
-        /* width: 305px; */
+    .contactUsPhoneIcon {
+        padding-left: 15px;
     }
     div.contactUsDiv1 h6 {
         /* width: 425px; */
-        /* padding-right: 50px; */
+        padding-left: 10px;
     }
     div.contactUsDiv2 {
         width: 425px;
@@ -151,6 +168,10 @@
     }
     div.contentDiv {
         width: 425px;
+    }
+    button.topicBtn {
+        font-size: 14px;
+        width: 120px;
     }
     .contactUsDivs {
         width: 425px;
@@ -179,11 +200,10 @@
         flex-direction: column;
         align-items: center;
         width: 425px;
+        padding: 0 !important;
     }
     div.impNoticeDiv {
-        width: 425px;
-        justify-self: center;
-        padding-left: 155px;
+        display: none;
     }
     .homeFooterMain {
         width: 425px;

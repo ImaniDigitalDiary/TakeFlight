@@ -101,7 +101,7 @@ function HelpCenter() {
           <h4>Not finding what you're looking for? Contact us!</h4>
         <div className="contactUsTextAndIcons">
           <div className="contactUsDiv1">
-            <FontAwesomeIcon icon={faMobileScreen}  className='contactUsIcon fa-3x'/>
+            <FontAwesomeIcon icon={faMobileScreen}  className='contactUsIcon contactUsPhoneIcon fa-3x'/>
             <h6>Text us</h6>
               <div>Need help and don't want to be tied to your desktop or wait on hold? Text 'TakeFlight'
                 to 28133 for Take Flight Customer Servie on the go!
