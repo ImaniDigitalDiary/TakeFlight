@@ -22,7 +22,7 @@ function HomepageFooter() {
     <div className='homeFooterMain'>
         <div className='homeFooterDivs'>
             
-                <button><FontAwesomeIcon icon={faMagnifyingGlass} className='faMagnifyingGlass'/>Search</button>
+                <button><FontAwesomeIcon icon={faMagnifyingGlass} className='faMagnifyingGlass homeFooterSearchBtn'/>Search</button>
                 <h6><FontAwesomeIcon icon={faGlobe} className='faGlobe fa-lg' />English - United States $ | Espa<span>&#241;</span>ol</h6>
 
                 <div className='socialIcons'>

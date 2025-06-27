@@ -208,10 +208,24 @@
     .homeFooterMain {
         width: 425px;
     }
+    .homeFooterMain p {
+        font-size: 12px;
+    }
     div.mainFooterLinks {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .mainFooterLinks li {
+        font-size: 12px;
+    }
+    div.homeFooterDivs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    div.homeFooterDivs span {
+        color: #fff;
     }
     /* HELP PAGE END */
 }
