@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+    div.mileagePlusMainDiv {
+        width: 720px;
+    }
+    div.helpCenterDiv3 {
+        width: 720px;
+    }
+    .helpMainCont h1 {
+        margin: 20px 0;
+    }
+    div.helpMainCont {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+        /* align-self: center; */
+    }
+    div.topicBtnDiv {
+        /* width: 260px; */
+    }
+    button.topicBtn {
+        width: 230px;
+    }
+    div.headingDiv {
+        width: 400px;
+    }
+    div.btmSearchBar {
+        width: 768px;
+        margin: 10px 0 30px 0;
+    }
+    div.contactUsMainDiv {
+        width: 768px;
+        padding: 0 0 20px 0;
+    }
+    .contactUsDivs h4 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    div.contactUsDivs {
+        width: 768px;
+        height: 330px;
+    }
+    div.contactUsTextAndIcons {
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    div.searchTopicsLinksDiv div {
+        width: 768px;
+        margin-top: 20px;
+    }
+    ul.searchlinksFooter {
+        width: 768px;
+    }
+    .homeFooterMain {
+        width: 768px;
+    }
+}

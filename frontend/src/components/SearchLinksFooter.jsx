@@ -7,7 +7,7 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons'
 
 function SearchLinksFooter() {
   return (
-    <div>
+    <div className='searchTopicsLinksDiv'>
       <div className='searchTopicsLinksMainFooter'>
               <div>
                   <ul className='searchlinksFooter'>
