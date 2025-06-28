@@ -60,12 +60,16 @@
     }
     div.helpCenterDiv1 {
         width: 425px;
+        padding-left: 10px;
     }
     .helpCenterDiv1 h1 {
-        text-align: center;
+        padding-bottom: 20px;
     }
-    .helpCenterDiv1Para {
-        text-align: center;
+    div.helpCenterDiv2 h3 {
+        width: 425px;
+        font-size: 18px;
+        padding: 0 0 20px 10px;
+        /* text-align: center; */
     }
     div.mileagePlusMainDiv {
         width: 400px;
@@ -94,11 +98,7 @@
         width: 425px;
         height: 500px;
     }
-    div.helpCenterDiv2 h3 {
-        width: 425px;
-        font-size: 18px;
-        text-align: center;
-    }
+
     .findTripDiv h3 {
         align-self: center;
     }
