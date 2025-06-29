@@ -1,0 +1,68 @@
+@media screen and (min-width: 1024px) {
+    /* HELP PAGE START */
+    div.helpCenterDiv1 {
+        width: 920px;
+    }
+    div.helpMainCont h1 {
+        width: 700px;
+    }
+    div.helpCenterDiv2 h3 {
+        width: 920px;
+    }
+    div.mileagePlusMainDiv {
+        width: 900px;
+    }
+    div.helpCenterDiv3 {
+        width: 900px;
+    }
+    div.helpMainCont {
+        width: 1024px;
+    }
+    div.helpMainCont h1 {
+        width: 810px;
+    }
+    div.topicBtnDiv {
+        width: 400px;
+    }
+    button.topicBtn {
+        width: 330px;
+    }
+    div.mainRightDiv {
+        padding-left: 380px;
+    }
+    div.contentDiv {
+        width:1020px;
+        padding-left: 100px;
+    }
+    div.headingDiv {
+        width: 600px;
+        padding-right: 100px; 
+    }
+    div.btmSearchBar {
+        width: 1024px;
+    }
+    .contactUsMainDiv {
+        width: 512px;
+    }
+    div.searchTopicsLinksDiv div {
+        width: 1024px;
+    }
+    ul.searchlinksFooter {
+        width: 1024px;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .homeFooterMain {
+        width: 1024px;
+    }
+    div.homeFooterDivs {
+        display: flex;
+        flex-direction: row;
+    }
+    div.mainFooterLinks {
+        display: flex;
+        flex-direction: row;
+    }
+    /* HELP PAGE END */
+}

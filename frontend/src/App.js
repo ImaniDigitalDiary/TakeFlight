@@ -5,7 +5,7 @@ import {Routes, Route} from 'react-router-dom'
 import './styling/app.css'
   // QUERIES
   // import '../src/styling/media-queries/screen-2560.css'
-  // import '../src/styling/media-queries/screen-1024.css'
+  import '../src/styling/media-queries/screen-1024.css'
   import '../src/styling/media-queries/screen-425.css'
   import '../src/styling/media-queries/screen-768.css'
 
