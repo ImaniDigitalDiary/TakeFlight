@@ -47,10 +47,13 @@ function HelpCenter() {
               <p>We can use your account information to find your trips.</p> 
             </div>              
           </div>
-          <div className='mileagePlusBtns'>
-              <button className='signInBtn'>Sign in</button>
-              <button className='joinNowBtn'>Join now</button>
-          </div>
+          {/* <div className="mileagePlusBtnsDiv"> */}
+            <div className='mileagePlusBtns'>
+                <button className='signInBtn'>Sign in</button>
+                <button className='joinNowBtn'>Join now</button>
+            </div>
+          {/* </div> */}
+
         </div>     
       </div>
 

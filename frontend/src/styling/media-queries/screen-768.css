@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+    div.helpCenterDiv1 {
+        width: 720px;
+    }
     div.mileagePlusMainDiv {
         width: 720px;
     }

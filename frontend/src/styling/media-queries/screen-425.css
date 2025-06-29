@@ -73,7 +73,7 @@
     }
     div.mileagePlusMainDiv {
         width: 400px;
-        height: 150px;
+        height: 250px;
         flex-direction: column;
         justify-content: space-around;
     }
@@ -81,6 +81,8 @@
         padding: 0 !important;
     }
     .mileagePlusBtns {
+        display: flex;
+        flex-direction: column;
         padding: 0 !important;
     }
     button.signInBtn {
