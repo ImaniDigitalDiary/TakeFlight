@@ -1,0 +1,21 @@
+@media screen and (min-width: 1440px) {
+    
+    /* HELP PAGE START */
+    div.btmSearchBar {
+        width: 1440px;
+    }
+    div.contactUsMainDiv {
+        width: 1200px;
+    }
+    div.contactUsDivs {
+        width: 1200px;
+        margin-right: 300px;
+    }
+    div.searchTopicsLinksDiv div {
+        width: 1440px;
+    }
+    .homeFooterMain {
+        width: 1440px;
+    }
+    /* HELP PAGE END */
+}

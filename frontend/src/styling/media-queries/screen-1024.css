@@ -1,4 +1,38 @@
 @media screen and (min-width: 1024px) {
+    /* NAVBAR START */
+    .hamburger {
+            display: none;
+        }
+    
+    .mobileMenu {
+        display: none !important;
+    }
+
+    .navLinks1,
+    .navLinks2 {
+        display: flex !important;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .navLinks1 {
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .navLinks2 {
+        justify-content: flex-end;
+    }
+
+    .navLink1,
+    .navLink2 {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* NAVBAR END */
+
+
     /* HELP PAGE START */
     div.helpCenterDiv1 {
         width: 920px;
