@@ -1,6 +1,17 @@
 @media screen and (min-width: 1440px) {
-    
+
     /* HELP PAGE START */
+    div.mileagePlusMainDiv {
+        width: 1300px;
+    }
+    div.helpCenterDiv3 {
+        width: 1300px;
+        height: 250px;
+    }
+    div.findTripInputsAndBtn {
+        display: flex;
+        flex-direction: row;
+    }
     div.btmSearchBar {
         width: 1440px;
     }
