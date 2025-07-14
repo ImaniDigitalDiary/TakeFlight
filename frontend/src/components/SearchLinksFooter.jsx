@@ -11,15 +11,12 @@ function SearchLinksFooter() {
       <div className='searchTopicsLinksMainFooter'>
               <div>
                   <ul className='searchlinksFooter'>
-                      <li><FontAwesomeIcon icon={faChevronDown} /> About Take Flight</li>
-                      <li><FontAwesomeIcon icon={faChevronDown} /> Products and services</li>
-                      <li><FontAwesomeIcon icon={faChevronDown} /> Popular destinations</li>
-                      <li><FontAwesomeIcon icon={faChevronDown} /> Careers</li>
+                      <li> About Take Flight <FontAwesomeIcon icon={faChevronDown} /></li>
+                      <li> Products and services <FontAwesomeIcon icon={faChevronDown} /></li>
+                      <li> Popular destinations <FontAwesomeIcon icon={faChevronDown} /></li>
+                      <li> Careers <FontAwesomeIcon icon={faChevronDown} /></li>
+                      <li><FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> Important notices</li>
                   </ul>
-              </div>
-              <div className='impNoticeDiv'>
-                  <FontAwesomeIcon icon={faCircleInfo} className='faCircleInfo' /> 
-                  Important notices
               </div>
           </div>
     </div>

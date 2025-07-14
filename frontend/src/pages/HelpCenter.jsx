@@ -63,14 +63,17 @@ function HelpCenter() {
         <div className='findTripDiv'>
           <h3>Let's start by finding your trip:</h3>
           <div className='findTripInputsAndBtn'>
-            <div className='confirmNum'>
-              <label htmlFor="confirmNum">Confirmation number*</label>
-              <input type="text" />
+            <div className="findTripInputs">
+              <div className='confirmNum'>
+                <label htmlFor="confirmNum">Confirmation number*</label>
+                <input type="text" />
+              </div>
+              <div className='lastName'>
+                <label htmlFor="lastName">Last name*</label>
+                <input type="text" />
+              </div>
             </div>
-            <div className='lastName'>
-              <label htmlFor="lastName">Last name*</label>
-              <input type="text" />
-            </div>         
+                     
             <button>Search</button>
           </div>     
         </div>     

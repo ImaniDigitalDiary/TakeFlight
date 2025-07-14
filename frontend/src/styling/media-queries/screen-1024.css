@@ -35,26 +35,56 @@
 
     /* HELP PAGE START */
     div.helpCenterDiv1 {
-        width: 920px;
+        width: 920px !important;
     }
     div.helpMainCont h1 {
         width: 700px;
     }
     div.helpCenterDiv2 h3 {
-        width: 920px;
+        width: 920px !important;
     }
     div.mileagePlusMainDiv {
-        width: 900px;
+        width: 900px !important;
     }
     div.helpCenterDiv3 {
-        width: 900px;
+        width: 900px !important;
     }
     div.helpMainCont {
         width: 1024px;
     }
     div.helpMainCont h1 {
         width: 810px;
+        justify-content: center;
     }
+
+    div.helpCenterDiv2 h3 {
+        font-size: 24px !important;
+    }
+    div.mileagePlusMainDiv {
+        display: flex;
+        flex-direction: row !important;
+        height: 120px !important;
+    }
+    div.mileagePlusBtns {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.helpCenterDiv3 {
+        height: 300px !important;
+        margin-top: 30px;
+    }
+    div.findTripInputsAndBtn {
+        display: flex;
+        flex-direction: row !important;
+        width: 800px !important;
+    }
+    div.findTripInputs {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
     div.topicBtnDiv {
         width: 400px;
     }
@@ -66,28 +96,31 @@
     }
     div.contentDiv {
         width:1020px;
-        padding-left: 100px;
     }
     div.headingDiv {
         width: 600px;
         padding-right: 100px; 
     }
+    .btmSearchBarInputDiv {
+        margin-top: 50px;
+    }
     div.btmSearchBar {
-        width: 1024px;
+        min-width: 1024px;
+        min-height: 250px;
     }
     .contactUsMainDiv {
         width: 512px;
     }
     div.searchTopicsLinksDiv div {
-        width: 1024px;
+        min-width: 1024px;   
+        display: flex;
     }
-    ul.searchlinksFooter {
-        width: 1024px;
+    div ul.searchlinksFooter {
+        min-width: 1024px;
         display: flex;
         flex-direction: row;
-        align-self: center;
     }
-    .homeFooterMain {
+    div.homeFooterMain {
         width: 1024px;
     }
     div.homeFooterDivs {
@@ -96,7 +129,8 @@
     }
     div.mainFooterLinks {
         display: flex;
-        flex-direction: row;
+        flex-direction: row !important;
+        flex-wrap: wrap;
     }
     /* HELP PAGE END */
 }

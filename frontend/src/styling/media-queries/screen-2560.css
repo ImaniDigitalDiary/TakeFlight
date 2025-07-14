@@ -1,0 +1,104 @@
+@media screen and (min-width: 2560px) {
+    /* NAVBAR START */
+    .navLink1 {
+        font-size: 20px;
+    }
+    .navLinks2 li {
+        font-size: 20px;
+    }
+    /* NAVBAR END */
+
+
+
+    /* HELP PAGE START */
+    div.helpCenterDiv1 {
+        min-width: 2000px;
+    }
+    div.helpCenterDiv2 h3 {
+        min-width: 2000px;
+    }
+    div.mileagePlusMainDiv {
+        min-width: 2000px;
+    }
+    div.helpCenterDiv3 {
+        min-width: 2000px;
+    }
+
+    div.helpMainCont {
+        /* width: 2560px; */
+        margin-left: 1500px !important;
+    }
+
+    div.btmSearchBar {
+        min-width: 2560px;
+    }
+
+    div.contactUsMainDiv {
+        min-width: 2000px;
+        height: 550px;
+    }
+    div.contactUsDivs {
+        height: 450px;
+    }
+    .contactUsDivs h4 {
+        font-size: 22px;
+    }
+    div.contactUsTextAndIcons {
+        min-width: 2000px;
+        font-size: 18px;
+    }
+    .contactUsDiv1,
+    .contactUsDiv2,
+    .contactUsDiv3 {
+        min-width: 400px;
+    }
+
+    div.contactUsDivs {
+        min-width: 2000px;
+        /* margin-right: 300px; */
+    }
+
+    div.feedbackCont {
+        font-size: 20px !important;
+    }
+
+    div.searchTopicsLinksDiv div {
+        min-width: 2560px;
+        display: flex;
+        justify-content: center;
+    }
+    div ul.searchlinksFooter {
+        min-width: 2560px;
+    }
+    div ul.searchlinksFooter li{
+        font-size: 22px !important;
+        width: 300px;
+    }
+
+    div.homeFooterDivs {
+            display: flex;
+            justify-content: center;
+            flex-direction: row !important;
+        }
+    .homeFooterDivs h6 {
+        font-size: 18px;
+    }
+    .socialIcons {
+        font-size: 25px;
+    }
+    div.mainFooterLinks {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .mainFooterLinks li {
+        font-size: 18px;
+    }
+    .homeFooterMain {
+        min-width: 2560px;
+    }
+    .homeFooterMain p {
+        font-size: 18px;
+    }
+    /* HELP PAGE END */
+}
