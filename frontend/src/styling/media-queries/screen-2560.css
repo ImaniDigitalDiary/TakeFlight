@@ -10,6 +10,65 @@
 
 
 
+    /* DEALS PAGE START */
+    .dealsHeadingDiv p {
+        font-size: 20px;
+    }
+    div.dealsOfferLinks {
+        margin: 50px 0 50px 0;
+    }
+    div.specialOffers {
+        width: 750px;
+        height: 90px;
+        font-size: 18px;
+    }
+    div.otherOffers {
+        width: 750px;
+        height: 90px;
+        font-size: 18px;
+    }
+    div.dealsOfferLinksDiv h3 {
+        font-size: 32px;
+    }
+    div.dealsOfferLinksDiv p {
+        font-size: 24px;
+        width: 600px;
+    }
+    div.ongoingDealsDiv h5 {
+        font-size: 32px;
+    }
+    .dealsImgDiv a {
+        font-size: 26px !important;
+    }
+    .offersPara {
+        min-width: 800px;
+        font-size: 22px !important;
+        padding-left: 50px;
+    }
+    div ul.searchlinksFooter {
+        width: 2560px;
+    }
+
+    div.homeFooterMain {
+        min-width: 2560px;
+    }
+
+    div.mainFooterLinks {
+        justify-content: center;
+        flex-wrap: wrap !important;
+        max-width: 2560px;
+        margin-left: 0 !important;
+    }
+
+    div.homeFooterDivs {
+        display: flex;
+        flex-direction: row !important;
+    }
+    /* DEALS PAGE END */
+
+
+
+
     /* HELP PAGE START */
     div.helpCenterDiv1 {
         min-width: 2000px;
