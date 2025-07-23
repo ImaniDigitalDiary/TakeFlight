@@ -1,12 +1,140 @@
 @media screen and (min-width: 2560px) {
     /* NAVBAR START */
+    div.navbar {
+        height: 150px;
+    }
     .navLink1 {
-        font-size: 20px;
+        font-size: 24px !important;
     }
     .navLinks2 li {
-        font-size: 20px;
+        font-size: 24px;
     }
     /* NAVBAR END */
+
+
+
+    /* MILEAGE PLUS PAGE START */
+    div.milePlusMain {
+        width: 2560px !important;
+    }
+
+    div.steps {
+        width: 2000px !important;
+        height: 150px;
+    }
+    div.one,
+    div.two,
+    div.three {
+        font-size: 28px !important;
+    }
+    button.oneBtn,
+    button.twoBtn,
+    button.threeBtn {
+        width: 80px;
+        height: 80px;
+    }
+    div.milePlusHeadText {
+        width: 1500px !important;
+        padding-left: 250px !important;
+    }
+    div.milePlusHeadText h1 {
+        font-size: 48px !important;
+    }
+    div.milePlusHeadText p {
+        font-size: 28px !important;
+    }
+    div.memberDiv {
+        width: 2000px !important;
+        height: 150px;
+    }
+    div.memberTextAndIcon {
+        font-size: 40px;
+    }
+    div.memberTextAndIcon h3 {
+        font-size: 34px;
+    }
+    button.memberBtn {
+        width: 200px;
+        height: 70px;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: .50px;
+    }
+    div.memberImagesDiv {
+        /* width: 2000px; */
+
+    }
+    img.memberImg {
+        min-width: 300px;
+        min-height: 300px;
+    }
+    .memberImgDiv h6 {
+        min-width: 250px;
+        font-size: 20px;
+        padding-left: 35px;
+    }
+
+    div.aboutYourselfDiv {
+        width: 2000px !important;
+        height: 1500px !important;
+    }
+    .aboutYourselfDiv h3 {
+        height: 100px !important;
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: .8px;
+    }
+    .aboutYourselfPara p{
+        font-size: 22px !important;
+    } 
+    hr {
+        width: 1800px !important;
+    }
+    .contactDiv h4{
+        font-size: 38px;
+    }
+    div.contactInputDiv {
+        font-size: 24px;
+    }
+    .contactCheckboxesDiv {
+        font-size: 22px !important;
+    }
+    .contactCheckboxesDiv p {
+        font-size: 20px !important;
+    }
+    .personalInfoDiv h4 {
+        font-size: 38px;
+    }
+    label.email,
+    label.phoneNumber {
+        font-size: 24px;
+    }
+    .personalInfoDiv p {
+        min-width: 1000px;
+        font-size: 24px;
+    }
+    .contactCheckboxesDiv {
+        font-size: 20px;
+    }
+    div.peronsalInfoInputsDiv1 {
+        font-size: 24px;
+    }
+    div.peronsalInfoInputsDiv2 {
+        font-size: 24px;
+    }
+    div.personalInfoBtns {
+        gap: 20px !important;
+    }
+    button.contBtn,
+    button.cancelBtn {
+        width: 300px;
+        height: 100px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    /* MILEAGE PLUS PAGE END */
+
+
 
 
 
@@ -50,13 +178,13 @@
     }
 
     div.homeFooterMain {
-        min-width: 2560px;
+        min-width: 2560px !important;
     }
 
     div.mainFooterLinks {
         justify-content: center;
         flex-wrap: wrap !important;
-        max-width: 2560px;
+        min-width: 2560px;
         margin-left: 0 !important;
     }
 
@@ -122,7 +250,7 @@
     }
 
     div.searchTopicsLinksDiv div {
-        min-width: 2560px;
+        min-width: 2560px !important;
         display: flex;
         justify-content: center;
     }
@@ -131,7 +259,7 @@
     }
     div ul.searchlinksFooter li{
         font-size: 22px !important;
-        width: 300px;
+        /* width: 300px !important; */
     }
 
     div.homeFooterDivs {
@@ -140,10 +268,10 @@
             flex-direction: row !important;
         }
     .homeFooterDivs h6 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .socialIcons {
-        font-size: 25px;
+        font-size: 25px !important;
     }
     div.mainFooterLinks {
         display: flex;
@@ -151,13 +279,13 @@
         gap: 30px;
     }
     .mainFooterLinks li {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .homeFooterMain {
         min-width: 2560px;
     }
     .homeFooterMain p {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     /* HELP PAGE END */
 }

@@ -53,6 +53,107 @@
     /* NAVBAR END  */
 
 
+
+    /* DEALS PAGE START */
+    div.dealsMain {
+        padding: 0 !important;
+
+    }
+
+    div.dealsHeadingDiv {
+        padding-left: 20px;
+    }
+
+    div.dealsOfferLinks {
+        gap: 10px;
+    }
+
+    div.dealsOfferLinksDiv h3 {
+        padding-left: 20px;
+    }
+
+    div.dealsOfferLinksDiv p {
+        width: 320px;
+        padding-left: 20px;
+    }
+
+    div.ongoingDealsDiv h5 {
+        padding-left: 10px;
+    }
+
+    div.ongoingDealsDiv {
+        padding: 0 10px 0 10px;
+    }
+
+    .offersPara {
+        max-width: 350px;
+        font-size: 12px;
+    }
+
+    /* DEALS PAGE END */
+
+
+    /* MILEAGE PLUS PAGE START */
+    div.milePlusMain {
+        width: 425px;
+        padding: 0 !important;
+    }
+    .personalInfoBtns {
+        justify-content: center;
+    }
+    div.steps {
+        width: 400px;
+        padding: 0 !important;
+        align-self: center; 
+    }
+    div.one {
+        padding-left: 10px;
+    }
+    div.milePlusHeadText {
+        padding-left: 20px;
+        width: 400px;
+    }
+    div.memberDiv {
+        width: 400px;
+        align-self: center;
+    }
+    img.memberImg {
+        width: 100px;
+        height: 100px;
+    }
+    div.aboutYourselfDiv {
+        /* display: flex;
+        flex-direction: column; */
+        width: 410px;
+        height: 1400px;
+        align-self: center;
+    }
+    div.aboutYourselfDiv hr {
+        width: 380px;
+    }
+    div.contactInputDiv {
+        flex-direction: column;
+    }
+    div.peronsalInfoInputsDiv1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .personalInfoDiv p {
+        width: 400px;
+    }
+    select.selectTitle {
+        width: 370px;
+    }
+    .div1 input,
+    .div2 input {
+        width: 370px;
+    }
+    div.peronsalInfoInputsDiv2 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* MILEAGE PLUS PAGE END */
+
     /* HELP PAGE START */
     .helpMainDiv {
         width: 425px;
@@ -229,33 +330,5 @@
     /* HELP PAGE END */
 
 
-    /* DEALS PAGE START */
-    div.dealsMain {
-        padding: 0 !important;
-
-    }
-    div.dealsHeadingDiv {
-        padding-left: 20px;
-    }
-    div.dealsOfferLinks {
-        gap: 10px;
-    }
-    div.dealsOfferLinksDiv h3 {
-        padding-left: 20px;
-    }
-    div.dealsOfferLinksDiv p {
-        width:  320px;
-        padding-left: 20px;
-    }
-    div.ongoingDealsDiv h5 {
-        padding-left: 10px;
-    }
-    div.ongoingDealsDiv {
-        padding: 0 10px 0 10px;
-    }
-    .offersPara {
-        max-width: 350px;
-        font-size: 12px;
-    }
-    /* DEALS PAGE END */
+    
 }

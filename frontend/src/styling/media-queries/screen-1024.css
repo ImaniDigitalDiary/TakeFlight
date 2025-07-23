@@ -32,6 +32,38 @@
     
     /* NAVBAR END */
 
+    /* MILEAGE PAGE START */
+    div.milePlusMain {
+        min-width: 1024px;
+    }
+    div.steps {
+        min-width: 800px;
+        /* margin-left: 250px !important; */
+    }
+    div.milePlusHeadText {
+        min-width: 800px;
+        margin-left: 30px;
+    }
+    div.memberDiv {
+        min-width: 800px;
+        /* margin-left: 250px; */
+    }
+    div.memberImagesDiv {
+        min-width: 800px;
+        /* margin-left: 80px; */
+    }
+    div.aboutYourselfDiv {
+        min-width: 800px;
+        /* margin-left: 250px; */
+    }
+    div.personalInfoBtns {
+        min-width: 800px;
+        /* padding-left: 200px; */
+    }
+    div.aboutYourselfDiv hr {
+        min-width: 700px;
+    }
+    /* MILEAGE PAGE END */
 
     /* HELP PAGE START */
     div.helpCenterDiv1 {

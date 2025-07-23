@@ -1,4 +1,41 @@
 @media screen and (min-width: 768px) {
+    /* MILEAGE PAGE START */
+    div.milePlusMain {
+        width: 768px;
+    }
+    div.steps {
+        width: 600px;
+    }
+    div.one {
+        padding-left: 40px;
+    }
+    div.milePlusHeadText {
+        width: 600px;
+        padding-left: 85px;
+    }
+    div.memberDiv {
+        width: 600px;
+        margin-top: 30px;
+    }
+    div.aboutYourselfDiv {
+        width: 650px;
+        margin-top: 40px;
+    }
+    div.aboutYourselfDiv hr {
+        width: 550px;
+    }
+    label.email,
+    label.phoneNumber {
+        display: flex;
+        flex-direction: column;
+    }
+    div.contactInputDiv {
+        gap: 20px;
+    }
+    /* MILEAGE PAGE END */
+
+
+
     /* HELP PAGE START */
     div.helpCenterDiv1 {
         width: 720px;

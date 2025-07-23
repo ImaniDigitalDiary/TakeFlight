@@ -1,4 +1,26 @@
 @media screen and (min-width: 1440px) {
+    /* MILEAGE PLUS PAGE START */
+    div.milePlusMain {
+        min-width: 1440px !important;
+    }
+    div.steps {
+        min-width: 1220px !important;
+    }
+    div.memberDiv {
+        min-width: 1220px !important;
+    }
+    div.aboutYourselfDiv {
+        min-width: 1220px !important;
+    }
+    div.personalInfoBtns {
+        gap: 20px !important;
+    }
+    /* MILEAGE PLUS PAGE END */
+
+
+
+
+
     /* DEALS PAGE START */
     div.dealsHeadingDiv {
         padding-left: 50px !important;
